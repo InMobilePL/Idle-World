@@ -1,0 +1,686 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Idle World</string>
+    <string name="title_activity_login">Войти</string>
+
+    <!-- Values -->
+    <string name="zero">0</string>
+    <string name="base_multiplier">1.0</string>
+    <string name="double_multiplier">2.0</string>
+    <string name="x">x</string>
+
+    <!-- Button states -->
+    <string name="cancel">Отмена</string>
+    <string name="close">Закрыть</string>
+    <string name="ok">OK</string>
+
+    <!-- Failed state restore -->
+    <string name="failed_restore_title">Извиняемся</string>
+    <string name="failed_restore_body">Ваша вселенная была сброшена из за крупных изменений в игре. В будущих версиях мы сделаем всё возможное, чтобы избежать этой ситуации.</string>
+
+    <!-- Validation -->
+    <string name="username_invalid">Неверный логин, допустимы только буквы и цифры</string>
+    <string name="username_taken">Имя занято</string>
+    <string name="username_empty">Имя свободно</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Имя пользователя</string>
+    <string name="prompt_password">Пароль (необязательно)</string>
+    <string name="action_sign_in">Войти</string>
+    <string name="login_to_see_highscores">Войти в таблицу лидеров</string>
+    <string name="you_can_enter_password">Вы можете использовать свой пароль для входа на других устройствах </string>
+    <string name="username_will_register">Имя пользователя будет зарегистрировано если оно не использовалось ранее </string>
+
+    <!-- Strings related to instructions -->
+    <string name="if_element_glows">Выделенные зелёным элементы можно купить за <b>Ресурсы</b>.</string>
+    <string name="each_element">Каждый элемент дает вам <b>Ресурсы</b>, накапливайте их</string>
+    <string name="grow_your_world">Вырасти свой мир от <b>Атомов</b> до целой <b>Галактики</b></string>
+    <string name="more_energy_you_have">Чем больше вы потратите, тем больше вы заработаете </string>
+    <string name="more_resources">Есть много ресурсов, которые вам нужно собрать </string>
+    <string name="last_part">Последняя часть</string>
+    <string name="new_elements_construction">Вы можете разблокировать новые элементы в разделе строительства </string>
+    <string name="world_grows_idle">Ваш мир продолжает расти, даже если вы не в игре! </string>
+    <string name="check_leaderboard">Не забывайте проверять свой прогресс и таблицу лидеров </string>
+    <string name="build_it">Построить мир </string>
+    <string name="skip"><![CDATA[Skip >>]]></string>
+    <string name="welcome">Добро пожаловать</string>
+    <string name="universe_awaits">Ваша вселенная ждёт</string>
+    <string name="down_arrow">▼</string>
+    <string name="next">Далее</string>
+
+    <!-- Settings activity -->
+    <string name="view_instructions">Помощь по игре</string>
+    <string name="instructions">Инструкция</string>
+    <string name="background_music">Музыка</string>
+    <string name="energy_display_type">Тип отображения ресурсов </string>
+    <string name="long_numbers">Длинные числа</string>
+    <string name="scientific_notation">Научное значение </string>
+    <string name="preview_small">Маленькое число:</string>
+    <string name="preview_big">Большое число:</string>
+    <string name="cloud_sync_coming_soon">Облачное сохранение</string>
+    <string name="change_it_display_type">Вы можете так же нажать на любое число, чтобы изменить вариант отображения.</string>
+    <string name="thanks_for">Особые благодарности:</string>
+    <string name="icons_source_icons8">Иконки: Icons8</string>
+    <string name="image_source_unsplash">Изображения: Unsplash</string>
+    <string name="language">Язык</string>
+    <string name="translation_halil_kopuz">Перевод на турецкий: <b>Halil Kopuz, Deniz Kağan Dursun</b></string>
+    <string name="translation_tony">Перевод на французский: <b>Tony A. "Gorska"</b></string>
+    <string name="translation_robert">Перевод на немецкий: <b>Robert B. Lavars</b>, <b>Thomas Kupka</b></string>
+    <string name="translation_vasil">Перевод на русский: <b>VasilRaven, Reindee</b></string>
+    <string name="translation_zsemi">Перевод на венгерский: <b>zsemi02</b></string>
+    <string name="translation_joao">Перевод на португальский: <b>João Paulo</b></string>
+    <string name="translation_thedashcolour">Перевод на итальянский: <b>Thedashcolour</b></string>
+    <string name="translation_dejan">Перевод на башкирский: <b>Dejan Misic</b></string>
+    <string name="translation_majestangel">Перевод на испанский: <b>MajestAngel</b></string>
+    <string name="translation_roman">Перевод на чешский: <b>Roman Vietze</b></string>
+    <string name="translation_majida">Перевод на китайский: <b>Majida Whale</b></string>
+
+    <!-- Black hole dialog -->
+    <string name="blackhole_confirm">Вы уверены?</string>
+    <string name="blackhole_warning_body">Ваш доход возрастет, но вселенная будет стёрта. Ваш счёт сохранится.</string>
+    <string name="blackhole_too_slow">Слишком медленно? Вычислить множитель чёрной дыры</string>
+    <string name="blackholeMultiplikator">Множитель чёрной дыры</string>
+
+    <!-- Construction results -->
+    <string name="bought_body">Поздравляем, новый элемент был создан. </string>
+    <string name="bought_title">Создано</string>
+    <string name="not_enough_energy_body">Вам нужно собрать больше ресурсов, чтобы создать это</string>
+    <string name="not_enough_energy_title">Не хватает ресурсов </string>
+    <string name="missing_requirements_body">Некоторые требования не были выполнены, проверьте, достаточно ли ресурсов</string>
+    <string name="missing_requirements_title">Требования не выполнены</string>
+    <string name="unexpected_body">Неожиданное создание, вселенная всё ещё растёт</string>
+    <string name="unexpected_title">Неожиданное название</string>
+
+    <!-- Ads -->
+    <string name="income_doubled">Ваш доход удвоен</string>
+    <string name="ad_unavailable_body">В настоящее время пространственно-временной континуум под угрозой исчезновения, прыжок во времени временно недоступен. Повторите попытку позже.</string>
+    <string name="ad_unavailable_title">Опасность.</string>
+
+    <!-- Black hole activity -->
+    <string name="multiply_your_income">Увеличьте свой доход!</string>
+    <string name="current_income_multiplier">Текущий множитель дохода: x</string>
+    <string name="new_income_multiplier">Новый множитель дохода: x</string>
+    <string name="universe_big_enough">Если ваша Вселенная достаточно большая, она может разрушиться и быть поглощена Чёрной Дырой. Ваш новый доход будет рассчитываться в зависимости от размера вашей Вселенной</string>
+    <string name="universe_disappear">Вся ваша Вселенная исчезнет</string>
+    <string name="score_will_remain">Ваш счёт сохранится</string>
+    <string name="all_parts_removed">Все части Вселенной будут удалены. Ваша игра начнётся заново, но любой доход будет увеличен на множитель Чёрной Дыры</string>
+    <string name="collapse_universe">Коллапс Вселенной</string>
+
+    <!-- Construction activity -->
+    <string name="total_energy">Общий ресурс:</string>
+    <string name="income">Доход:</string>
+    <string name="base_warp">(x2 00:00:00)</string>
+    <string name="all_constructions_created">Все конструкции созданы</string>
+    <string name="build_bigger">Вернитесь, чтобы сделать свою Вселенную больше и шире</string>
+    <string name="universe_panel">Панель Вселенной</string>
+    <string name="get_more_by_blackhole">Получите больше от вашей Вселенной, используя Чёрную Дыру</string>
+    <string name="black_hole_panel">Панель Чёрной Дыры </string>
+    <string name="buy_elements_to_unlock">Покупайте элементы для разблокировки новых элементов</string>
+    <string name="all">Всё</string>
+    <string name="construction_tab">Создание</string>
+    <string name="bonus">Бонусы</string>
+    <string name="bonus_income">Бонус (Доход)</string>
+    <string name="swipe_to_bonus_hint">Проведите по экрану, чтобы увидеть доступные бонусы</string>
+    <string name="bonuses_unlocked">Разблокировать</string>
+
+    <!-- Leaderboard activity -->
+    <string name="score">Счёт </string>
+    <string name="your_score">Ваш счёт</string>
+    <string name="username">Имя</string>
+    <string name="base_place">0</string>
+    <string name="global_most_massive_universe">Глобальный счёт вселенных</string>
+    <string name="highest_black_hole_multiplier">Максимальный множитель Чёрной Дыры</string>
+
+    <!-- Summary Activity -->
+    <string name="increase_income">Увеличить доход x2 (на 1 час)</string>
+    <string name="time_warp">Искривление времени</string>
+    <string name="leaderboard">Таблица лидеров</string>
+
+    <!-- Add username dialog -->
+    <string name="set_username">Введите имя для таблицы лидеров</string>
+
+    <!-- Construction control -->
+    <string name="requirements">Требования </string>
+    <string name="construction_result">Результат создания</string>
+    <string name="generates">Производит</string>
+
+    <!-- Element tile -->
+    <string name="buy">Купить</string>
+
+    <!-- Generated universe -->
+    <string name="your_universe_mass">Масса Вселенной</string>
+    <string name="units">(единицы)</string>
+
+    <!-- Idle income dialog -->
+    <string name="your_idle_income">Ваш доход</string>
+    <string name="watch_to_double">Вы можете удвоить свой доход посмотрев рекламу</string>
+    <string name="double_income">Удвоить доход</string>
+
+    <!-- Part buy dialog -->
+    <string name="cost">Стоимость:</string>
+    <string name="total">Доход:</string>
+    <string name="bought">Куплено</string>
+
+    <!-- Summary element-->
+    <string name="total_income">Общий доход</string>
+
+    <!-- Major update dialog -->
+    <string name="thanks_for_updating">Спасибо за обновление игры. Были сделаны большие изменения в системе игры. К сожалению, это требует от вас создать новую вселенную.</string>
+    <string name="these_changes_are_necessary">Эти обновления <u>необходимы</u> для будущего развития <b>Idle World</b>, но вы можете продолжить со старым множителем Чёрной Дыры или начать заново.</string>
+    <string name="growth_of_this_game"><b>Спасибо</b> за вашу помощь в развитии этой игры!</string>
+    <string name="major_update">Крупное обновление</string>
+    <string name="clean_start">Старт с нуля</string>
+    <string name="keep_multiplier">Оставить множитель</string>
+    <string name="your_score_remains_unchanged"><b>Ваш счет останется прежним</b></string>
+
+    <!-- Top Panel -->
+    <string name="resources">Ресурсы</string>
+
+    <!-- Google Play Services -->
+    <string name="choose_save_option">Выберите вариант сохранения</string>
+    <string name="local_saves">Файлы сохраняются на вашем устройстве. Быстро, не требует подключения к интернету.</string>
+    <string name="online_cloud_stored">Облачное сохранение. Позволяет играть на нескольких устройствах.</string>
+    <string name="saves">Сохранение</string>
+    <string name="show_all_cloud_saved_games">Показать все сохранённые в облаке игры</string>
+    <string name="sign_in_failed">Не удалось войти в систему. Проверьте сетевое подключение и повторите попытку.</string>
+    <string name="signin_other_error">При входе в систему произошла ошибка. Повторите попытку позже.</string>
+    <string name="this_option">Эта опция может быть изменена в любое время в настройках.</string>
+    <string name="no_internet_offline_state">Нет соединения с интернетом. Восстановленно автономное состояние.</string>
+
+    <!-- Resources translation -->
+    <string name="energy">Энергия</string>
+    <string name="life">Жизнь</string>
+    <string name="tech">Технология</string>
+    <string name="cosmic">Космос</string>
+
+    <string name="quantum">Квантовая система</string>
+    <string name="nano">Нано система</string>
+    <string name="complex">Сложные соединения</string>
+    <string name="bio">Биосистема</string>
+    <string name="organism">Организмы</string>
+    <string name="landscape">Ландшафт</string>
+    <string name="construction">Постройки</string>
+    <string name="cosmos">Космонативка</string>
+    <string name="space">Солнечная система</string>
+    <string name="universe">Вселенная</string>
+
+    <string name="locked">Заблокировано</string>
+    <string name="string">Струна</string>
+    <string name="quantum_foam">Квантовая пена</string>
+    <string name="neutrino">Нейтрино</string>
+    <string name="higgs_boson">Бозон Хиггса</string>
+    <string name="photon">Фотон</string>
+    <string name="quark">Кварк</string>
+    <string name="electron">Электрон</string>
+    <string name="neutron">Нейтрон</string>
+    <string name="proton">Протон</string>
+    <string name="positron">Позитрон</string>
+    <string name="nucleus">Ядро</string>
+    <string name="atom">Атом</string>
+    <string name="plasma">Плазма</string>
+    <string name="sound_wave">Звуковая волна</string>
+    <string name="ion_beam">Ионный пучок </string>
+    <string name="isotope">Изотоп</string>
+    <string name="hydrogen">Водород</string>
+    <string name="carbon">Углерод</string>
+    <string name="oxygen">Кислород</string>
+    <string name="iron">Железо</string>
+    <string name="xenon">Ксенон</string>
+    <string name="water">Вода</string>
+    <string name="salt">Соль</string>
+    <string name="sand">Песок</string>
+    <string name="hemoglobine">Гемоглобин</string>
+    <string name="carbohydrate">Углеводы</string>
+    <string name="lipid">Липиды</string>
+    <string name="dna">ДНК</string>
+    <string name="protein">Белки</string>
+    <string name="chromosome">Хромосома</string>
+    <string name="cell">Клетка</string>
+    <string name="neuron">Нервная клетка</string>
+    <string name="microorganism">Микроорганизм</string>
+    <string name="virus">Вирус</string>
+    <string name="bacteria">Бактерия</string>
+    <string name="plant_cells">Растительная клетка</string>
+    <string name="plankton">Планктон</string>
+    <string name="athropod">Членистоногое</string>
+    <string name="mold">Плесень</string>
+    <string name="mushroom">Гриб</string>
+    <string name="leaf">Лист</string>
+    <string name="rose">Роза</string>
+    <string name="fern">Папоротник</string>
+    <string name="apple">Яблоко</string>
+    <string name="medusa">Медуза</string>
+    <string name="ant">Муравей</string>
+    <string name="butterfly">Бабочка</string>
+    <string name="mice">Мышь</string>
+    <string name="cat">Кошка</string>
+    <string name="dog">Собака</string>
+    <string name="human">Человек</string>
+    <string name="lion">Лев</string>
+    <string name="elephant">Слон</string>
+    <string name="whale">Кит</string>
+    <string name="tree">Дерево</string>
+    <string name="forest">Лес</string>
+    <string name="river">Река</string>
+    <string name="canyon">Каньон</string>
+    <string name="shore">Берег</string>
+    <string name="glacier">Ледник</string>
+    <string name="valley">Долина</string>
+    <string name="mountain">Гора</string>
+    <string name="ocean">Океан</string>
+    <string name="car">Автомобиль</string>
+    <string name="road">Дорога</string>
+    <string name="house">Дом</string>
+    <string name="lighthouse">Маяк</string>
+    <string name="boat">Лодка</string>
+    <string name="bridge">Мост</string>
+    <string name="village">Деревня</string>
+    <string name="opera">Опера</string>
+    <string name="city">Город</string>
+    <string name="satellite">Спутник</string>
+    <string name="astronaut">Астронавт</string>
+    <string name="rocket">Ракета</string>
+    <string name="moon_lander">Луноход</string>
+    <string name="shuttle">Шаттл</string>
+    <string name="launchpad">Стартовая площадка</string>
+    <string name="flight_center">Центр управления полётами</string>
+    <string name="telescope">Телескоп</string>
+    <string name="space_station">Космическая станция</string>
+    <string name="comet">Комета</string>
+    <string name="moon">Луна</string>
+    <string name="pluto">Плутон</string>
+    <string name="mercury">Меркурий</string>
+    <string name="venus">Венера</string>
+    <string name="mars">Марс</string>
+    <string name="earth">Земля</string>
+    <string name="uranus">Уран</string>
+    <string name="neptune">Нептун</string>
+    <string name="saturn">Сатурн</string>
+    <string name="jupiter">Юпитер</string>
+    <string name="red_dwarf">Красный карлик</string>
+    <string name="sun">Солнце</string>
+    <string name="solar_system">Солнечная система</string>
+    <string name="pulsar">Пульсар</string>
+    <string name="red_giant">Красный гигант</string>
+    <string name="ray_burst">Гамма-всплеск</string>
+    <string name="galaxy">Галактика</string>
+    <string name="galaxy_group">Группа галактик</string>
+    <string name="supercluster">Сверхскопление галактик</string>
+
+    <!--Bonuses-->
+        <string name = "good_place_to_start">Самое время начать</string>
+        <string name = "barely_detectable">Едва обнаружимый</string>
+        <string name = "great_discovery">Великое открытие</string>
+        <string name = "enlightened">Просвещённый</string>
+        <string name = "building_blocks">Строительные блоки</string>
+        <string name = "life_base">База жизни</string>
+        <string name = "you_can_breathe">Теперь вы дышите!</string>
+        <string name = "interesting_glow">Интересное свечение</string>
+        <string name = "let_it_flow">Пускай течёт</string>
+        <string name = "start_thinking">Начать думать</string>
+        <string name = "start_living">Начать жить</string>
+        <string name = "quantum_master">Квантовый владыка</string>
+        <string name = "virology">Вирусология</string>
+        <string name = "let_it_grow">Пускай растёт</string>
+        <string name = "women_love_them">Женщины любят их</string>
+        <string name = "build_colony">Построить колонию</string>
+        <string name = "like_cat_and_dog">Как кошка и собака</string>
+        <string name = "pack_of_friends">Круг друзей</string>
+        <string name = "seven_of_them">Семь из них</string>
+        <string name = "life_master">Повелитель жизни</string>
+        <string name = "motorization">Механизация</string>
+        <string name = "infrastructure">Инфраструктура</string>
+        <string name = "city_that_never_sleeps">Город, который никогда не спит</string>
+        <string name = "to_the_skies">В небо</string>
+        <string name = "best_of_best">Лучший из лучших</string>
+        <string name = "all_about_communication">Всё о связи</string>
+        <string name = "tech_master">Эксперт в технологиях</string>
+        <string name = "make_a_wish">Загадать желание</string>
+        <string name = "home_sweet_home">Дом, милый дом</string>
+        <string name = "look_at_those_rings">Полюбуйтесь на эти кольца</string>
+        <string name = "little_star">Маленькая звёздочка</string>
+        <string name = "our_brightest">Самое яркое</string>
+        <string name = "all_powerful">Всемогущий</string>
+        <string name = "all_what_is_observable">Всё, что можно наблюдать</string>
+        <string name = "cosmic_master">Владыка космоса</string>
+        <string name = "back_to_basics">Назад к основам</string>
+        <string name = "foamy">Пенистое</string>
+        <string name = "feel_the_charge">Почувствуйте заряд</string>
+        <string name = "what_constructs_you">То, что создает вас</string>
+        <string name = "can_you_hear_it">Вы слышите это?</string>
+        <string name = "ionized">Ионизированный</string>
+        <string name = "iron_man">Железный человек</string>
+        <string name = "salty">Солёное</string>
+        <string name = "you_dont_get_fat">Вы не потолстеете</string>
+        <string name = "whats_interesting_in_life">Что интересного в жизни</string>
+        <string name = "they_are_dangerous">Они опасны</string>
+        <string name = "dont_get_poisonous">Не отравитесь</string>
+        <string name = "thermopiles">Куча людей</string>
+        <string name = "heavy_weight">Большой вес</string>
+        <string name = "deep_and_dark">Глубоко и темно</string>
+        <string name = "show_them_the_way">Покажите им путь</string>
+        <string name = "we_are_landing">Мы приземляемся</string>
+        <string name = "red_planet">Красное планета</string>
+        <string name = "really_cold_ones">Действительно холодные</string>
+        <string name = "its_ultra_big">Оно очень большое</string>
+
+    <!-- 500 -->
+    <string name="base_of_universe">Основа вселенной</string>
+    <string name="foam_of_creation">Пена творения</string>
+    <string name="full_neutrino">Все нейтрино</string>
+    <string name="bosonification">Бозонофикация</string>
+    <string name="full_spark_of_light">Яркая искра света</string>
+    <string name="you_need_more_quark">Нужно больше кварков</string>
+    <string name="electrification">Электрификация</string>
+    <string name="heavy_mass">Огромная масса</string>
+    <string name="adds_a_charge">Добавить заряд</string>
+    <string name="neglects_electrons">Пренебрежение электронами</string>
+    <string name="core_is_important">Ядро важно</string>
+    <string name="basis_of_matter">Основа материи</string>
+    <string name="fluctuation">Колебания</string>
+    <string name="sound_power">Звуковая мощь</string>
+    <string name="ion_challenge">Ионное испытание</string>
+    <string name="glowing_dangerously">Опасное свечение</string>
+    <string name="small_yet_important">Маленький, но важный</string>
+    <string name="connect_them_in_chains">Соедините их в цепи</string>
+    <string name="good_to_have_it">Хорошо, когда это есть</string>
+    <string name="solid_squad">Крепкая команда</string>
+    <string name="rare_and_beautiful">Редкий и красивый</string>
+    <string name="tidal_wave">Прилив</string>
+    <string name="tasteful">Хороший вкус</string>
+    <string name="form_a_beach">Формирование пляжа</string>
+    <string name="fill_your_veins">Наполните свои вены</string>
+    <string name="extract_power_from_this">Извлеките энергию из этого</string>
+    <string name="greasy_greasy">Жирные жиры</string>
+    <string name="like_a_code">Словно код</string>
+    <string name="protein_whey">Белковая сыворотка</string>
+    <string name="full_genome">Полный геном</string>
+    <string name="cell_regeneration">Регенерация клеток</string>
+    <string name="nervous_system">Нервная система</string>
+    <string name="look_how_tiny_and_cute">Посмотрите, какие крошечные и симпатичные!</string>
+    <string name="virus_infection">Вирусная инфекция</string>
+    <string name="bacterial_colony">Колония бактерий</string>
+    <string name="plant_tissue">Растительная ткань</string>
+    <string name="plankton_flock">Кучка планктона</string>
+    <string name="crawling_squad">Ползучий отряд</string>
+    <string name="molded_world">Заплесневелый мир</string>
+    <string name="forest_mushrooms">Лесные грибы</string>
+    <string name="leaf_crown">Корона из листьев</string>
+    <string name="red_rose_carpet">Ковёр из красных роз</string>
+    <string name="intensive_green">Насыщенный зелёный</string>
+    <string name="feeding_the_world">Откармливая мир</string>
+    <string name="gelly_flock">Кучка медуз</string>
+    <string name="strong_ant_colony">Сильная муравьиная колония</string>
+    <string name="beautiful_wings">Чудесные крылья</string>
+    <string name="mice_colony">Колония мышей</string>
+    <string name="home_pets">Домашние любимцы</string>
+    <string name="man_best_friend">Лучший друг человека</string>
+    <string name="look_in_the_mirror">Посмотри в зеркало</string>
+    <string name="fierce_and_strong">Грозные и сильные</string>
+    <string name="heavy_lifter">Тяжёлый атлет</string>
+    <string name="beautiful_giants">Восхитительные гиганты</string>
+    <string name="park">Парк</string>
+    <string name="whole_jungle">Целые джунгли</string>
+    <string name="winding_and_long">Извилистые и длинные</string>
+    <string name="deep_and_magnificent">Глубокий и великолепный</string>
+    <string name="wide_and_sandy">Широкий и песчаный</string>
+    <string name="dont_let_them_melt">Не позволяйте им таять</string>
+    <string name="grass_up_to_horizon">Трава до горизонта</string>
+    <string name="hiking_trip">Поход</string>
+    <string name="deep_mysteries">Глубоководные тайны</string>
+    <string name="whole_car_brand">Автомобильная марка</string>
+    <string name="lots_of_intersections">Множество перекрёстков</string>
+    <string name="feel_comfortable_here">Почувствуйте себя комфортно</string>
+    <string name="it_shows_a_way">Это покажет путь</string>
+    <string name="magnificent_fleet">Великолепный флот</string>
+    <string name="rivers_are_no_problem">Реки - не проблема</string>
+    <string name="build_a_community">Создание сообщества</string>
+    <string name="everlasting_culture">Вечные традиции</string>
+    <string name="glory_of_construction">Слава строительству</string>
+    <string name="looking_for_data">В поиске данных</string>
+    <string name="proud_explorers">Гордые исследователи</string>
+    <string name="rocket_science">Ракетостроение</string>
+    <string name="landing_gears">Посадочные механизмы</string>
+    <string name="space_travels">Космические путешествия</string>
+    <string name="launchpads_for_everyone">Пусковые площадки для всех</string>
+    <string name="everything_under_control">Всё под контролем</string>
+    <string name="looking_everywhere">Наблюдая за всем</string>
+    <string name="space_for_us">Космос для нас</string>
+    <string name="flying_rocks_with_tails">Летающие камни с хвостами</string>
+    <string name="hello_again_old_friend">Привет, старый друг!</string>
+    <string name="back_in_my_days">Ещё в мои дни...</string>
+    <string name="dont_get_burned">Не обожгись</string>
+    <string name="chemical_maelstorm">Химический вихрь</string>
+    <string name="maybe_there_is_water">Может, там есть вода...</string>
+    <string name="there_is_only_one_earth">У нас только одна Земля</string>
+    <string name="increase_his_mass">Увеличьте его массу</string>
+    <string name="dangerously_cold">Пугающе холодно</string>
+    <string name="crown_jewel">Драгоценная жемчужина</string>
+    <string name="big_brother">Большой брат</string>
+    <string name="small_yet_strong">Маленький, но сильный</string>
+    <string name="hope_it_shine">Надейтесь, что оно светит</string>
+    <string name="all_in_order">Всё на месте</string>
+    <string name="pulsing_with_energy">Пульсирующий энергией</string>
+    <string name="hydrogen_eater">Пожиратель водорода</string>
+    <string name="the_most_distant_phenomenon">Самый далёкий феномен</string>
+    <string name="so_vast_yet_structurized">Такая большая, но структурированная</string>
+    <string name="giants_order">Орден гигантов</string>
+    <string name="everlasting_universe">Вечная Вселенная</string>
+
+    <!-- 1000 -->
+    <string name="true_beginning">Истинное начало</string>
+    <string name="thick_fog">Густой туман</string>
+    <string name="these_are_everywhere">Они повсюду</string>
+    <string name="hard_proven_existence">Научно доказанное существование</string>
+    <string name="laser_beam">Лазерный луч</string>
+    <string name="almost_enough_quarks">Почти достаточно кварков</string>
+    <string name="why_so_negative">Почему такой негативный?</string>
+    <string name="always_neutral">Всегда нейтральный</string>
+    <string name="stay_positive">Оставайтесь позитивными</string>
+    <string name="electron_mutual_annihilation">Взаимное уничтожение электронов</string>
+    <string name="nuclear_force">Ядерная сила</string>
+    <string name="from_atoms_to_particles">От атомов к частицам</string>
+    <string name="plasma_fountain">Плазменный фонтан</string>
+    <string name="getting_louder">Всё громче</string>
+    <string name="big_stream_of_ions">Большой поток ионов</string>
+    <string name="collect_them_all">Соберите их все</string>
+    <string name="highly_flammable">Легковоспламеняющийся</string>
+    <string name="big_organic_particles">Большие органические частицы</string>
+    <string name="breathe_deeply">Дыши глубже</string>
+    <string name="you_cleared_the_mine">Вы очистили шахту</string>
+    <string name="and_still_passive">И всё же пассивный</string>
+    <string name="waterfalls">Водопады</string>
+    <string name="perfect_couple_with_pepper">Идеально подходит к перцу</string>
+    <string name="sandcastle">Песочный замок</string>
+    <string name="red_transporter">Красный транспортёр</string>
+    <string name="full_of_energy">Полны энергии</string>
+    <string name="to_much_on_your_belly">Их слишком много у вас в животе</string>
+    <string name="better_do_not_make_mistake">Лучше не ошибитесь</string>
+    <string name="muscles_up">Подкачайте мышцы</string>
+    <string name="make_a_life">Создайте жизнь</string>
+    <string name="basis_of_every_body">Основа каждого тела</string>
+    <string name="think_well">Хорошенько подумайте</string>
+    <string name="look_very_closely">Посмотрите внимательно</string>
+    <string name="runny_nose">Насморк</string>
+    <string name="better_wash_your_hands">Лучше вымойте руки</string>
+    <string name="full_of_photosynthesis">Полна фотосинтеза</string>
+    <string name="feed_your_whale">Покормите своего кита</string>
+    <string name="many_many_legs">Слишком много ножек</string>
+    <string name="plains_of_mold">Равнины плесени</string>
+    <string name="sure_it_is_edible">Конечно, это съедобно</string>
+    <string name="green_red_yellow">Зеленый, красный, жёлтый</string>
+    <string name="every_rose_has_thorn">У каждой розы есть шип</string>
+    <string name="bottom_of_forest">В глубине леса</string>
+    <string name="one_that_seduced_Adam">То, что соблазнило Адама</string>
+    <string name="massive_jelly">Огромная медуза</string>
+    <string name="strength_in_group">Сила в группе</string>
+    <string name="so_delicate">Такая хрупкая</string>
+    <string name="mice_attack">Мыши атакуют!</string>
+    <string name="walks_its_own_path">Идёт своим путём</string>
+    <string name="faithful_and_shaggy">Верный и лохматый</string>
+    <string name="me_and_you">Я и ты</string>
+    <string name="king_of_a_jungle">Король джунглей</string>
+    <string name="valuable_tusk">Ценный бивень</string>
+    <string name="huge_and_harmonious">Огромный и гармоничный</string>
+    <string name="forest_animals_home">Дом лесных обитателей</string>
+    <string name="lungs_of_the_world">Лёгкие мира</string>
+    <string name="wide_and_rapid">Широкая и быстрая</string>
+    <string name="great_canyon">Великий каньон</string>
+    <string name="beach_party">Пляжная вечеринка</string>
+    <string name="take_your_sledge">Возьмите свои сани</string>
+    <string name="lots_of_fresh_air">Много свежего воздуха</string>
+    <string name="mountain_chain">Горные хребты</string>
+    <string name="most_of_earth_surface">Большая часть поверхности Земли</string>
+    <string name="ferrari_speed">Со скоростью Ferrari</string>
+    <string name="highway_to_points">Длинное шоссе</string>
+    <string name="that_is_your_spot">Здесь ваше место</string>
+    <string name="light_in_a_tunnel">Свет в конце тоннеля</string>
+    <string name="sail_the_seas">Поднять паруса!</string>
+    <string name="all_lands_connected">Все земли соединены</string>
+    <string name="mayor_house">Дом мэра</string>
+    <string name="culture_and_beauty">Культура и красота</string>
+    <string name="from_village_to_metropolis">От деревни до мегаполиса</string>
+    <string name="make_a_contact">Первый контакт</string>
+    <string name="ours_in_space">Наши в космосе</string>
+    <string name="rocked_fuel">Сгорающее топливо</string>
+    <string name="make_firs_step">Сделайте первый шаг</string>
+    <string name="travel_with_no_borders">Путешествия без границ</string>
+    <string name="advanced_shuttle_extraction">Предварительное извлечение шаттла</string>
+    <string name="great_communication">Отличная связь</string>
+    <string name="eagle_eye">Зоркий глаз</string>
+    <string name="sky_has_no_limits">У неба нет границ</string>
+    <string name="diamonds_in_the_sky">Бриллианты в небе</string>
+    <string name="rock_us_to_sleep">Заставьте нас спать</string>
+    <string name="dwarf_but_planet">Карлик, но планета</string>
+    <string name="closest_to_earth">Похожая на землю</string>
+    <string name="women_planet">Планета женщин</string>
+    <string name="men_planet">Планета мужчин</string>
+    <string name="kingdom_of_our_own">Царство наше</string>
+    <string name="coldest_hurricane">Самый холодный ураган</string>
+    <string name="wield_a_trident">Властелин с трезубцем</string>
+    <string name="ring_to_rule_them_all">Кольцо всевластия</string>
+    <string name="greatest_gas_giant">Величайший газовый гигант</string>
+    <string name="slow_helium_synthesis">Медленный синтез гелия</string>
+    <string name="live_giver">Дающее жизнь</string>
+    <string name="rolling_stones">Вращающиеся камни</string>
+    <string name="neutron_star">Нейтронная звезда</string>
+    <string name="supermassive_redness">Супермассивное покраснение</string>
+    <string name="great_lightshow">Великий светофор</string>
+    <string name="going_big">Увеличиваясь</string>
+    <string name="going_bigger_and_bigger">Всё больше и больше</string>
+    <string name="are_we_alone">Одиноки ли мы?</string>
+
+    <!-- hints -->
+
+    <string name="string_hint" >Теория струн допускает, что базовые строительные блоки материи - это струны величиной 10-31 метров. Первоначальная теория струн, названная Бозонной, была создана в 1970 году.</string>
+    <string name="quantum_foam_hint" >Квантовая пена - понятие в квантовой механике, разработанное Джоном Уилером в 1955 году. Пена задумана в качестве основы ткани Вселенной.</string>
+    <string name="neutrino_hint" >Нейтрино принадлежит к элементарным частицам. Является электрически нейтральным фермионом.</string>
+    <string name="higgs_boson_hint" >Бозон Хиггса - элементарная частица, которая была обнаружена в ходе экспериментов проводимых в Большом Адронном Коллайдере в ЦЕРНе.</string>
+    <string name="photon_hint" >Фотон - элементарная частица у которой нет электрического заряда. Фотон способен существовать в вакууме только двигаясь со скоростью света. Также является квантом электромагнитного излучения, такого как видимый свет.</string>
+    <string name="quark_hint" >Кварк - тип элементарной частицы и фундаментальная составляющая материи. Кварки объединяются, формируя сложные частицы, такие как протоны и нейтроны.</string>
+    <string name="electron_hint" >Электрон - стабильная отрицательно заряженная элементарная частица. Электроны образуют электронные оболочки атомов, строение которых определяет большинство свойств вещества.</string>
+    <string name="neutron_hint" >Нейтрон - тяжёлая элементарная частица, не имеющая электрического заряда. Имеет немного большую массу чем протон и является одним из главных компонентов атомных ядер.</string>
+    <string name="proton_hint" >Протон - позитивно заряженная элементарная частица с массой немного меньше, чем у нейтрона. Общее название для протонов и нейтронов — нуклоны.</string>
+
+    <string name="positron_hint" >Позитрон - это античастица электрона, которая относится к антивеществу. Позитрон имеет положительный электрический заряд и массу, идентичную электрону.</string>
+    <string name="nucleus_hint" >Атомное ядро - это центральная часть атома, в которой сосредоточена основная его масса из протонов и нейтронов (более 99,9 %).</string>
+    <string name="atom_hint" >Атом - неделимая часть материи. Твёрдое вещество, жидкость, газ и плазма состоят из нейтральных или ионизированных атомов.</string>
+    <string name="plasma_hint" >Плазма - состояние вещества, также известное как ионизированный газ. Это одно из четырёх фундаментальных состояний вещества, которое было открыто У. Круксом в 1879 году.</string>
+    <string name="sound_wave_hint" >Звук - физическое явление, представляющее собой распространение механических колебаний в твёрдой, жидкой или газообразной среде. Обычный человек способен слышать звуковые колебания в диапазоне частот от 16—20 Гц до 15—20 кГц.</string>
+    <string name="ion_beam_hint" >Ионный пучок - это заряженный частицами луч состоящий из ионов. Некоторые ионные пучки образуются в ходе работы ионных двигателей, разработанных NASA в 1960-х годах.</string>
+    <string name="isotope_hint" >Изотопы - это разновидности атомов какого-либо химического элемента, которые имеют одинаковый атомный номер, но при этом разные массовые числа. Изотоп каждого элемента имеет такое же количество протонов, как и в самом атоме.</string>
+    <string name="hydrogen_hint" >Водород - химический элемент с символом H и порядковым номером 1. Это самый лёгкий и легковоспламеняемый элемент в переодической таблице.</string>
+    <string name="carbon_hint" >Углерод - химический элемент с символом C и порядковым номером 6. Является одним из нескольких неметаллических элементов и был открыт ещё в античности.</string>
+    <string name="oxygen_hint" >Кислород - химический элемент с символом O и порядковым номером 8. Кислород - химически активный неметалл. По массе, кислород является третьим по распространённости элементом во вселенной.</string>
+    <string name="iron_hint" >Железо - химический элемент с символом Fe. По массе является наиболее часто встречающимся на Земле металлом, формируя внешнее и внутреннее ядро Земли.</string>
+    <string name="xenon_hint" >Ксенон - химический эелмент с символом Xe. Является благородным одноатомным газом без цвета, вкуса и запаха. Встречается в атмосфере Земли в небольших количествах.</string>
+
+    <string name="water_hint" >Вода - прозрачная, бесцветная и безвкусная химическая субстанция, которую можно встретить в земных озёрах, океанах и жидкостях внутри живых организмов. Химическая формула воды H2O, значит молекула воды состоит из двух атомов водорода и одного — кислорода.</string>
+    <string name="salt_hint" >Соль, также известна как хлорид натрия (NaCl). В измельчённом виде представляет собой бесцветные кристаллы. Солёность - один из основных вкусов человека.</string>
+    <string name="sand_hint" >Песок - осадочная горная порода, а также искусственный материал, состоящий из зёрен горных пород. Очень часто состоит из почти чистого минерала кварца.</string>
+    <string name="hemoglobine_hint" >Гемоглобин - сложный железосодержащий белок существ, обладающих кровообращением. Гемоглобин в крови транспортирует кислород от лёгких к остальным частям тела.</string>
+    <string name="carbohydrate_hint" >Углеводы - органические вещества, молекулы которых состоят из атомов углерода (C), водорода (H) и кислорода (O). Углеводы играют важную роль для живых организмов.</string>
+    <string name="lipid_hint" >Липиды - обширная группа природных органических соединений, включающая жиры и жироподобные вещества. Многие жиры используются организмом как источник энергии.</string>
+    <string name="dna_hint" >ДНК - это молекула, обеспечивающая хранение, передачу из поколения в поколение и реализацию генетической программы развития и функционирования живых организмов.</string>
+    <string name="protein_hint" >Белки - высокомолекулярные органические вещества, состоящие из альфа-аминокислот. Белки выполняют множество функций в организмах.</string>
+    <string name="chromosome_hint" >Хромосома - это молекула ДНК, в которой сосредоточена большая часть наследственной информации организма.</string>
+    <string name="cell_hint" >Клетка - структурно-функциональная элементарная единица строения и жизнедеятельности всех организмов. Является наименьшей единицей жизни, которая способна к самовоспроизведению.</string>
+    <string name="neuron_hint" >Нейрон - электрически возбудимая клетка, которая обрабатывает, хранит и передаёт информацию с помощью электрических и химических сигналов. В головном мозге человека насчитывается около 85—86 миллиардов нейронов.</string>
+    <string name="microorganism_hint" >Микроорганизм - название живого организма, который слишком мал для того, чтобы быть видимым невооружённым глазом. Существуют как одноклеточные, так и многоклеточные микроорганизмы.</string>
+
+    <string name="virus_hint" >Вирус - неклеточный инфекционный агент, который может воспроизводиться только внутри живых клеток. Вирусы поражают все типы организмов, от растений и животных до бактерий и архей.</string>
+    <string name="bacteria_hint" >Бактерия - это живой организм в несколько микрометров длиной. Бактерии были среди первых форм жизни на Земле. К настоящему времени описано около десяти тысяч видов бактерий и предполагается, что их существует свыше миллиона.</string>
+    <string name="plant_cells_hint" >Растительные клетки являются эукариотами. Существует множество типов растительных клеток, каждая из которых выполняет свою функцию, например, фотосинтез.</string>
+    <string name="plankton_hint" >Планктон - это разнородные, в основном мелкие организмы, свободно дрейфующие в толще воды и не способные сопротивляться течению. Планктон непосредственно является пищей для большинства остальных водных животных.</string>
+    <string name="athropod_hint" >Членистоногое - тип первичноротых животных, включающий насекомых, ракообразных, паукообразных и многоножек. Членистоногие имеют наружный скелет и сегментированное тело с парными членистыми конечностями.</string>
+    <string name="mold_hint" >Плесень - различные грибы, образующие ветвящиеся мицелии. Плесневые грибы распространены повсеместно. В основном обширные колонии вырастают в тёплых влажных местах на питательных средах.</string>
+    <string name="mushroom_hint" >Гриб - царство живой природы, объединяющее эукариотические организмы, сочетающие в себе некоторые признаки как растений, так и животных. Многие виды грибов активно используются человеком в пищевых, хозяйственных и медицинских целях.</string>
+    <string name="leaf_hint" >Лист - наружный орган растения, основными функциями которого является фотосинтез, газообмен и транспирация. В природе листья встречаются с различными формами, размерами и текстурами.</string>
+    <string name="rose_hint" >Роза - собирательное название видов и сортов представителей рода Шиповник, выращиваемых человеком. Существует сотни сортов.</string>
+    <string name="fern_hint" >Папоротниковидные - отдел сосудистых растений, в который входят как современные папоротники, так и одни из древнейших высших растений, появившихся около 400 млн лет назад. Не имеют ни семян, ни цветов и воспроизводятся с помощью спор.</string>
+    <string name="apple_hint" >Яблоко - плод яблони, который употребляется в пищу в свежем виде, служит сырьём в кулинарии и для приготовления напитков. Впервые яблоки появились в Центральной Азии.</string>
+    <string name="medusa_hint" >Медузы - мягкотелые, свободно плавающие морские животные. Тело медуз в значительной части состоит из обводнённой соединительной ткани — мезоглеи — и по форме напоминает колокол или зонтик.</string>
+
+    <string name="ant_hint" >Муравьи принадлежат к семейству насекомых. Считается, что известно 22,000 вида, но лишь более 14,000 открыто людьми.</string>
+    <string name="butterfly_hint" >Бабочки - отряд насекомых с полным превращением. Имеются стадии яйца, личинки (называемой гусеницей), куколки и имаго. Вырастают в цветастых взрослых бабочек.</string>
+    <string name="mice_hint" >Мыши - семейство млекопитающих из отряда грызунов. Распространены повсеместно, большинство видов — в лесах тропиков и субтропиков. Самые известные - домовые мыши.</string>
+    <string name="cat_hint" >Кошки - род хищных млекопитающих из семейства кошачьих. Они маленькие и пушистые. В мире насчитывается около 70 пород.</string>
+    <string name="dog_hint" >Собаки - млекопитающие, а также потомки волков. Собака была первым одомашненным животным, а также считается лучшим другом человека.</string>
+    <string name="human_hint" >Человек — общественное существо, обладающее разумом и сознанием, а также субъект общественно-исторической деятельности и культуры. Возник на Земле в результате эволюционного процесса — антропогенеза.</string>
+    <string name="lion_hint" >Лев - вид хищных млекопитающих, один из четырёх представителей рода пантер. Является наряду с тигром самой крупной из ныне живущих кошек — масса некоторых самцов может достигать 250 кг.</string>
+    <string name="elephant_hint" >Слоны относятся к семейству млекопитающих отряда хоботных. Обитают они в Юго-Восточной Азии и Африке в тропических лесах и саваннах.</string>
+    <string name="whale_hint" >Киты - морские млекопитающие из отряда китообразных. Киты питаются, размножаются и выращивают своё потомство в море. Синие киты достигают 25-33 метров в размере и 90-120 тонн в весе.</string>
+
+    <string name="tree_hint" >Дерево - жизненная форма деревянистых растений с единственной, отчётливо выраженной, многолетней главной осью - стволом. Общее число деревьев на планете превышает 3 триллиона. Ежегодно число деревьев на планете уменьшается примерно на 15 млрд.</string>
+    <string name="forest_hint" >Лес - экологическая система, в которой главной жизненной формой являются деревья. Леса занимают около трети площади суши. Они служат укрытием для некоторых животных, людей и производят кислород, необходимый для жизни.</string>
+    <string name="river_hint" >Река - природный постоянный водный поток значительных размеров с естественным течением к океану, морю, озеру или другой реке. Самая длинная река в мире, Амазонка, находится а Южной Америке.</string>
+    <string name="canyon_hint" >Каньон - глубокая речная долина с очень крутыми, нередко отвесными склонами и узким дном, обычно полностью занятым руслом реки. Один из крупнейших каньонов мира по глубине — Большой Каньон реки Колорадо в США.</string>
+    <string name="shore_hint" >Берег - узкая полоса взаимодействия между сушей и водоёмом (морем, озером, водохранилищем). Берегом также называют полосу суши, примыкающую к береговой линии.</string>
+    <string name="glacier_hint" >Ледник - масса льда преимущественно атмосферного происхождения, которая постоянно движется под собственным весом. Ледники продолжают формироваться на протяжении веков.</string>
+    <string name="valley_hint" >Долина - форма рельефа, образованная в результате эрозионной деятельности текучей воды. Малыми формами речных долин являются промоины, балки, овраги, создаваемые непостоянными водотоками.</string>
+    <string name="mountain_hint" >Гора - изолированное резкое поднятие местности с выраженными склонами и подножием. Высочайшей горой на Земле является Эверест в Гималаях, чья высота достигает 8,848 метров над уровнем моря.</string>
+    <string name="ocean_hint" >Океан - крупнейший водный объект, составляющий часть Мирового океана. Океан находится в непрерывном взаимодействии с атмосферой и земной корой и составляет около 71 % поверхности Земли.</string>
+
+    <string name="car_hint" >Автомобиль - моторное дорожное транспортное средство, используемое для перевозки людей или грузов. В 1886 году немецкие изобретатели Готтлиб Даймлер и Карл Бенц изготовили и запатентовали первые самодвижущиеся экипажи с бензиновыми двигателями.</string>
+    <string name="road_hint" >Дорога - путь сообщения для передвижения людей и транспорта, составная часть транспортной инфраструктуры. Самая длинная дорога в мире на сегодня - Панамериканское шоссе.</string>
+    <string name="house_hint" >Дом - сооружение, место, в котором обитают люди или животные. Обычно дом служит для укрытия от неблагоприятной погоды, для сна, выращивания потомства, хранения припасов, отдыха.</string>
+    <string name="lighthouse_hint" >Маяк - средство навигационного оборудования побережья крупных водоёмов. Используя систему ламп и линз, маяки способствует установлению места судна на водной поверхности.</string>
+    <string name="boat_hint" >Лодка - небольшое судно для передвижения по воде. Есть несколько типов лодок: движимые человеком (каяк, каноэ), парусные лодки и моторные лодки.</string>
+    <string name="bridge_hint" >Мост - искусственное сооружение, возведенное через любое водное препятствие. Самый длинный висячий мост в мире - Акаси-Кайкё в Японии (3911 м).</string>
+    <string name="village_hint" >Деревня - это сельский населённый пункт с несколькими десятками домов. По площади и населению обычно меньше города.</string>
+    <string name="opera_hint" >Опера - здание музыкального театра, в котором проходят, прежде всего, представления оперы и балета.</string>
+    <string name="city_hint" >Город - крупный населённый пункт. Имеет развитый комплекс хозяйства и экономики, является скоплением архитектурных и инженерных сооружений. Самый крупный город в мире - Токио в Японии (13 млн человек).</string>
+
+    <string name="satellite_hint" >Спутник - искуственный объект, намеренно запущенный на орбиту. В 1957 году СССР запустила первый в мире искуственный спутник, «Спутник-1».</string>
+    <string name="astronaut_hint" >Астронавт или космонавт - человек, проводящий испытания и эксплуатацию космической техники в космическом полёте.</string>
+    <string name="rocket_hint" >Ракета - летательный аппарат, двигающийся в пространстве за счёт действия реактивной тяги. У ракет могут быть двигатели, крылья, парашюты или колёса.</string>
+    <string name="moon_lander_hint" >Луноход - это любая наземная самоходная платформа, предназначенная для передвижений по поверхности Луны. Аполлон-11 был первым успешным проектом, в ходе которого 1969 года жители Земли впервые в истории совершили посадку на Луну.</string>
+    <string name="shuttle_hint" >Шаттл - многоразовый транспортный космический корабль. Первый из четырёх тестовых полётов прошёл в 1981 году.</string>
+    <string name="launchpad_hint" >Стартовая площадка - наземная платформа, где стартует ракета-носитель. На космодроме могут находится один или несколько стартовых площадок.</string>
+    <string name="flight_center_hint" >Центр управления полётами - крупное научно-исследовательское подразделение. Центр Управления Полётами имени Джорджа Маршала - известный центр в Хантсвилле, Алабама.</string>
+    <string name="telescope_hint" >Телескоп - прибор, с помощью которого можно наблюдать отдалённые объекты путём сбора электромагнитного излучения (например, видимого света). Первые телескопы были изобретены в Нидерландах в начале 17 века.</string>
+    <string name="space_station_hint" >Космическая станция - космический аппарат, предназначенный для долговременного пребывания людей на околопланетной орбите с целью проведения научных исследований.</string>
+
+    <string name="comet_hint" >Комета - небольшое небесное тело, обращающееся вокруг Солнца по вытянутой орбите. При приближении к Солнцу комета образует кому и иногда хвост из газа и пыли.</string>
+    <string name="moon_hint" >Луна - естественный спутник Земли. Самый близкий к Солнцу спутник планеты, так как у ближайших к Солнцу планет, Меркурия и Венеры, спутников нет.</string>
+    <string name="pluto_hint" >Плутон - крупнейшая известная карликовая планета Солнечной системы. Изначально считался девятой планетой Солнечной системы, но в 2006 году переклассифицирован в карликовую планету.</string>
+    <string name="mercury_hint" >Меркурий - ближайшая к Солнцу и самая маленькая планета Солнечной системы. Можно наблюдать в раннее или позднее время суток.</string>
+    <string name="venus_hint" >Венера - вторая планета Солнечной системы. Не имеет естественных спутников. Названа в честь древнеримской богини любви Венеры.</string>
+    <string name="mars_hint" >Марс - четвёртая по удалённости от Солнца и седьмая по размерам планета Солнечной системы; масса планеты составляет 10,7 % массы Земли. Названа в честь Марса — древнеримского бога войны.</string>
+    <string name="earth_hint" >Земля - третья от Солнца планета и пятая по размеру среди всех планет Солнечной системы. Единственная планета в известной вселенной с разумной жизнью. Она сформировалась около 4 млрд лет назад.</string>
+    <string name="uranus_hint" >Уран - седьмая по удалённости от Солнца, третья по диаметру и четвёртая по массе планета Солнечной системы. Это самая холодная планета Солнечной системы с минимальной температурой в 49 К (−224 °C).</string>
+    <string name="neptune_hint" >Нептун - восьмая и самая далёкая планета Солнечной системы. Масса Нептуна в 17,2 раза, а диаметр экватора в 3,9 раза больше земных. Планета была названа в честь римского бога морей.</string>
+    <string name="saturn_hint" >Сатурн - шестая планета от Солнца и вторая по размерам планета в Солнечной системе после Юпитера. Сатурн назван в честь римского бога земледелия.</string>
+    <string name="jupiter_hint" >Юпитер - пятая планета от Солнца, крупнейшая в Солнечной системе. Наряду с Сатурном, Ураном и Нептуном Юпитер классифицируется как газовый гигант.</string>
+
+    <string name="red_dwarf_hint" >Красный карлик - маленькая и относительно холодная звезда. Красные карлики - самый распространённый тип звёзд в Млечном Пути.</string>
+    <string name="sun_hint" >Солнце - единственная звезда Солнечной системы. Вокруг Солнца обращаются другие объекты этой системы. Является важным источников энергии для жизни на Земле. Три четверти массы Солнца составляет водород (~73%); остальное - гелий (~25%).</string>
+    <string name="solar_system_hint" >Солнечная система - планетная система, включающая в себя центральную звезду — Солнце — и все естественные космические объекты, вращающиеся вокруг Солнца. Она сформировалась путём гравитационного сжатия газопылевого облака примерно 4,57 млрд лет назад.</string>
+    <string name="pulsar_hint" >Пульсар - космический источник излучений, приходящих на Землю в виде периодических всплесков (импульсов). Радиацию можно наблюдать только когда луч излучения направлен на Землю.</string>
+    <string name="red_giant_hint" >Красный гигант - звезда поздних спектральных классов с высокой светимостью и маленькой массой. Цвет звезды обычно жёлто-оранжевый или красный.</string>
+    <string name="ray_burst_hint" >Гамма-всплеск - масштабный космический выброс энергии взрывного характера, в настоящее время наблюдаемый в отдалённых галактиках. Это наиболее яркие электромагнитные события, происходящие во Вселенной.</string>
+    <string name="galaxy_hint" >Галактика - гравитационная система звёзд, туманностей, пыли и тёмной материи. Наша Солнечная система расположена в галактике Млечный Путь.</string>
+    <string name="galaxy_group_hint" >Группа галактик - совокупность галактик в количестве 50 и более. Млечный Путь является членом группы галактик под названием Локальная Группа.</string>
+    <string name="supercluster_hint" >Сверхскопление галактик - огромная группа состоящая из более мелких групп галактик. Это самая гигантская структура известная во Вселенной.</string>
+
+</resources>

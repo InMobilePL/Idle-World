@@ -1,0 +1,686 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Idle World</string>
+    <string name="title_activity_login">Giriş Yap</string>
+
+    <!-- Values -->
+    <string name="zero">0</string>
+    <string name="base_multiplier">1.0</string>
+    <string name="double_multiplier">2.0</string>
+    <string name="x">x</string>
+
+    <!-- Button states -->
+    <string name="cancel">İptal</string>
+    <string name="close">Kapat</string>
+    <string name="ok">OK</string>
+
+    <!-- Failed state restore -->
+    <string name="failed_restore_title">Üzgünüm</string>
+    <string name="failed_restore_body">Evreniniz oyuna yapılan büyük değişiklikler nedeniyle sıfırlandı. Gelecekteki sürümler böyle durumlardan kaçınmak için özen göstereceklerdir.</string>
+
+    <!-- Validation -->
+    <string name="username_invalid">Kullanıcı adı geçersiz, yalnızca harf ve sayılar</string>
+    <string name="username_taken">Kullanıcı adı önceden alınmış</string>
+    <string name="username_empty">Kullanıcı adı boşta</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Kullanıcı adı</string>
+    <string name="prompt_password">Şifre (isteğe bağlı)</string>
+    <string name="action_sign_in">Giriş Yap</string>
+    <string name="login_to_see_highscores">Yüksek skorları görmek için giriş yapın</string>
+    <string name="you_can_enter_password">Kullanıcı hesabınıza başka cihazlardan erişim sağlamak için şifre girebilirsiniz.</string>
+    <string name="username_will_register">Kullanıcı adı eğer daha önceden alınmadıysa kaydedilir.</string>
+
+    <!-- Strings related to instructions -->
+    <string name="if_element_glows">Parlayan elementler <b>Kaynak</b> harcayarak satın alınabilir.</string>
+    <string name="each_element">Her bir element daha da gelişmenizi sağlayan <b>Kaynaklar</b> verir.</string>
+    <string name="grow_your_world">Dünyanızı tek bir <b>Atomdan</b> koca bir <b>Galaksiye</b> dönüştürün.</string>
+    <string name="more_energy_you_have">Ne kadar çok elemente sahipseniz, o kadar çok kaynak geliriniz olur.</string>
+    <string name="more_resources">Toplamanız gereken birçok kaynak var.</string>
+    <string name="last_part">Son bölüm</string>
+    <string name="new_elements_construction">Yapılar sekmesinde yeni elementlerin kilidini açabilirsiniz.</string>
+    <string name="world_grows_idle">Oyundan çıksan bile dünyanız büyümeye devam eder!</string>
+    <string name="check_leaderboard">İlerlemenizi kontrol etmek için sıralamalara bakmayı unutmayın</string>
+    <string name="build_it">İnşa et</string>
+    <string name="skip"><![CDATA[Atla >>]]></string>
+    <string name="welcome">Hoşgeldiniz</string>
+    <string name="universe_awaits">Evreniniz sizi bekliyor</string>
+    <string name="down_arrow">▼</string>
+    <string name="next">Sonraki</string>
+
+    <!-- Settings activity -->
+    <string name="view_instructions">Oyun yardımı</string>
+    <string name="instructions">Talimatlar</string>
+    <string name="background_music">Arkaplan müziği</string>
+    <string name="energy_display_type">Kaynak görüntüleme tipi</string>
+    <string name="long_numbers">Uzun sayılar</string>
+    <string name="scientific_notation">Bilimsel gösterim</string>
+    <string name="preview_small">Küçük önizleme:</string>
+    <string name="preview_big">Büyük önizleme:</string>
+    <string name="cloud_sync_coming_soon">Bulut Senkronizasyonu</string>
+    <string name="change_it_display_type">Ayrıca herhangi bir sayıya tıklayarak gösterim tipini değiştirebilirsiniz.</string>
+    <string name="thanks_for">Verdikleri emekler için teşekkürler:</string>
+    <string name="icons_source_icons8">Simgeler: Icons8</string>
+    <string name="image_source_unsplash">Resimler: Unsplash</string>
+    <string name="language">Diller</string>
+    <string name="translation_halil_kopuz">Türkçe Çeviri: <b>Halil Kopuz, Deniz Kağan Dursun </b></string>
+    <string name="translation_tony">Fransızca Çeviri: <b>Tony A. \"Gorska\" </b></string>
+    <string name="translation_robert">Almanca Çeviri: <b>Robert B. Lavars</b>, <b>Thomas Kupka</b></string>
+    <string name="translation_vasil">Rusça Çeviri: <b>VasilRaven, Reindee</b></string>
+    <string name="translation_zsemi">Macarca Çeviri: <b>zsemi02 </b></string>
+    <string name="translation_joao">Portekizce Çeviri: <b>João Paulo </b></string>
+    <string name="translation_thedashcolour">İtalyanca Çeviri: <b>Thedashcolour </b></string>
+    <string name="translation_dejan">Boşnakça Çeviri: <b>Dejan Misic </b></string>
+    <string name="translation_majestangel">Çeviri ES: <b>MajestAngel</b></string>
+    <string name="translation_roman">Çeviri CZ: <b>Roman Vietze</b></string>
+    <string name="translation_majida">Çeviri ZH: <b>Majida Whale</b></string>
+
+    <!-- Black hole dialog -->
+    <string name="blackhole_confirm">Emin misinz?</string>
+    <string name="blackhole_warning_body">Geliriniz büyüyecek ancak evreniniz silinecek. Skorunuz kalacak.</string>
+    <string name="blackhole_too_slow">İşler çok mu yavaş ilerliyor? Kara Delik Çarpanına bir göz at</string>
+    <string name="blackholeMultiplikator">Kara Delik Çarpanına</string>
+
+    <!-- Construction results -->
+    <string name="bought_body">Tebrikler, yeni element ağacı inşa edildi</string>
+    <string name="bought_title">İnşa edildi</string>
+    <string name="not_enough_energy_body">Bunu inşa edebilmeniz için daha fazla kaynağa ihtiyacınız var.</string>
+    <string name="not_enough_energy_title">Yeterli kaynak yok</string>
+    <string name="missing_requirements_body">Bazı gereksinimler karşılanamadı, ihtiyacınız olan her şeye sahip olduğunuzdan emin olun.</string>
+    <string name="missing_requirements_title">Eksik gereksinimler</string>
+    <string name="unexpected_body">Beklenmedik yapı, evren hala gelişiyor</string>
+    <string name="unexpected_title">Entropi</string>
+
+    <!-- Ads -->
+    <string name="income_doubled">Oyun dışı geliriniz ikiye katlandı!</string>
+    <string name="ad_unavailable_body">Uzay zaman sürekliliği tehlikede, zaman yüneli şu anda kullanılamıyor. Daha sonra tekrar deneyin.</string>
+    <string name="ad_unavailable_title">Tehlike.</string>
+
+    <!-- Black hole activity -->
+    <string name="multiply_your_income">Gelirinizi katlayın!</string>
+    <string name="current_income_multiplier">Mevcut gelir çarpanı: x</string>
+    <string name="new_income_multiplier">Yeni gelir çarpanı: x</string>
+    <string name="universe_big_enough">Eğer evreniniz yeterince büyükse kendi içinde çökebilir ve Kara Delik tarafından yutulabilir. Yeni gelir çarpanınız evreninizin büyüklüğüne göre hesaplanır.</string>
+    <string name="universe_disappear">Tüm evreniniz yok olacak</string>
+    <string name="score_will_remain">Skorunuz kalacak</string>
+    <string name="all_parts_removed">Bütün evren ögeleri kaldırılacak, oyununuz tekrardan başlayacak, ancak tüm gelir kaynakları kara delik çarpanınız kadar artacak.</string>
+    <string name="collapse_universe">Evreni Çökert</string>
+
+    <!-- Construction activity -->
+    <string name="total_energy">Toplam kaynak:</string>
+    <string name="income">Gelir:</string>
+    <string name="base_warp">(x2 00:00:00)</string>
+    <string name="all_constructions_created">Tüm yapılar yapıldı.</string>
+    <string name="build_bigger">Evreninizi daha büyük ve geniş yapmak için geri dönün</string>
+    <string name="universe_panel">Evren Paneli</string>
+    <string name="get_more_by_blackhole">Ya da evreninizden Kara Delik yoluyla daha fazla şey elde edebilirsiniz.</string>
+    <string name="black_hole_panel">Kara Delik Paneli</string>
+    <string name="buy_elements_to_unlock">Yeni yapıların kilidini açmak için element satın alın.</string>
+    <string name="all">Tüm</string>
+    <string name="construction_tab">Yapılar</string>
+    <string name="bonus">Bonus</string>
+    <string name="bonus_income">Bonus (Gelir)</string>
+    <string name="swipe_to_bonus_hint">Mevcut bonusları görmek için ▶ kaydırın</string>
+    <string name="bonuses_unlocked">Kilidi açık</string>
+
+    <!-- Leaderboard activity -->
+    <string name="score">Skor</string>
+    <string name="your_score">Puanın</string>
+    <string name="username">Kullanıcı Adı</string>
+    <string name="base_place">0</string>
+    <string name="global_most_massive_universe">Küresel en muazzam evren</string>
+    <string name="highest_black_hole_multiplier">En yüksek kara delik çarpanı</string>
+
+    <!-- Summary Activity -->
+    <string name="increase_income">Geliri 2x Arttır (1 saat)</string>
+    <string name="time_warp">Zaman Tüneli</string>
+    <string name="leaderboard">Sıralamalar</string>
+
+    <!-- Add username dialog -->
+    <string name="set_username">Yüksek skorlar için bir kullanıcı adı seçin</string>
+
+    <!-- Construction control -->
+    <string name="requirements">Gereksinimler</string>
+    <string name="construction_result">Yapı Sonucu</string>
+    <string name="generates">Üretir</string>
+
+    <!-- Element tile -->
+    <string name="buy">Satın al</string>
+
+    <!-- Generated universe -->
+    <string name="your_universe_mass">Evreninizin kütlesi</string>
+    <string name="units">(birim)</string>
+
+    <!-- Idle income dialog -->
+    <string name="your_idle_income">Oyun dışı geliriniz</string>
+    <string name="watch_to_double">Reklam izleyerek gelirinizi ikiye katlayabilirsiniz</string>
+    <string name="double_income">Çifte Kazanç</string>
+
+    <!-- Part buy dialog -->
+    <string name="cost">Maliyet:</string>
+    <string name="total">Gelir:</string>
+    <string name="bought">Satın alındı</string>
+
+    <!-- Summary element-->
+    <string name="total_income">Toplam gelir</string>
+
+    <!-- Major update dialog -->
+    <string name="thanks_for_updating">Oyununuzu güncellediğiniz için teşekkür ederiz. Oyun sistemine yapılan bazı büyük değişiklikler yeni bir evren yaratmanızı gerektiriyor.</string>
+    <string name="these_changes_are_necessary">Bu değişimler <b>Idle World\'ün</b> geleceğe dönük ilerleyebilmesi için <u>gereklidir</u>, ancak isterseniz mevcut kara delik çarpanınız ile devam edebilir ya da en baştan başlayabilirsiniz.</string>
+    <string name="growth_of_this_game">Bu oyunun gelişimine olan güveniniz için <b>teşekkürler!</b></string>
+    <string name="major_update">Büyük Güncelleme</string>
+    <string name="clean_start">Temiz Başlangıç</string>
+    <string name="keep_multiplier">Çarpanı Koru</string>
+    <string name="your_score_remains_unchanged"><b>Skorunun değişmeden kaldı</b></string>
+
+    <!-- Top Panel -->
+    <string name="resources">Kaynaklar</string>
+
+    <!-- Google Play Services -->
+    <string name="signin_other_error">Giriş sırasında bir hata oluştu. Ayarlardan daha sonra tekrar deneyin.</string>
+    <string name="sign_in_failed">Giriş yapılamadı. Lütfen ağ ayarlarınızı kontrol edip daha sonra ayarlardan tekrar deneyin.</string>
+    <string name="choose_save_option">Kayıt seçeneğini seçin</string>
+    <string name="local_saves">Yerel kayıtlar cihazınızda saklanır. Hızlıdır, İnternet bağlantısı gerektirmez.</string>
+    <string name="online_cloud_stored">Çevrimiçi bulutta saklanan kayıtlar. Birden fazla cihazda oynamanıza izin verir.</string>
+    <string name="this_option">Bu seçenek istediğiniz zaman ayarlardan değiştirilebilir.</string>
+    <string name="show_all_cloud_saved_games">Bulutta kayıtlı tüm oyunları göster</string>
+    <string name="saves">Kayıtlar</string>
+    <string name="no_internet_offline_state">İnternet bağlantısı yok. Çevrimdışı durum geri yüklendi.</string>
+
+    <!-- Resources translation -->
+    <string name="energy">enerji</string>
+    <string name="life">hayat</string>
+    <string name="tech">teknoloji</string>
+    <string name="cosmic">kozmik</string>
+
+    <string name="quantum">kuantum</string>
+    <string name="nano">nano</string>
+    <string name="complex">karmaşık</string>
+    <string name="bio">biyolojik</string>
+    <string name="organism">organizma</string>
+    <string name="landscape">çevre</string>
+    <string name="construction">inşaat</string>
+    <string name="cosmos">kozmos</string>
+    <string name="space">uzay</string>
+    <string name="universe">evren</string>
+
+    <string name="locked">kilitli</string>
+    <string name="string">sicim</string>
+    <string name="quantum_foam">Kuantum_Köpüğü</string>
+    <string name="neutrino">nötrino</string>
+    <string name="higgs_boson">Higgs_Bozonu</string>
+    <string name="photon">foton</string>
+    <string name="quark">kuark</string>
+    <string name="electron">elektron</string>
+    <string name="neutron">nötron</string>
+    <string name="proton">Proton</string>
+    <string name="positron">pozitron</string>
+    <string name="nucleus">çekirdek</string>
+    <string name="atom">Atom</string>
+    <string name="plasma">plazma</string>
+    <string name="sound_wave">ses_dalgası</string>
+    <string name="ion_beam">iyon_demeti</string>
+    <string name="isotope">izotop</string>
+    <string name="hydrogen">hidrojen</string>
+    <string name="carbon">karbon</string>
+    <string name="oxygen">oksijen</string>
+    <string name="iron">Demir</string>
+    <string name="xenon">ksenon</string>
+    <string name="water">su</string>
+    <string name="salt">tuz</string>
+    <string name="sand">kum</string>
+    <string name="hemoglobine">Hemoglobin</string>
+    <string name="carbohydrate">karbonhidrat</string>
+    <string name="lipid">Lipit</string>
+    <string name="dna">DNA</string>
+    <string name="protein">Protein</string>
+    <string name="chromosome">kromozom</string>
+    <string name="cell">hücre</string>
+    <string name="neuron">nöron</string>
+    <string name="microorganism">mikroorganizma</string>
+    <string name="virus">Virüs</string>
+    <string name="bacteria">Bakteri</string>
+    <string name="plant_cells">bitki_hücresi</string>
+    <string name="plankton">Plankton</string>
+    <string name="athropod">eklembacaklı</string>
+    <string name="mold">küf</string>
+    <string name="mushroom">mantar</string>
+    <string name="leaf">yaprak</string>
+    <string name="rose">gül</string>
+    <string name="fern">eğreltiotu</string>
+    <string name="apple">elma</string>
+    <string name="medusa">medusa</string>
+    <string name="ant">karınca</string>
+    <string name="butterfly">kelebek</string>
+    <string name="mice">fareler</string>
+    <string name="cat">kedi</string>
+    <string name="dog">köpek</string>
+    <string name="human">insan</string>
+    <string name="lion">aslan</string>
+    <string name="elephant">fil</string>
+    <string name="whale">balina</string>
+    <string name="tree">ağaç</string>
+    <string name="forest">orman</string>
+    <string name="river">nehir</string>
+    <string name="canyon">kanyon</string>
+    <string name="shore">kıyı</string>
+    <string name="glacier">buzul</string>
+    <string name="valley">vadi</string>
+    <string name="mountain">dağ</string>
+    <string name="ocean">okyanus</string>
+    <string name="car">araba</string>
+    <string name="road">yol</string>
+    <string name="house">ev</string>
+    <string name="lighthouse">deniz_feneri</string>
+    <string name="boat">tekne</string>
+    <string name="bridge">köprü</string>
+    <string name="village">köy</string>
+    <string name="opera">Opera</string>
+    <string name="city">şehir</string>
+    <string name="satellite">uydu</string>
+    <string name="astronaut">astronot</string>
+    <string name="rocket">roket</string>
+    <string name="moon_lander">ay_aracı</string>
+    <string name="shuttle">uzay_mekiği</string>
+    <string name="launchpad">fırlatma_rampası</string>
+    <string name="flight_center">uçuş_kontrol</string>
+    <string name="telescope">teleskop</string>
+    <string name="space_station">uzay_istasyonu</string>
+    <string name="comet">kuyruklu_yıldız</string>
+    <string name="moon">ay</string>
+    <string name="pluto">Plüton</string>
+    <string name="mercury">merkür</string>
+    <string name="venus">Venüs</string>
+    <string name="mars">Mars</string>
+    <string name="earth">Dünya</string>
+    <string name="uranus">Uranus</string>
+    <string name="neptune">Neptün</string>
+    <string name="saturn">Satürn</string>
+    <string name="jupiter">Jüpiter</string>
+    <string name="red_dwarf">Kırmızı Cüce</string>
+    <string name="sun">Güneş</string>
+    <string name="solar_system">güneş_sistemi</string>
+    <string name="pulsar">pulsar</string>
+    <string name="red_giant">kızıl_dev</string>
+    <string name="ray_burst">ışın_parlaması</string>
+    <string name="galaxy">galaksi</string>
+    <string name="galaxy_group">galaksi_kümesi</string>
+    <string name="supercluster">süper_küme</string>
+
+    <!-- Bonuses -->
+    <string name="good_place_to_start">Başlangıç için iyi bir yer</string>
+    <string name="barely_detectable">Zar zor algınalabilir</string>
+    <string name="great_discovery">Harika buluş</string>
+    <string name="enlightened">Aydınlandın</string>
+    <string name="building_blocks">Yapı taşları</string>
+    <string name="life_base">Hayatın temeli</string>
+    <string name="you_can_breathe">Nefes alabilirsin!</string>
+    <string name="interesting_glow">İlginç parıltı</string>
+    <string name="let_it_flow">Akacaksa durmaz</string>
+    <string name="start_thinking">Düşünmeye başla</string>
+    <string name="start_living">Yaşamaya başla</string>
+    <string name="quantum_master">Kuantum ustası</string>
+    <string name="virology">Viroloji</string>
+    <string name="let_it_grow">Bırakın büyüsün</string>
+    <string name="women_love_them">Kadınlar onlara bayılıyor</string>
+    <string name="build_colony">Koloni kur</string>
+    <string name="like_cat_and_dog">Kedi ve köpek gibi</string>
+    <string name="pack_of_friends">Arkadaş grubu</string>
+    <string name="seven_of_them">Yedişer tane</string>
+    <string name="life_master">Yaşam ustası</string>
+    <string name="motorization">Makineleşme</string>
+    <string name="infrastructure">Altyapı</string>
+    <string name="city_that_never_sleeps">Hiç uyumayan şehir</string>
+    <string name="to_the_skies">Göklere uzan</string>
+    <string name="best_of_best">En iyinin de iyisi</string>
+    <string name="all_about_communication">Her şeyin başı iletişim</string>
+    <string name="tech_master">Teknoloji ustası</string>
+    <string name="make_a_wish">Bir dilek tut</string>
+    <string name="home_sweet_home">Evim güzel evim</string>
+    <string name="look_at_those_rings">Şu halkalara bakın</string>
+    <string name="little_star">Küçük yıldız</string>
+    <string name="our_brightest">En parlağımız</string>
+    <string name="all_powerful">Mutlak kadir</string>
+    <string name="all_what_is_observable">Gözlemlenebilen her şey</string>
+    <string name="cosmic_master">Kozmos ustası</string>
+    <string name="back_to_basics">Köklere dönelim</string>
+    <string name="foamy">Köpüğümsü</string>
+    <string name="feel_the_charge">Yükleri hissedin</string>
+    <string name="what_constructs_you">Seni sen yapanlar</string>
+    <string name="can_you_hear_it">Duyabiliyor musunuz?</string>
+    <string name="ionized">İyonlaşmış</string>
+    <string name="iron_man">Demir Adam</string>
+    <string name="salty">Tuzlu</string>
+    <string name="you_dont_get_fat">Kilo almıyorsunuz</string>
+    <string name="whats_interesting_in_life">Hayatı ilginç kılanlar</string>
+    <string name="they_are_dangerous">Tehlikeliler</string>
+    <string name="dont_get_poisonous">Zehirlenmeyin</string>
+    <string name="thermopiles">Termopiller</string>
+    <string name="heavy_weight">Ağır ağırlık</string>
+    <string name="deep_and_dark">Derin ve karanlık</string>
+    <string name="show_them_the_way">Onlara yolu göster</string>
+    <string name="we_are_landing">İniş yapıyoruz</string>
+    <string name="red_planet">Kırmızı bitki</string>
+    <string name="really_cold_ones">Gerçekten soğuk olanlar</string>
+    <string name="its_ultra_big">Ultra kocaman</string>
+    
+    <!-- 500 -->
+    <string name="base_of_universe">Evrenin Kaidesi</string>
+    <string name="foam_of_creation">Yaratılışın Köpüğü</string>
+    <string name="full_neutrino">Tam nötrino</string>
+    <string name="bosonification">Bosonification</string>
+    <string name="full_spark_of_light">Işık kıvılcımı</string>
+    <string name="you_need_more_quark">Daha fazla kuarka ihtiyacın var</string>
+    <string name="electrification">Elektrikli</string>
+    <string name="heavy_mass">Ağır kütle</string>
+    <string name="adds_a_charge">Bir ücret ekler</string>
+    <string name="neglects_electrons">Elektronları ihmal eder</string>
+    <string name="core_is_important">Temel önemlidir</string>
+    <string name="basis_of_matter">Maddenin Esasları</string>
+    <string name="fluctuation">Dalgalanma</string>
+    <string name="sound_power">Ses gücü</string>
+    <string name="ion_challenge">İyon meydan okuma</string>
+    <string name="glowing_dangerously">Tehlikeli bir şekilde parlıyor</string>
+    <string name="small_yet_important">Küçük ama önemlidir</string>
+    <string name="connect_them_in_chains">Onları zincire bağla</string>
+    <string name="good_to_have_it">Sahip olmak güzel</string>
+    <string name="solid_squad">Katı kadro</string>
+    <string name="rare_and_beautiful">Nadir ve güzel</string>
+    <string name="tidal_wave">Gelgit dalgası</string>
+    <string name="tasteful">Zevkli</string>
+    <string name="form_a_beach">Bir plaj oluştur</string>
+    <string name="fill_your_veins">Damarlarınızı doldurun</string>
+    <string name="extract_power_from_this">Bundan güç çıkart</string>
+    <string name="greasy_greasy">Yağlı yağlı</string>
+    <string name="like_a_code">Bir kod gibi</string>
+    <string name="protein_whey">Protein peynir suyosu</string>
+    <string name="full_genome">Tam genom</string>
+    <string name="cell_regeneration">Hücre yenilenmesi</string>
+    <string name="nervous_system">Gergin sistem</string>
+    <string name="look_how_tiny_and_cute">Ne kadar minik ve sevimli görün</string>
+    <string name="virus_infection">Virüs enfeksiyonu</string>
+    <string name="bacterial_colony">Bakteri kolonisi</string>
+    <string name="plant_tissue">Bitki dokusu</string>
+    <string name="plankton_flock">Plankton sürüsü</string>
+    <string name="crawling_squad">Tarama ekibi</string>
+    <string name="molded_world">Kalıplanmış dünya</string>
+    <string name="forest_mushrooms">Orman mantarları</string>
+    <string name="leaf_crown">Yaprak tacı</string>
+    <string name="red_rose_carpet">Kırmızı gül halı</string>
+    <string name="intensive_green">Yoğun yeşil</string>
+    <string name="feeding_the_world">Dünyayı beslemek</string>
+    <string name="gelly_flock">Gelly sürüsü</string>
+    <string name="strong_ant_colony">Güçlü karınca koloni</string>
+    <string name="beautiful_wings">Güzel kanatlar</string>
+    <string name="mice_colony">Fareler koloni</string>
+    <string name="home_pets">Ev hayvanı</string>
+    <string name="man_best_friend">En iyi erkek arkadaşım</string>
+    <string name="look_in_the_mirror">Aynaya bak</string>
+    <string name="fierce_and_strong">Şiddetli ve güçlü</string>
+    <string name="heavy_lifter">Ağır kaldırıcı</string>
+    <string name="beautiful_giants">Güzel devler</string>
+    <string name="park">Park</string>
+    <string name="whole_jungle">Bütün ormanda</string>
+    <string name="winding_and_long">Sarma ve uzun</string>
+    <string name="deep_and_magnificent">Derin ve görkemli</string>
+    <string name="wide_and_sandy">Geniş ve kumlu</string>
+    <string name="dont_let_them_melt">Onların erimesine izin verme</string>
+    <string name="grass_up_to_horizon">Ufkura kadar çim yapın</string>
+    <string name="hiking_trip">Tırmanış gezisi</string>
+    <string name="deep_mysteries">Derin gizem</string>
+    <string name="whole_car_brand">Bütün araba markası</string>
+    <string name="lots_of_intersections">Birçok kavşak</string>
+    <string name="feel_comfortable_here">Burada rahat hissedin</string>
+    <string name="it_shows_a_way">Bir yol gösteriyor</string>
+    <string name="magnificent_fleet">Muhteşem filo</string>
+    <string name="rivers_are_no_problem">Nehirler sorun değil</string>
+    <string name="build_a_community">Topluluk kurun</string>
+    <string name="everlasting_culture">Sonsuz kültür</string>
+    <string name="glory_of_construction">İnşaatın ihtişamı</string>
+    <string name="looking_for_data">Veri arıyor</string>
+    <string name="proud_explorers">Gururlu kâşifler</string>
+    <string name="rocket_science">Roket bilimi</string>
+    <string name="landing_gears">İniş takımları</string>
+    <string name="space_travels">Uzay yolculuğu</string>
+    <string name="launchpads_for_everyone">herkes için lansman bantları</string>
+    <string name="everything_under_control">Her şey kontrol altında</string>
+    <string name="looking_everywhere">Her yerde arıyorum</string>
+    <string name="space_for_us">Bizim için alan</string>
+    <string name="flying_rocks_with_tails">Uçan kayalar kuyruklu</string>
+    <string name="hello_again_old_friend">Merhaba tekrar eski dostum</string>
+    <string name="back_in_my_days">Benim günlerime geri dön</string>
+    <string name="dont_get_burned">Yakılmasın</string>
+    <string name="chemical_maelstorm">Kimyasal maelstorm</string>
+    <string name="maybe_there_is_water">Belki su var</string>
+    <string name="there_is_only_one_earth">Sadece bir dünya var</string>
+    <string name="increase_his_mass">Kitlesini arttır</string>
+    <string name="dangerously_cold">Tehlikeli derecede soğuk</string>
+    <string name="crown_jewel">Taç mücevher</string>
+    <string name="big_brother">Büyük kardeş</string>
+    <string name="small_yet_strong">Küçük ama güçlü</string>
+    <string name="hope_it_shine">Umuyoruz parlıyor</string>
+    <string name="all_in_order">Her şey yolunda</string>
+    <string name="pulsing_with_energy">Enerji ile titreşim</string>
+    <string name="hydrogen_eater">Hidrojen yiyicisi</string>
+    <string name="the_most_distant_phenomenon">En uzak fenomen</string>
+    <string name="so_vast_yet_structurized">Çok geniş ve yapılandırılmış</string>
+    <string name="giants_order">Devlerin emri</string>
+    <string name="everlasting_universe">Sonsuz evren</string>
+
+    <!-- 1000 -->
+    <string name="true_beginning">Doğru başlangıç</string>
+    <string name="thick_fog">Yoğun sis</string>
+    <string name="these_are_everywhere">Bunlar her yerde</string>
+    <string name="hard_proven_existence">Sert kanıtlanmış varoluş</string>
+    <string name="laser_beam">Lazer ışını</string>
+    <string name="almost_enough_quarks">Neredeyse yeterli kuark</string>
+    <string name="why_so_negative">Neden bu kadar negatif</string>
+    <string name="always_neutral">Her zaman tarafsız</string>
+    <string name="stay_positive">Pozitif kal</string>
+    <string name="electron_mutual_annihilation">Elektronların ortak imhası</string>
+    <string name="nuclear_force">Nükleer Güç</string>
+    <string name="from_atoms_to_particles">Atomlardan partiküllere</string>
+    <string name="plasma_fountain">Plazma çeşmesi</string>
+    <string name="getting_louder">Yüksek sesle sesleniyor</string>
+    <string name="big_stream_of_ions">İyonların büyük akışı</string>
+    <string name="collect_them_all">Hepsini topla</string>
+    <string name="highly_flammable">Son derece yanıcı</string>
+    <string name="big_organic_particles">Büyük organik parçacıklar</string>
+    <string name="breathe_deeply">Derin nefes al</string>
+    <string name="you_cleared_the_mine">Madeni temizledin</string>
+    <string name="and_still_passive">Ve hala pasif</string>
+    <string name="waterfalls">Şelale</string>
+    <string name="perfect_couple_with_pepper">Biberli mükemmel çift</string>
+    <string name="sandcastle">Sandcastle</string>
+    <string name="red_transporter">Kırmızı nakilci</string>
+    <string name="full_of_energy">Enerji dolu</string>
+    <string name="to_much_on_your_belly">Göbeğindeki çok şey</string>
+    <string name="better_do_not_make_mistake">Daha iyi hata yapma</string>
+    <string name="muscles_up">Kaslar yukarı</string>
+    <string name="make_a_life">Hayatta olun</string>
+    <string name="basis_of_every_body">Her cesedin temeli</string>
+    <string name="think_well">İyi düşün</string>
+    <string name="look_very_closely">Çok yakından bak</string>
+    <string name="runny_nose">Burun akması</string>
+    <string name="better_wash_your_hands">Ellerinizi daha iyi yıkayın</string>
+    <string name="full_of_photosynthesis">Fotosentezin tamamı</string>
+    <string name="feed_your_whale">Balina besle</string>
+    <string name="many_many_legs">Pek çok bacak</string>
+    <string name="plains_of_mold">Küf kalıpları</string>
+    <string name="sure_it_is_edible">Elbette yenilebilir</string>
+    <string name="green_red_yellow">Yeşil kırmızı sarı</string>
+    <string name="every_rose_has_thorn">Her gül diken var</string>
+    <string name="bottom_of_forest">Ormanın alt kısmı</string>
+    <string name="one_that_seduced_Adam">Adam baştan çıkaran</string>
+    <string name="massive_jelly">Massive jöle</string>
+    <string name="strength_in_group">Gruptaki Gücü</string>
+    <string name="so_delicate">Çok hassas</string>
+    <string name="mice_attack">Fare saldırısı</string>
+    <string name="walks_its_own_path">Kendi yolunu yürüyor</string>
+    <string name="faithful_and_shaggy">Sadık ve tüylü</string>
+    <string name="me_and_you">Ben ve Sen</string>
+    <string name="king_of_a_jungle">Ormanın Kralı</string>
+    <string name="valuable_tusk">Değerli tusk</string>
+    <string name="huge_and_harmonious">Büyük ve ahenkli</string>
+    <string name="forest_animals_home">Orman hayvanları ev</string>
+    <string name="lungs_of_the_world">Dünyanın akciğerleri</string>
+    <string name="wide_and_rapid">Geniş ve hızlı</string>
+    <string name="great_canyon">Büyük kanyon</string>
+    <string name="beach_party">Sahil partisi</string>
+    <string name="take_your_sledge">Sledge al</string>
+    <string name="lots_of_fresh_air">Bir sürü temiz hava</string>
+    <string name="mountain_chain">Sıra dağlar</string>
+    <string name="most_of_earth_surface">Toprak yüzeyinin büyük kısmı</string>
+    <string name="ferrari_speed">Ferrari hızı</string>
+    <string name="highway_to_points">Noktalara giden otoban</string>
+    <string name="that_is_your_spot">Bu senin yerin</string>
+    <string name="light_in_a_tunnel">Bir tünelde ışık</string>
+    <string name="sail_the_seas">Denizleri yelken</string>
+    <string name="all_lands_connected">Bütün topraklar bağlı</string>
+    <string name="mayor_house">Belediye başkanlığı evi</string>
+    <string name="culture_and_beauty">Kültür ve güzellik</string>
+    <string name="from_village_to_metropolis">Köyden metropole</string>
+    <string name="make_a_contact">Bir kişi olun</string>
+    <string name="ours_in_space">Uzaydaki Bizim</string>
+    <string name="rocked_fuel">Yakıtlı yakıt</string>
+    <string name="make_firs_step">Firs adım atın</string>
+    <string name="travel_with_no_borders">Sınırları Olmadan Seyahat</string>
+    <string name="advanced_shuttle_extraction">Gelişmiş mekik çıkarımı</string>
+    <string name="great_communication">Büyük iletişim</string>
+    <string name="eagle_eye">Şahin Gözü</string>
+    <string name="sky_has_no_limits">Sky\'ın bir sınırı yoktur</string>
+    <string name="diamonds_in_the_sky">Gökyüzünde elmas</string>
+    <string name="rock_us_to_sleep">Uykumuza yaslan</string>
+    <string name="dwarf_but_planet">Cüce ama gezegen</string>
+    <string name="closest_to_earth">En yakın yeryüzüne</string>
+    <string name="women_planet">Kadın gezegeni</string>
+    <string name="men_planet">Erkekler gezegeni</string>
+    <string name="kingdom_of_our_own">Kendi ülkem</string>
+    <string name="coldest_hurricane">En soğuk kasırga</string>
+    <string name="wield_a_trident">Üç kişiyi tutun</string>
+    <string name="ring_to_rule_them_all">Hepsini yönlendiren halka</string>
+    <string name="greatest_gas_giant">Büyük gaz devi</string>
+    <string name="slow_helium_synthesis">Yavaş helyum sentezi</string>
+    <string name="live_giver">Canlı verici</string>
+    <string name="rolling_stones">Yuvarlanan taşlar</string>
+    <string name="neutron_star">Nötron yıldızı</string>
+    <string name="supermassive_redness">Süper gerçek kızarıklık</string>
+    <string name="great_lightshow">Harika ışık gösterisi</string>
+    <string name="going_big">Giderek büyüyor</string>
+    <string name="going_bigger_and_bigger">Daha büyük ve daha büyük oluyor</string>
+    <string name="are_we_alone">Yalnız mıyız</string>
+
+    <!-- hints -->
+
+    <string name="string_hint" >The string theory assumes that the basic building blocks of matter are strings of magnitude 10–31 meters. The original string theory, called the theory of boson strings, was established in 1970</string>
+    <string name="quantum_foam_hint" >Quantum foam is a concept in quantum mechanics devised by John Wheeler in 1955. The foam is conceptualized as the foundation of the fabric of the Universe</string>
+    <string name="neutrino_hint" >Neutrino belongs to elementar particles. It\'s a fermion and i\'ts electrically nautral</string>
+    <string name="higgs_boson_hint" >The Higgs boson is an elementary particle that was discovered during experiments conducted in the Large Hadron Collider in CERN</string>
+    <string name="photon_hint" >A photon is an elementary particle that does not have an electrical charge. It\'s also a quanta of electromagnetic field, such as visible light.</string>
+    <string name="quark_hint" >A quark is a type of elementary particle and a fundamental constituent of matter. Quarks combine to form composite particles like protons and neutrons</string>
+    <string name="electron_hint" >The electron is a subatomic particle, with a negative elementary electric charge</string>
+    <string name="neutron_hint" >The neutron is a subatomic particle, with no net electric charge and a mass slightly larger than that of a proton. Protons and neutrons constitute the nuclei of atoms</string>
+    <string name="proton_hint" >A proton is a subatomic particle, with a positive electric charge and mass slightly less than that of a neutron. Protons and neutrons are collectively referred to as "nucleons".</string>
+
+    <string name="positron_hint" >The positron is the antiparticle or the antimatter counterpart of the electron. The positron has an electric charge of +1 e and has the same mass as an electron.</string>
+    <string name="nucleus_hint" >The atomic nucleus is the small, dense region consisting of protons and neutrons at the center of an atom. Almost all of the mass of an atom is located in the nucleus</string>
+    <string name="atom_hint" >An atom is the smallest constituent unit of ordinary matter. Every solid, liquid, gas, and plasma is composed of neutral or ionized atoms</string>
+    <string name="plasma_hint" >Plasma is a state of matter resembling an ionised gas. It is one of the four fundamental states of matter, and was first described by chemist Irving Langmuir in the 1920s. </string>
+    <string name="sound_wave_hint" >Sound is a vibration that propagates as an audible wave of pressure, through a  gas, liquid or solid. Humans can hear sound waves with frequencies between about 20Hz and 20kHz</string>
+    <string name="ion_beam_hint" >An ion beam is a type of charged particle beam consisting of ions. Some ion beams derive from the mercury vapor thrusters developed by NASA in the 1960s.</string>
+    <string name="isotope_hint" >Isotopes are variants of a particular chemical element which differ in neutron number. All isotopes of a given element have the same number of protons in each atom.</string>
+    <string name="hydrogen_hint" >Hydrogen is a chemical element with symbol H and atomic number 1. It is the lightest element on the periodic table, highly flammable.</string>
+    <string name="carbon_hint" >Carbon is a chemical element with symbol C and atomic number 6. It is nonmetallic.  Carbon is one of the few elements known since antiquity.</string>
+    <string name="oxygen_hint" >Oxygen is a chemical element with symbol O and atomic number 8. It is a highly reactive nonmetal. By mass, oxygen is the third-most abundant element in the universe.</string>
+    <string name="iron_hint" >Iron is a chemical element with symbol Fe. It is by mass the most common metal on Earth, forming much of Earth\'s outer and inner core.  </string>
+    <string name="xenon_hint" >Xenon is a chemical element with symbol Xe. It is a colorless, dense, odorless noble gas found in the Earth\'s atmosphere in trace amounts.</string>
+
+    <string name="water_hint" >Water is a transparent and colorless chemical substance that is the main constituent of Earth\'s lakes, oceans, and the fluids of most living organisms. Its chemical formula is H2O, meaning that its molecule contains one oxygen and two hydrogen atoms.</string>
+    <string name="salt_hint" >Salt is a mineral composed of sodium chloride (NaCl). Salt is essential for life in general, and saltiness is one of the basic human tastes. </string>
+    <string name="sand_hint" >Sand is a naturally occurring granular material composed of finely divided rock and mineral particles.The most common constituent of sand is silica (SiO2).</string>
+    <string name="hemoglobine_hint" >Hemoglobin is the iron-containing metalloprotein in the red blood cells. Hemoglobin in the blood carries oxygen from the lungs to the rest of the body.</string>
+    <string name="carbohydrate_hint" >A carbohydrate is a biological molecule consisting of carbon (C), hydrogen (H) and oxygen (O) atoms. Carbohydrates perform numerous roles in living organisms. </string>
+    <string name="lipid_hint" >Lipid is a substance of biological origin. It comprises a group of molecules that include fats, waxes, sterols and fat-soluble vitamins. The main functions of lipids is storing energy.</string>
+    <string name="dna_hint" >DNA is a molecule that carries the genetic instructions used in the growth, development, functioning and reproduction of all living organisms.</string>
+    <string name="protein_hint" >Proteins are large biomolecules, consisting of chains of amino acid residues. Proteins perform a vast array of functions within organisms.</string>
+    <string name="chromosome_hint" >A chromosome is a DNA molecule with part or all of the genetic material of an organism.</string>
+    <string name="cell_hint" >The cell is the basic structural, functional, and biological unit of all known living organisms. A cell is the smallest unit of life that can replicate independently.</string>
+    <string name="neuron_hint" >A neuron is an electrically excitable cell that receives, processes, and transmits information through electrical and chemical signals. Neurons are major components of the brain.</string>
+    <string name="microorganism_hint" >A microorganism is a microscopic organism, which may be single-celled or a cluster of cells.</string>
+
+    <string name="virus_hint" >A virus is a small infectious agent that replicates only inside the living cells of other organisms. Viruses can infect all types of life forms, from animals to plants.</string>
+    <string name="bacteria_hint" >Bacteria are microorganisms. They have micrometres in length and number of shapes. Bacteria were among the first life forms to appear on Earth.</string>
+    <string name="plant_cells_hint" >Plant cells are eukaryotic cells. There are many types of plant cells, each one has it\'s own function, the most known are cells responsible for photosynthesis.</string>
+    <string name="plankton_hint" >Plankton are collection of organisms that live in large bodies of water and are unable to swim against a current. They provide a source of food to many large aquatic organisms, such as fish and whales.</string>
+    <string name="athropod_hint" >An arthropod is an invertebrate animal having an exoskeleton, a segmented body, and paired jointed appendages. Arthropods are for example insects, arachnids, and crustaceans.</string>
+    <string name="mold_hint" >A mold is a fungus that grows in the form of multicellular filaments called hyphae. It appears sometimes on food.</string>
+    <string name="mushroom_hint" >A mushroom is the fleshy body of a fungus, typically produced above ground on soil or on its food source.</string>
+    <string name="leaf_hint" >A leaf is an organ of a vascular plant and is the lateral appendage of the stem. Leaves can be seen in many different shapes, sizes and textures.</string>
+    <string name="rose_hint" >A rose is a woody perennial flowering plant of the genus Rosa. There are over a hundred species and thousands of cultivars. They are often armed with sharp prickles.</string>
+    <string name="fern_hint" >A fern is a member of a group of vascular plants that reproduce via spores and have neither seeds nor flowers. </string>
+    <string name="apple_hint" >The apple tree is a deciduous tree best known for its sweet fruit, the apple. The tree originated in Central Asia.</string>
+    <string name="medusa_hint" >Jellyfish are softbodied, free-swimming aquatic animals with a gelatinous umbrella-shaped bell and trailing tentacles.</string>
+
+    <string name="ant_hint" >Ants belong to insects. We estimate, that 22,000 species exist, but only 12,500 have been classified.</string>
+    <string name="butterfly_hint" >Butterflies belong to insects. They grow from larvae to beautiful, colorful adults.</string>
+    <string name="mice_hint" >A mouse is a small rodent. It has a pointed snout, small rounded ears and scaly tail. The best known mouse species is the common house mouse. </string>
+    <string name="cat_hint" >Cat belong to mammals. It is a small and furry. There are more than 70 cat breeds.</string>
+    <string name="dog_hint" >Dog is a mammal and also descendant of a wolf. The dog was the first domesticated species, it\'s considered best friend of a human.</string>
+    <string name="human_hint" >Modern humans (Homo sapiens) are the only extant members of the tribe Hominini belonging to the family of great apes. They are characterized by high manual dexterity and a general trend toward more complex societies.</string>
+    <string name="lion_hint" >Lion is one of the big cats in the genus Panthera. It has been listed as Vulnerable on the IUCN Red List since 1996, as populations declined by about 43% since the early 1990s. </string>
+    <string name="elephant_hint" >Elephants are large mammals. Three species are currently recognized: the African elephant, the African elephant, and the Asian elephant. Elephants are common in Africa and Southeast Asia. </string>
+    <string name="whale_hint" >Whales are a group of fully sea mammals. Whales feed, mate, give birth, and raise their young at sea. Blue whales range in size to the 29.9 metres and 190 tons.</string>
+
+    <string name="tree_hint" >Tree is a plant with an elongated stem, supporting branches and leaves. It is estimated that there are just over 3 trillion mature trees in the world. The largest tree in the world is redwood.</string>
+    <string name="forest_hint" >A forest is a large area dominated by trees. Forests cover approximately 30% of the world\'s land area. They provide shelter to animals and humans, and produce oxygen that is necessary for life.</string>
+    <string name="river_hint" >A river is a natural flowing watercourse, usually freshwater, flowing towards an ocean, sea, lake or another river. The longest river in the World is Amazon in South America.</string>
+    <string name="canyon_hint" >A canyon is a deep cleft between escarpments or cliffs. It occours in the place where many years ago the river has flown. Best known is the Great Canyon in USA.</string>
+    <string name="shore_hint" >A shore is the fringe of land at the edge of a large body of water, such as an ocean, sea, or lake.</string>
+    <string name="glacier_hint" >A glacier is a body of dense ice that is constantly moving under its own weight. It forms over many years, often centuries. Glaciers form only on land.</string>
+    <string name="valley_hint" >A valley is a low area between hills, often with a river running through it. There are two types of valleys: U-shaped and V-shaped, depending on how they were created.</string>
+    <string name="mountain_hint" >A mountain is a large landform that stretches above the surrounding land. The highest mountain on Earth is Mount Everest in the Himalayas of Asia, whose summit is 8,850 m above mean sea level.</string>
+    <string name="ocean_hint" >An ocean is a body of saline water that composes much of a planet\'s hydrosphere. Oceans on Earth: Pacific, Atlantic, Indian, Southern (Antarctic), and Arctic. </string>
+
+    <string name="car_hint" >A car is a wheeled motor vehicle used for transportation.The year 1886 is regarded as the birth year of the modern car, when German inventor Karl Benz built his Benz Patent-Motorwagen.</string>
+    <string name="road_hint" >A road is a or way on land between two places that has been paved to allow travel by foot or some form of conveyance. The longest road in the World is Pan-American highway.</string>
+    <string name="house_hint" >A house is a building that functions as a home, ranging from simple dwellings and the improvised shacks to complex, fixed structures of wood, brick or concrete.</string>
+    <string name="lighthouse_hint" >A lighthouse is a building designed to emit light from a system of lamps and lenses, and to serve as a navigational aid for maritime pilots at sea or on inland waterways.</string>
+    <string name="boat_hint" >A boat is a watercraft designed to travel on water. There are few types of boats, human-powered (kayaks, canoes), sailboats or motorboats.</string>
+    <string name="bridge_hint" >A bridge is a structure built to span physical obstacles. Longest suspension bridge in the world is Akashi Kaikyō bridge (3911m).</string>
+    <string name="village_hint" >A village is a clustered human settlement or community, smaller than a town, with a population ranging from a few hundred to a few thousand.</string>
+    <string name="opera_hint" >An opera house is a theatre building used for opera performances that consists of a stage, an orchestra pit, audience seating, and backstage.</string>
+    <string name="city_hint" >A city is a large human settlement. The biggest city in the world is Tokyo in Japan (38140000 inhabitants)</string>
+
+    <string name="satellite_hint" >Satellite is an artificial object which has been intentionally placed into orbit. In 1957 the Soviet Union launched the world\'s first artificial satellite, Sputnik 1. </string>
+    <string name="astronaut_hint" >An astronaut or cosmonaut is a person trained by a human spaceflight program to command, pilot, or serve as a crew member of a spacecraft.</string>
+    <string name="rocket_hint" >A rocket is a missile, spacecraft, aircraft or other vehicle that obtains thrust from a rocket engine. Rockets consist of a tank and a nozzle. They may also have rocket engines, wings, parachutes or wheels.</string>
+    <string name="moon_lander_hint" >A Moon lander is a spacecraft design to land on the surface of the Moon. The United States\' Apollo 11 was the first manned mission to land on the Moon, on 20 July 1969.</string>
+    <string name="shuttle_hint" >The Space Shuttle was a partially reusable low Earth orbital spacecraft. The first of four orbital test flights occurred in 1981. The Shuttle fleet\'s total mission time was 1322 days, 19 hours, 21 minutes and 23 seconds.</string>
+    <string name="launchpad_hint" >A launch pad is an above-ground platform from which a rocket-powered missile or space vehicle is vertically launched. </string>
+    <string name="flight_center_hint" >The George C. Marshall Space Flight Center is located in Huntsville, Alabama. MSFC\'s first mission was developing the Saturn launch vehicles for the Apollo moon program. </string>
+    <string name="telescope_hint" >A telescope is an optical instrument that aids in the observation of remote objects. The first  telescopes were invented in the Netherlands at the beginning of the 17th century.</string>
+    <string name="space_station_hint" >A space station is a spacecraft capable of supporting crew members, which is designed to remain in space for an extended period of time and for other spacecraft to dock. </string>
+
+    <string name="comet_hint" >A comet is an icy small Solar System body that, when passing close to the Sun, warms and begins to release gases. This produces a visible atmosphere and sometimes also a tail. </string>
+    <string name="moon_hint" >The Moon is an astronomical body that orbits planet Earth, being Earth\'s only permanent natural satellite.</string>
+    <string name="pluto_hint" >Pluto was originally considered to be the ninth planet from the Sun, but in 2006 it has been reclassified to a dwarf planet.</string>
+    <string name="mercury_hint" >Mercury is the smallest planet in the Solar System. From Earth it can only be seen in the morning or the evening sky.</string>
+    <string name="venus_hint" >Venus is the second planet from the Sun. It has no natural satellites. It is named after the Roman goddess of love and beauty.</string>
+    <string name="mars_hint" >Mars is the fourth planet from the Sun and the second-smallest planet in the Solar System after Mercury. Mars carries a name of the Roman god of war.</string>
+    <string name="earth_hint" >Earth is the third planet from the Sun and the only object in the Universe known to harbor life. Earth formed over 4 billion years ago.</string>
+    <string name="uranus_hint" >Uranus is the seventh planet from the Sun. It is the coldest planetary atmosphere in the Solar System, with a minimum temperature of 49 K (−224 °C; −371 °F). Uranus is one of the "ice giants"</string>
+    <string name="neptune_hint" >Neptune is the eighth and farthest known planet from the Sun in the Solar System. It\'s one of the "ice giants".  Neptune is named after the Roman god of the sea. </string>
+    <string name="saturn_hint" >Saturn is the sixth planet from the Sun and the second-largest in the Solar System, after Jupiter. It is a gas giant. Saturn is named after the Roman god of agriculture.</string>
+    <string name="jupiter_hint" >Jupiter is the fifth planet from the Sun and the largest in the Solar System. Jupiter and Saturn are gas giants. Jupiter has been known to astronomers since antiquity.</string>
+
+    <string name="red_dwarf_hint" >A red dwarf is a small and relatively cool star. Red dwarfs are the most common type of star in the Milky Way.</string>
+    <string name="sun_hint" >The Sun is the star at the center of the Solar System. It is the most important source of energy for life on Earth. About three quarters of the Sun\'s mass consists of hydrogen (~73 percent); the rest is mostly helium (~25 percent).</string>
+    <string name="solar_system_hint" >The Solar System is the gravitationally bound system comprising the Sun and the objects that orbit it (planets, dwarf planets and small Solar System bodies). The Solar System formed 4.6 billion years ago.</string>
+    <string name="pulsar_hint" >A pulsar is a highly magnetized, rotating neutron star or white dwarf, that emits a beam of electromagnetic radiation. This radiation can be observed only when the beam of emission is pointing toward Earth.</string>
+    <string name="red_giant_hint" >A red giant is a luminous giant star of low mass in a late phase of stellar evolution. The appearance of the red giant is from yellow-orange to red.</string>
+    <string name="ray_burst_hint" >Gamma-ray bursts are extremely energetic explosions that have been observed in distant galaxies. They are the brightest electromagnetic events known to occur in the universe. Bursts can last from ten milliseconds to several hours. </string>
+    <string name="galaxy_hint" >A galaxy is a gravitationally bound system of stars, interstellar gas, dust, and dark matter. Our Solar System is located in Milky Way galaxy. </string>
+    <string name="galaxy_group_hint" >A galaxy group is an aggregation of galaxies comprising about 50 or fewer gravitationally bound members. The Milky Way galaxy is part of a group of galaxies called the Local Group.</string>
+    <string name="supercluster_hint" >A supercluster is a large group of smaller galaxy groups. It is the largest-known structure of the cosmos. The Milky Way is part of the Local Group galaxy cluster (that contains more than 54 galaxies), which in turn is part of the Laniakea Supercluster.</string>
+
+</resources>

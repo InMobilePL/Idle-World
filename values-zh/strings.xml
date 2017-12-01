@@ -1,0 +1,687 @@
+<resources>
+    <string name="app_name">Idle World</string>
+    <string name="title_activity_login">登录</string>
+
+    <!-- Values -->
+    <string name="zero">0</string>
+    <string name="base_multiplier">1.0</string>
+    <string name="double_multiplier">2.0</string>
+    <string name="x">x</string>
+
+    <!-- Button states -->
+    <string name="cancel">取消</string>
+    <string name="close">关闭</string>
+    <string name="ok">确定</string>
+
+    <!-- Failed state restore -->
+    <string name="failed_restore_title">我很抱歉</string>
+    <string name="failed_restore_body">因为进行了重要的游戏改动，你的宇宙已被重置。将来的版本中，会将其改进以避免这种情况发生。</string>
+
+    <!-- Validation -->
+    <string name="username_invalid">用户名无效，仅允许字母和数字</string>
+    <string name="username_taken">用户名已被占用</string>
+    <string name="username_empty">用户名为空</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">用户名</string>
+    <string name="prompt_password">密码(可选)</string>
+    <string name="action_sign_in">登录</string>
+    <string name="login_to_see_highscores">登录以查看高分纪录</string>
+    <string name="you_can_enter_password">你可以输入密码从其他设备中访问你的用户帐号。</string>
+    <string name="username_will_register">如未使用过，将注册用户名</string>
+
+    <!-- Strings related to instructions -->
+    <string name="if_element_glows">发光元素可以通过消耗<b>资源</b>进行购买</string>
+    <string name="each_element">每个元素都能让你得到 <b>资源</b> 以更快发展</string>
+    <string name="grow_your_world">将你的世界从 <b>原子</b> 发展成整个 <b>星系</b></string>
+    <string name="more_energy_you_have">你持有的元素越多，你得到的资源就越多</string>
+    <string name="more_resources">这里有很多你需要收集的资源</string>
+    <string name="last_part">最后一步</string>
+    <string name="new_elements_construction">你可以在构造标签中解锁新的元素</string>
+    <string name="world_grows_idle">即使你离开游戏，你的世界仍然在发展！</string>
+    <string name="check_leaderboard">别忘了在排行榜中查看你的进度</string>
+    <string name="build_it">开始构造</string>
+    <string name="skip"><![CDATA[跳过 >>]]></string>
+    <string name="welcome">欢迎</string>
+    <string name="universe_awaits">你的宇宙等你来开启</string>
+    <string name="down_arrow">▼</string>
+    <string name="next">下一步</string>
+
+    <!-- Settings activity -->
+    <string name="view_instructions">游戏帮助</string>
+    <string name="instructions">游戏说明</string>
+    <string name="background_music">背景音乐</string>
+    <string name="energy_display_type">资源显示类型</string>
+    <string name="long_numbers">长数</string>
+    <string name="scientific_notation">科学计数法</string>
+    <string name="preview_small">小数字:</string>
+    <string name="preview_big">大数字:</string>
+    <string name="cloud_sync_coming_soon">云同步</string>
+    <string name="change_it_display_type">你也可以点击任何数字以改变其显示类型。</string>
+    <string name="thanks_for">特别致谢:</string>
+    <string name="icons_source_icons8">图标来源 : Icons8</string>
+    <string name="image_source_unsplash">图片来源 : Unsplash</string>
+    <string name="language">语言</string>
+    <string name="translation_halil_kopuz">Translation TR: <b>Halil Kopuz, Deniz Kağan Dursun</b></string>
+    <string name="translation_tony">Translation FR: <b>Tony A. "Gorska"</b></string>
+    <string name="translation_robert">Translation DE: <b>Robert B. Lavars</b>, <b>Thomas Kupka</b></string>
+    <string name="translation_vasil">Translation RU: <b>VasilRaven, Reindee</b></string>
+    <string name="translation_zsemi">Translation HU: <b>zsemi02</b></string>
+    <string name="translation_joao">Translation BR: <b>João Paulo</b></string>
+    <string name="translation_thedashcolour">Translation IT: <b>Thedashcolour</b></string>
+    <string name="translation_dejan">Translation BA: <b>Dejan Misic</b></string>
+    <string name="translation_majestangel">Translation ES: <b>MajestAngel</b></string>
+    <string name="translation_roman">Translation CZ: <b>Roman Vietze</b></string>
+    <string name="translation_majida">Translation ZH: <b>Majida Whale</b></string>
+
+    <!-- Black hole dialog -->
+    <string name="blackhole_confirm">你确定吗?</string>
+    <string name="blackhole_warning_body">你的收益仍会增长，但是你的宇宙将会抹除。你的分数仍会保留。</string>
+    <string name="blackhole_too_slow">太慢了？快试一下黑洞倍增器！</string>
+    <string name="blackholeMultiplikator">黑洞倍增器</string>
+
+    <!-- Construction results -->
+    <string name="bought_body">恭喜，新的元素树构造完成</string>
+    <string name="bought_title">已构造</string>
+    <string name="not_enough_energy_body">你需要获取更多资源才能构造这个</string>
+    <string name="not_enough_energy_title">资源不足</string>
+    <string name="missing_requirements_body">尚未满足某些条件，请检查你是否已经全部满足。</string>
+    <string name="missing_requirements_title">条件缺失</string>
+    <string name="unexpected_body">出乎意料的构造，宇宙仍在进化中</string>
+    <string name="unexpected_title">熵</string>
+
+    <!-- Ads -->
+    <string name="income_doubled">你的闲置收益已加倍。</string>
+    <string name="ad_unavailable_body">时空连续介质受到威胁，时间扭曲当前不可用。请稍后再试。</string>
+    <string name="ad_unavailable_title">濒危</string>
+
+    <!-- Black hole activity -->
+    <string name="multiply_your_income">倍增你的收益！</string>
+    <string name="current_income_multiplier">当前收益倍增器 : x</string>
+    <string name="new_income_multiplier">新的收益倍增器 : x</string>
+    <string name="universe_big_enough">如果你的宇宙庞大到可以摧毁以及被黑洞所吞噬。你的新收益将会根据你的宇宙大小进行计算。</string>
+    <string name="universe_disappear">你的整个宇宙将会消失殆尽</string>
+    <string name="score_will_remain">你的分数将会保留</string>
+    <string name="all_parts_removed">将移除所有宇宙部分，你的游戏将重新开始，但是你的收益将通过黑洞倍增器不断增长。</string>
+    <string name="collapse_universe">摧毁宇宙</string>
+
+    <!-- Construction activity -->
+    <string name="total_energy">资源总数 :</string>
+    <string name="income">收益 :</string>
+    <string name="base_warp">(x2 00:00:00)</string>
+    <string name="all_constructions_created">所有构造创建完成</string>
+    <string name="build_bigger">回到建造更大、更广阔的宇宙当中</string>
+    <string name="universe_panel">宇宙面板</string>
+    <string name="get_more_by_blackhole">或者你可以使用黑洞从你的宇宙中获取更多</string>
+    <string name="black_hole_panel">黑洞面板</string>
+    <string name="buy_elements_to_unlock">购买元素以解锁新的构造</string>
+    <string name="all">全部</string>
+    <string name="construction_tab">构造</string>
+    <string name="bonus">加成</string>
+    <string name="bonus_income">加成 (收益)</string>
+    <string name="swipe_to_bonus_hint">轻扫 ▶ 以查看可用的加成</string>
+    <string name="bonuses_unlocked">已解锁</string>
+
+    <!-- Leaderboard activity -->
+    <string name="score">分数</string>
+    <string name="your_score">你的分数</string>
+    <string name="username">用户名</string>
+    <string name="base_place">0</string>
+    <string name="global_most_massive_universe">全球最庞大的宇宙</string>
+    <string name="highest_black_hole_multiplier">最高的黑洞倍增器</string>
+
+    <!-- Summary Activity -->
+    <string name="increase_income">提高收益 x2 (1h)</string>
+    <string name="time_warp">时间扭曲</string>
+    <string name="leaderboard">排行榜</string>
+
+    <!-- Add username dialog -->
+    <string name="set_username">设置用户名以查看高分纪录</string>
+
+    <!-- Construction control -->
+    <string name="requirements">条件</string>
+    <string name="construction_result">构造结果</string>
+    <string name="generates">生成</string>
+
+    <!-- Element tile -->
+    <string name="buy">购买</string>
+
+    <!-- Generated universe -->
+    <string name="your_universe_mass">你的宇宙质量</string>
+    <string name="units">(单位)</string>
+
+    <!-- Idle income dialog -->
+    <string name="your_idle_income">你的闲置收益</string>
+    <string name="watch_to_double">你可以通过观看广告使你的收益加倍</string>
+    <string name="double_income">双倍收益</string>
+
+    <!-- Part buy dialog -->
+    <string name="cost">成本 :</string>
+    <string name="total">收益 :</string>
+    <string name="bought">已买</string>
+
+    <!-- Summary element-->
+    <string name="total_income">总收益</string>
+
+    <!-- Major update dialog -->
+    <string name="thanks_for_updating">感谢你更新游戏。在游戏系统中作出了较大的改动，不幸的是，你需要重新创造宇宙。</string>
+    <string name="these_changes_are_necessary">这些改动是为 <b>Idle World</b> 的将来开发所<u>必需的</u>，但是你既可以选择保留你的黑洞倍增器或者彻底重新开始。</string>
+    <string name="growth_of_this_game"><b>谢谢你</b> 投入到这个游戏的发展!</string>
+    <string name="major_update">重大更新</string>
+    <string name="clean_start">彻底重玩</string>
+    <string name="keep_multiplier">保留倍增器</string>
+    <string name="your_score_remains_unchanged"><b>你的分数保持不变</b></string>
+
+    <!-- Top Panel -->
+    <string name="resources">资源</string>
+
+    <!-- Google Play Services -->
+    <string name="signin_other_error">登录时发生错误。请稍后在设置中重试。</string>
+    <string name="sign_in_failed">登录失败。请检查您的网络连接并在设置中重试。</string>
+    <string name="choose_save_option">选择保存选项</string>
+    <string name="local_saves">本地保存，储存到设备上。快速、不需要互联网连接。</string>
+    <string name="online_cloud_stored">云端保存。允许跨多台设备游玩。</string>
+    <string name="this_option">此选项可随时在设置中更改。</string>
+    <string name="show_all_cloud_saved_games">显示所有云端保存的游戏</string>
+    <string name="saves">保存</string>
+    <string name="no_internet_offline_state">无网络连接。恢复至离线状态。</string>
+
+    <!-- Resources translation -->
+    <string name="energy">能量</string>
+    <string name="life">生命</string>
+    <string name="tech">科技</string>
+    <string name="cosmic">外空</string>
+
+    <string name="quantum">量子</string>
+    <string name="nano">纳诺</string>
+    <string name="complex">复合物</string>
+    <string name="bio">生物</string>
+    <string name="organism">有机体</string>
+    <string name="landscape">景观</string>
+    <string name="construction">构造</string>
+    <string name="cosmos">外空</string>
+    <string name="space">太空</string>
+    <string name="universe">宇宙</string>
+
+    <string name="locked">已锁定</string>
+    <string name="string">弦</string>
+    <string name="quantum_foam">量子泡沫</string>
+    <string name="neutrino">中微子</string>
+    <string name="higgs_boson">希格斯玻色子</string>
+    <string name="photon">光子</string>
+    <string name="quark">夸克</string>
+    <string name="electron">电子</string>
+    <string name="neutron">中子</string>
+    <string name="proton">质子</string>
+    <string name="positron">阳电子</string>
+    <string name="nucleus">原子核</string>
+    <string name="atom">原子</string>
+    <string name="plasma">等离子体</string>
+    <string name="sound_wave">声波</string>
+    <string name="ion_beam">离子束</string>
+    <string name="isotope">同位素</string>
+    <string name="hydrogen">氢</string>
+    <string name="carbon">碳</string>
+    <string name="oxygen">氧</string>
+    <string name="iron">铁</string>
+    <string name="xenon">氙</string>
+    <string name="water">水</string>
+    <string name="salt">盐</string>
+    <string name="sand">沙</string>
+    <string name="hemoglobine">血红蛋白E</string>
+    <string name="carbohydrate">碳水化合物</string>
+    <string name="lipid">脂质</string>
+    <string name="dna">DNA</string>
+    <string name="protein">蛋白质</string>
+    <string name="chromosome">染色体</string>
+    <string name="cell">细胞</string>
+    <string name="neuron">神经细胞</string>
+    <string name="microorganism">微生物</string>
+    <string name="virus">病毒</string>
+    <string name="bacteria">细菌</string>
+    <string name="plant_cells">植物细胞</string>
+    <string name="plankton">浮游生物</string>
+    <string name="athropod">节肢动物</string>
+    <string name="mold">霉菌</string>
+    <string name="mushroom">蘑菇</string>
+    <string name="leaf">叶子</string>
+    <string name="rose">玫瑰</string>
+    <string name="fern">蕨类植物</string>
+    <string name="apple">苹果</string>
+    <string name="medusa">水母</string>
+    <string name="ant">蚂蚁</string>
+    <string name="butterfly">蝴蝶</string>
+    <string name="mice">老鼠</string>
+    <string name="cat">猫</string>
+    <string name="dog">狗</string>
+    <string name="human">人类</string>
+    <string name="lion">狮子</string>
+    <string name="elephant">大象</string>
+    <string name="whale">鲸</string>
+    <string name="tree">树</string>
+    <string name="forest">森林</string>
+    <string name="river">河流</string>
+    <string name="canyon">峡谷</string>
+    <string name="shore">海滨</string>
+    <string name="glacier">冰川</string>
+    <string name="valley">溪谷</string>
+    <string name="mountain">山脉</string>
+    <string name="ocean">海洋</string>
+    <string name="car">车</string>
+    <string name="road">路</string>
+    <string name="house">房子</string>
+    <string name="lighthouse">灯塔</string>
+    <string name="boat">船</string>
+    <string name="bridge">桥</string>
+    <string name="village">村庄</string>
+    <string name="opera">歌剧院</string>
+    <string name="city">城市</string>
+    <string name="satellite">卫星</string>
+    <string name="astronaut">宇航员</string>
+    <string name="rocket">火箭</string>
+    <string name="moon_lander">登月舱</string>
+    <string name="shuttle">航天飞机</string>
+    <string name="launchpad">发射台</string>
+    <string name="flight_center">飞行中心</string>
+    <string name="telescope">望远镜</string>
+    <string name="space_station">空间站</string>
+    <string name="comet">彗星</string>
+    <string name="moon">月球</string>
+    <string name="pluto">冥王星</string>
+    <string name="mercury">水星</string>
+    <string name="venus">金星</string>
+    <string name="mars">火星</string>
+    <string name="earth">地球</string>
+    <string name="uranus">天王星</string>
+    <string name="neptune">海王星</string>
+    <string name="saturn">土星</string>
+    <string name="jupiter">木星</string>
+    <string name="red_dwarf">红矮星</string>
+    <string name="sun">太阳</string>
+    <string name="solar_system">太阳系</string>
+    <string name="pulsar">脉冲星</string>
+    <string name="red_giant">红巨星</string>
+    <string name="ray_burst">射线爆发</string>
+    <string name="galaxy">星系</string>
+    <string name="galaxy_group">星系群</string>
+    <string name="supercluster">超星系团</string>
+
+    <!-- Bonuses -->
+    <string name="good_place_to_start">开始的好地方</string>
+    <string name="barely_detectable">难以察觉</string>
+    <string name="great_discovery">伟大发现</string>
+    <string name="enlightened">开明</string>
+    <string name="building_blocks">积木</string>
+    <string name="life_base">生命之基础</string>
+    <string name="you_can_breathe">你可以呼吸!</string>
+    <string name="interesting_glow">有趣的辉光</string>
+    <string name="let_it_flow">随风而去</string>
+    <string name="start_thinking">开始动脑</string>
+    <string name="start_living">开始生存</string>
+    <string name="quantum_master">量子大师</string>
+    <string name="virology">病毒学</string>
+    <string name="let_it_grow">随它发展</string>
+    <string name="women_love_them">女人的挚爱</string>
+    <string name="build_colony">建立殖民地</string>
+    <string name="like_cat_and_dog">争斗激烈</string>
+    <string name="pack_of_friends">朋友成群</string>
+    <string name="seven_of_them">其中七个</string>
+    <string name="life_master">生活的主人</string>
+    <string name="motorization">动力化</string>
+    <string name="infrastructure">基础结构</string>
+    <string name="city_that_never_sleeps">不夜城</string>
+    <string name="to_the_skies">直入云霄</string>
+    <string name="best_of_best">最佳之最</string>
+    <string name="all_about_communication">关于通信</string>
+    <string name="tech_master">科技的主人</string>
+    <string name="make_a_wish">许个愿</string>
+    <string name="home_sweet_home">家，甜蜜的家</string>
+    <string name="look_at_those_rings">看这些戒指</string>
+    <string name="little_star">小星星</string>
+    <string name="our_brightest">我们最耀眼</string>
+    <string name="all_powerful">无所不能</string>
+    <string name="all_what_is_observable">纵览一切</string>
+    <string name="cosmic_master">宇宙的主人</string>
+    <string name="back_to_basics">回归本始</string>
+    <string name="foamy">多泡构造</string>
+    <string name="feel_the_charge">感受电荷</string>
+    <string name="what_constructs_you">什么造就了你</string>
+    <string name="can_you_hear_it">你能听到吗</string>
+    <string name="ionized">电离</string>
+    <string name="iron_man">钢铁人</string>
+    <string name="salty">含盐</string>
+    <string name="you_dont_get_fat">你不会发胖</string>
+    <string name="whats_interesting_in_life">人生的乐趣是什么</string>
+    <string name="they_are_dangerous">它们很危险</string>
+    <string name="dont_get_poisonous">切勿中毒</string>
+    <string name="thermopiles">热电堆</string>
+    <string name="heavy_weight">重量级</string>
+    <string name="deep_and_dark">深沉而黑暗</string>
+    <string name="show_them_the_way">给它们指路</string>
+    <string name="we_are_landing">我们正在着陆</string>
+    <string name="red_planet">红色的植物</string>
+    <string name="really_cold_ones">真的很冷</string>
+    <string name="its_ultra_big">可以说是超大</string>
+
+    <!-- 500 -->
+    <string name="base_of_universe">宇宙的基础</string>
+    <string name="foam_of_creation">创造之泡沫</string>
+    <string name="full_neutrino">完整的中微子</string>
+    <string name="bosonification">开垦</string>
+    <string name="full_spark_of_light">完整的光之火花</string>
+    <string name="you_need_more_quark">你需要更多的夸克</string>
+    <string name="electrification">电气化</string>
+    <string name="heavy_mass">重力质量</string>
+    <string name="adds_a_charge">加入一个电荷</string>
+    <string name="neglects_electrons">忽略电子</string>
+    <string name="core_is_important">核心至关重要</string>
+    <string name="basis_of_matter">物质基础</string>
+    <string name="fluctuation">波动</string>
+    <string name="sound_power">声功率</string>
+    <string name="ion_challenge">离子挑战</string>
+    <string name="glowing_dangerously">致命地发光</string>
+    <string name="small_yet_important">虽小但重要</string>
+    <string name="connect_them_in_chains">用链条连接起来</string>
+    <string name="good_to_have_it">好想拥有它</string>
+    <string name="solid_squad">固体部队</string>
+    <string name="rare_and_beautiful">稀有且迷人</string>
+    <string name="tidal_wave">浪潮</string>
+    <string name="tasteful">趣味高雅</string>
+    <string name="form_a_beach">形成海滩</string>
+    <string name="fill_your_veins">堵住静脉</string>
+    <string name="extract_power_from_this">从中汲取能量</string>
+    <string name="greasy_greasy">油腻多脂</string>
+    <string name="like_a_code">宛如代码</string>
+    <string name="protein_whey">乳清蛋白</string>
+    <string name="full_genome">完整基因组</string>
+    <string name="cell_regeneration">细胞再生</string>
+    <string name="nervous_system">神经系统</string>
+    <string name="look_how_tiny_and_cute">这般渺小可爱</string>
+    <string name="virus_infection">病毒感染</string>
+    <string name="bacterial_colony">菌落</string>
+    <string name="plant_tissue">植物组织</string>
+    <string name="plankton_flock">浮游生物群</string>
+    <string name="crawling_squad">爬行部队</string>
+    <string name="molded_world">模塑世界</string>
+    <string name="forest_mushrooms">森林蘑菇</string>
+    <string name="leaf_crown">叶冠</string>
+    <string name="red_rose_carpet">红玫瑰地毯</string>
+    <string name="intensive_green">密集型绿化</string>
+    <string name="feeding_the_world">养活世界</string>
+    <string name="gelly_flock">吉利羊群</string>
+    <string name="strong_ant_colony">强大的蚁群</string>
+    <string name="beautiful_wings">美丽的翅膀</string>
+    <string name="mice_colony">鼠群</string>
+    <string name="home_pets">家中宠物</string>
+    <string name="man_best_friend">人类最好的朋友</string>
+    <string name="look_in_the_mirror">照镜子</string>
+    <string name="fierce_and_strong">凶猛且强大</string>
+    <string name="heavy_lifter">重型升降机</string>
+    <string name="beautiful_giants">美丽的巨星</string>
+    <string name="park">公园</string>
+    <string name="whole_jungle">整个丛林</string>
+    <string name="winding_and_long">弯又长</string>
+    <string name="deep_and_magnificent">深奥且壮丽</string>
+    <string name="wide_and_sandy">广阔且多沙</string>
+    <string name="dont_let_them_melt">别让它们融化</string>
+    <string name="grass_up_to_horizon">绿茵盖住地平线</string>
+    <string name="hiking_trip">徒步旅行</string>
+    <string name="deep_mysteries">深奥谜团</string>
+    <string name="whole_car_brand">整个汽车品牌</string>
+    <string name="lots_of_intersections">众多交集</string>
+    <string name="feel_comfortable_here">在这里怡然自得</string>
+    <string name="it_shows_a_way">指明道路</string>
+    <string name="magnificent_fleet">宏大的舰队</string>
+    <string name="rivers_are_no_problem">河流是没问题的</string>
+    <string name="build_a_community">建立一个群落</string>
+    <string name="everlasting_culture">永恒的文明</string>
+    <string name="glory_of_construction">构造的荣耀</string>
+    <string name="looking_for_data">寻找数据</string>
+    <string name="proud_explorers">骄傲的探险家</string>
+    <string name="rocket_science">火箭科学</string>
+    <string name="landing_gears">着陆装置</string>
+    <string name="space_travels">太空旅行</string>
+    <string name="launchpads_for_everyone">所有人的发射台</string>
+    <string name="everything_under_control">一切尽在掌握</string>
+    <string name="looking_everywhere">四处环顾</string>
+    <string name="space_for_us">我们的专属空间</string>
+    <string name="flying_rocks_with_tails">飞石之尾</string>
+    <string name="hello_again_old_friend">再次问好老朋友</string>
+    <string name="back_in_my_days">重返旧日</string>
+    <string name="dont_get_burned">切勿引火烧身</string>
+    <string name="chemical_maelstorm">化学大漩涡</string>
+    <string name="maybe_there_is_water">这里可能有水</string>
+    <string name="there_is_only_one_earth">只有一个地球</string>
+    <string name="increase_his_mass">增加他的质量</string>
+    <string name="dangerously_cold">致命之寒</string>
+    <string name="crown_jewel">皇冠之珠</string>
+    <string name="big_brother">老大哥</string>
+    <string name="small_yet_strong">小而强壮</string>
+    <string name="hope_it_shine">希望有光泽</string>
+    <string name="all_in_order">有条不紊</string>
+    <string name="pulsing_with_energy">脉动能量</string>
+    <string name="hydrogen_eater">噬氢者</string>
+    <string name="the_most_distant_phenomenon">最遥远的现象</string>
+    <string name="so_vast_yet_structurized">这般浩瀚且结构化</string>
+    <string name="giants_order">巨星秩序</string>
+    <string name="everlasting_universe">永恒的宇宙</string>
+
+    <!-- 1000 -->
+    <string name="true_beginning">真正的开始</string>
+    <string name="thick_fog">浓雾</string>
+    <string name="these_are_everywhere">它们无处不在</string>
+    <string name="hard_proven_existence">努力证明存在</string>
+    <string name="laser_beam">激光束</string>
+    <string name="almost_enough_quarks">夸克几乎够了</string>
+    <string name="why_so_negative">为什么如此消极</string>
+    <string name="always_neutral">始终保持中立</string>
+    <string name="stay_positive">保持乐观</string>
+    <string name="electron_mutual_annihilation">电子相互湮灭</string>
+    <string name="nuclear_force">核力</string>
+    <string name="from_atoms_to_particles">从原子到微粒</string>
+    <string name="plasma_fountain">等离子喷泉</string>
+    <string name="getting_louder">越来越响</string>
+    <string name="big_stream_of_ions">离子的大流</string>
+    <string name="collect_them_all">收集全部</string>
+    <string name="highly_flammable">高度易燃</string>
+    <string name="big_organic_particles">大颗有机粒子</string>
+    <string name="breathe_deeply">深呼吸</string>
+    <string name="you_cleared_the_mine">你清除了矿山</string>
+    <string name="and_still_passive">仍处于被动</string>
+    <string name="waterfalls">瀑布</string>
+    <string name="perfect_couple_with_pepper">与胡椒天生一对</string>
+    <string name="sandcastle">沙塔</string>
+    <string name="red_transporter">红色运输机</string>
+    <string name="full_of_energy">充满能量</string>
+    <string name="to_much_on_your_belly">胃承受不来</string>
+    <string name="better_do_not_make_mistake">最好别出差错</string>
+    <string name="muscles_up">锻炼肌肉</string>
+    <string name="make_a_life">创造生命</string>
+    <string name="basis_of_every_body">身体的基础</string>
+    <string name="think_well">好好想想</string>
+    <string name="look_very_closely">凑近看</string>
+    <string name="runny_nose">流鼻涕</string>
+    <string name="better_wash_your_hands">最好洗一下手</string>
+    <string name="full_of_photosynthesis">净是光学作用</string>
+    <string name="feed_your_whale">喂养你的鲸鱼</string>
+    <string name="many_many_legs">无数条腿</string>
+    <string name="plains_of_mold">霉菌平原</string>
+    <string name="sure_it_is_edible">确定可以吃吗?</string>
+    <string name="green_red_yellow">绿红黄</string>
+    <string name="every_rose_has_thorn">每朵玫瑰都带刺</string>
+    <string name="bottom_of_forest">森林之下</string>
+    <string name="one_that_seduced_Adam">唯一诱惑亚当</string>
+    <string name="massive_jelly">块状果冻</string>
+    <string name="strength_in_group">群体的力量</string>
+    <string name="so_delicate">这般微妙</string>
+    <string name="mice_attack">鼠群的攻击</string>
+    <string name="walks_its_own_path">走自己的路</string>
+    <string name="faithful_and_shaggy">忠实且蓬松</string>
+    <string name="me_and_you">我和你</string>
+    <string name="king_of_a_jungle">丛林之王</string>
+    <string name="valuable_tusk">价值连城的象牙</string>
+    <string name="huge_and_harmonious">庞大且和睦</string>
+    <string name="forest_animals_home">森林，动物的家</string>
+    <string name="lungs_of_the_world">世界之肺</string>
+    <string name="wide_and_rapid">广阔且迅速</string>
+    <string name="great_canyon">大峡谷</string>
+    <string name="beach_party">海滩派对</string>
+    <string name="take_your_sledge">带上你的雪橇</string>
+    <string name="lots_of_fresh_air">多的是新鲜空气</string>
+    <string name="mountain_chain">山中之脉</string>
+    <string name="most_of_earth_surface">大部分地球表面</string>
+    <string name="ferrari_speed">法拉利的速度</string>
+    <string name="highway_to_points">地点的捷径</string>
+    <string name="that_is_your_spot">那就是你的位置</string>
+    <string name="light_in_a_tunnel">隧道之光</string>
+    <string name="sail_the_seas">海洋航行</string>
+    <string name="all_lands_connected">各地相连</string>
+    <string name="mayor_house">市长官邸</string>
+    <string name="culture_and_beauty">文明与美</string>
+    <string name="from_village_to_metropolis">从村庄到首府</string>
+    <string name="make_a_contact">发出联络</string>
+    <string name="ours_in_space">我们在太空</string>
+    <string name="rocked_fuel">火箭燃料</string>
+    <string name="make_firs_step">踏出第一步</string>
+    <string name="travel_with_no_borders">畅游无阻</string>
+    <string name="advanced_shuttle_extraction">先进航天飞机的提炼</string>
+    <string name="great_communication">出色的交流</string>
+    <string name="eagle_eye">鹰眼</string>
+    <string name="sky_has_no_limits">太空无边无际</string>
+    <string name="diamonds_in_the_sky">天空中闪耀的星</string>
+    <string name="rock_us_to_sleep">摇滚入睡</string>
+    <string name="dwarf_but_planet">虽矮却行星</string>
+    <string name="closest_to_earth">地球近距离</string>
+    <string name="women_planet">女人星球</string>
+    <string name="men_planet">男人星球</string>
+    <string name="kingdom_of_our_own">我们的专属王国</string>
+    <string name="coldest_hurricane">极寒风暴</string>
+    <string name="wield_a_trident">挥舞三叉戟</string>
+    <string name="ring_to_rule_them_all">回响解决一切</string>
+    <string name="greatest_gas_giant">最大的气体巨星</string>
+    <string name="slow_helium_synthesis">减慢氦的合成</string>
+    <string name="live_giver">生活给予者</string>
+    <string name="rolling_stones">滚石</string>
+    <string name="neutron_star">中子星</string>
+    <string name="supermassive_redness">超大质量的红色物体</string>
+    <string name="great_lightshow">精彩的灯光秀</string>
+    <string name="going_big">逐渐变大</string>
+    <string name="going_bigger_and_bigger">变得越来越大</string>
+    <string name="are_we_alone">我们是否孤独</string>
+
+    <!-- hints -->
+
+    <string name="string_hint" >弦理论假定物质的基本构件都是大小为 10-31 米的弦。弦理论的原名叫做玻色子弦理论，成立于 1970 年。</string>
+    <string name="quantum_foam_hint" >量子泡沫是约翰·惠勒于 1955 年设计的关于量子力学的概念。量子泡沫可以理解为是宇宙组构的基础。</string>
+    <string name="neutrino_hint" >中微子属于基本粒子。它是费密子和具电中性。</string>
+    <string name="higgs_boson_hint" >希格斯玻色子是一种在欧洲核子研究委员会(CERN)的大型强子对撞机中进行实验过程中发现的基本粒子。</string>
+    <string name="photon_hint" >光子是一种没有电荷的基本粒子。它也是电磁场的一个量子，例如可见光。</string>
+    <string name="quark_hint" >夸克是一类基本粒子和物质的基本组成。夸克结合可形成如质子和中子的复合粒子。</string>
+    <string name="electron_hint" >电子是一种亚原子粒子，带有基本的负电荷</string>
+    <string name="neutron_hint" >中子是一种亚原子粒子，没有纯电荷，质量稍微大于质子。质子和中子共同组成原子核。</string>
+    <string name="proton_hint" >质子是一种亚原子粒子，带正电荷，质量稍微小于中子。质子和中子统称为“核子”。</string>
+
+    <string name="positron_hint" >阳电子是电子的反粒子或者反物质正电子。阳电子带 +1 e 的电荷并与电子有着相同的质量。</string>
+    <string name="nucleus_hint" >原子核是由质子和位于原子中间的中子组成的小且密集的区域。几乎所有的原子质量都位于原子核中。</string>
+    <string name="atom_hint" >原子是普通物质的最小组成单位。任何固体、液体、气体和等离子体都由中性或电离原子组成。</string>
+    <string name="plasma_hint" >等离子体是一种颇似电离气体的物质状态。它是物质的四种基本状态之一，这个说法是在 19 世纪 20 年代由化学家欧文·朗缪尔提出。 </string>
+    <string name="sound_wave_hint" >声音是一种以压强的可听波(Audible Wave) 形式藉由气体、液体或固体传播的振动。人能听到 20Hz 和 20kHz 之间带频率的声波。</string>
+    <string name="ion_beam_hint" >离子束是一类由离子组成的带电粒子束。一些离子束来自 NASA 于 19 世纪 60 年代研发的汞蒸汽推进器。</string>
+    <string name="isotope_hint" >同位素是特殊化学元素的变体，不同于中子数。给定元素的所有同位素在各个原子中都有着相同的质子数。</string>
+    <string name="hydrogen_hint" >氢是一种符号为 H 及原子序数为 1 的化学元素。它是周期表上最轻的元素，极具易燃性。</string>
+    <string name="carbon_hint" >碳是一种符号为 C 及原子序数为 6 的化学元素。为非金属物质。碳是自古以来就已知的几个元素之一。</string>
+    <string name="oxygen_hint" >氧是一种符号为 O 及原子序数为 8 的化学元素。它是一种高活性的非金属。以质量计，氧是宇宙中第三丰富的元素。</string>
+    <string name="iron_hint" >铁是一种符号为 Fe 的化学元素。 以质量计，是地球上最常见的金属，形成了大部分的地球外核和内核。 </string>
+    <string name="xenon_hint" >氙是一种符号为 Xe 的化学元素。是一种无色、稠密、无味的惰性气体，在地球的大气层含有微量的氙。</string>
+
+    <string name="water_hint" >水是一种透明的、无色的化学物质，是地球湖泊、海洋的主要成分和大多数生物体的液体。它的化学式是 H2O，意味着它的分子包含一个氧原子和两个氢原子。</string>
+    <string name="salt_hint" >盐是一种氧化钠 (NaCI)组成的矿物。盐通常是生命之基，咸味是人的基本味觉之一。</string>
+    <string name="sand_hint" >沙子是一种自然发生在由细碎的岩石和矿物颗粒组成的颗粒状物质。沙子的最常见成分是二氧化硅 (SiO2).</string>
+    <string name="hemoglobine_hint" >血红蛋白是红细胞中含铁的金属蛋白。血红蛋白在血中携带着氧气从肺到身体的其他部位。</string>
+    <string name="carbohydrate_hint" >碳水化合物是一种组成元素为碳 (C)、氢 (H) 和氧(O) 原子的生物分子。碳水化合物在生物体中扮演多个角色。</string>
+    <string name="lipid_hint" >脂质是一种生物起源的物质。由一组包括脂肪、蜡质、固醇和脂溶性维生素的分子组成。脂质的主要功能是储存能量。</string>
+    <string name="dna_hint" >DNA 是一个携带用于所有生物体的成长、发育、功能和繁殖的基因指令的分子。</string>
+    <string name="protein_hint" >蛋白质是大型的生物分子，由氨基酸残基的链组成。蛋白质在生物体中执行一系列的功能。</string>
+    <string name="chromosome_hint" >染色体是有着生物体的部分或者所有遗传物质的 DNA 分子。</string>
+    <string name="cell_hint" >细胞是所有已知生物体的基本结构、功能性和生物单元。细胞是可独立复制的最小生命单元。</string>
+    <string name="neuron_hint" >神经元是一种可通过电子和化学信号接受、处理和传递信息的对电流敏感的细胞。神经元是大脑的主要部分。</string>
+    <string name="microorganism_hint" >微生物是一种微小的有机体，可能是单细胞或者一群细胞。</string>
+
+    <string name="virus_hint" >病毒是一种只能在其他生物体的活细胞中复制的小型致病因子。病毒可以感染所有类型的生命形态，从动物到植物。</string>
+    <string name="bacteria_hint" >细菌是微生物。它们有着微米长的体型，形状多样。细菌是第一种出现在地球上的生命形态。</string>
+    <string name="plant_cells_hint" >植物细胞是真核细胞。植物细胞分很多种类型，每一种都有其功能，最广为人知就是负责光合作用的细胞。</string>
+    <string name="plankton_hint" >浮游生物是生活在广阔水域和无法逆行而游的生物体总称。它们提供了许多大型水生生物的食物来源，例如鱼和鲸。</string>
+    <string name="athropod_hint" >节肢动物是一种有着外骨骼、身体呈节状和配对连接的附属体的无脊椎动物。节肢动物有昆虫类、蛛形类和甲壳类。</string>
+    <string name="mold_hint" >霉菌是一种以称为菌丝的多细胞丝状的形式生长。有时候出现在食物上。</string>
+    <string name="mushroom_hint" >蘑菇是真菌的多肉躯体，一般产生于土壤的地面上或者其食物来源。</string>
+    <string name="leaf_hint" >叶子是维管植物的组织也是叶茎的侧枝。叶子可以见于多个不同的形状、大小和纹理。</string>
+    <string name="rose_hint" >玫瑰是一种蔷薇属的多年生开花植物。它们有超过一百个种类和上千个栽培品种。它们通常带着尖刺。</string>
+    <string name="fern_hint" >蕨类植物是通过孢子再生的维管植物的成员，既没有种子也没有花朵。</string>
+    <string name="apple_hint" >苹果树是一棵因其水果甜美的苹果而知名的落叶树。这种树起源于中亚。</string>
+    <string name="medusa_hint" >水母是软躯体、自由游动的水生动物，长有胶状伞膜和拖尾式的触手。</string>
+
+    <string name="ant_hint" >蚂蚁属于昆虫。我们估计存在有22,000个种类，但只归类了12,500 种。</string>
+    <string name="butterfly_hint" >蝴蝶属于昆虫。它们由幼虫成长到迷人、色彩斑斓的成虫</string>
+    <string name="mice_hint" >老鼠是一个小小的啮齿类动物。它有着尖尖的鼻子、小小的圆耳朵和鳞片状的尾巴。最为人熟知的种类非普通家鼠莫属。</string>
+    <string name="cat_hint" >猫属于哺乳类动物。既幼小又多毛。猫有超过 70 多个品种。</string>
+    <string name="dog_hint" >狗既是哺乳动物也是狼的后代。狗是第一个驯化物种，被认为是人类最好的朋友。</string>
+    <string name="human_hint" >现代人(智人)是属于类人猿家族的人族中唯一现存成员。他们以动手能力高和趋向更复杂的社区为特点。</string>
+    <string name="lion_hint" >狮子是豹属中大型猫科动物之一。自 1996 年起，在世界自然保护联盟红色名录上被列为 “易受攻击” 的动物；自 19 世纪 90 年代早期起，狮子总数量减少了约 43％ 。</string>
+    <string name="elephant_hint" >大象是一种体型庞大的哺乳动物。 目前公认的三个种类是: 非洲象(普通)、非洲象(森林)和亚洲象。大象在非洲和南亚很常见。</string>
+    <string name="whale_hint" >鲸鱼是一种海洋哺乳动物的群体。鲸鱼的进食、交配、出生和养育它们的幼崽都在海洋中。蓝鲸的体型可达 29.9 米和 190 吨。</string>
+
+    <string name="tree_hint" >树木是一种长有植茎的植物，支撑着树枝和树叶。据估计，世界上仅有 3 万亿多棵成年树。世界上最大的树是红杉。</string>
+    <string name="forest_hint" >森林的绝大面积由树木占主导地位。森林的覆盖率约占陆地面积的 30％ 。它们为动物和人类提供庇护所，产生生命所需的氧气。</string>
+    <string name="river_hint" >河流是指自然流动的水道，通常是淡水，流向海洋、海域、湖泊其他河流。世界上最长的河流是南美洲的亚马逊河。</string>
+    <string name="canyon_hint" >峡谷是悬崖或者峭壁相间的深槽。发生在多年前河流流经的地方。最广为人知的是美国的大峡谷。</string>
+    <string name="shore_hint" >海滨是在巨大的水体(例如海洋、海域或者湖泊)边缘的陆地部分。</string>
+    <string name="glacier_hint" >冰川是厚重寒冰的躯体，这些寒冰会在自重作用下不断地移动。在许多年内形成，通常是几个世纪。冰川只能在陆地上形成。</string>
+    <string name="valley_hint" >山谷是丘陵相间的低平区域，通常有河流经过。山谷有两种类型: U 形和 V 形，取决于它们的形成方式。</string>
+    <string name="mountain_hint" >山脉是周围山地向上延伸的庞大地形。地球上最高的山脉是亚洲喜马拉雅山的珠穆朗玛峰，最高峰高出平均海平面 8,850 米。</string>
+    <string name="ocean_hint" >海洋是海水的躯体，组成了许多的地球水圈。地球上的海洋: 太平洋、大西洋、印度洋、南冰洋(南极)和北冰洋</string>
+
+    <string name="car_hint" >车是指用于运输的轮式机动车辆。1886 年被认为是现代汽车的诞生年，在那时，德国发明家卡尔·本茨制造了他的奔驰专利汽车。</string>
+    <string name="road_hint" >路是指在两个地方之间为方便行走或者一些运输工具通过而铺砌的陆地。世界上最长的公路是泛美高速公路。</string>
+    <string name="house_hint" >房子是指起到住宅作用的建筑物，从简单的民居和简易棚屋到复杂、坚固的木头、砖块或者混凝土结构。</string>
+    <string name="lighthouse_hint" >灯塔是指通过从照光系统和透镜发出光的建筑，充当在海洋或者内陆水道上的海上飞行员的导航辅助设备</string>
+    <string name="boat_hint" >船是指为方便在水上行驶而设计的船只。船有几种类型，人力(橡皮船、独木舟)、帆船或者摩托艇(汽船)。</string>
+    <string name="bridge_hint" >桥是指为跨越物理障碍而建的结构。世界上最长的吊桥是明石海峡大桥(3911米)</string>
+    <string name="village_hint" >村庄是一个群集的聚落或者群落，比城镇要小，人口有几百到几千不等。</string>
+    <string name="opera_hint" >歌剧院是指用于歌剧表演的剧院建筑，由舞台、乐池、观众席和后台组成。</string>
+    <string name="city_hint" >城市是一个庞大的人类居住区。世界上最大的城市是日本东京(38140000个居民)</string>
+
+    <string name="satellite_hint" >卫星是指有意放入轨道的人造物体。在 1957 年，前苏联发射了世界上第一个人造卫星史普尼克 1 号。 </string>
+    <string name="astronaut_hint" >宇航员或者航天员是指受过载人航天计划训练的人，用于命令、驾驶或者担任宇宙飞船的船员。</string>
+    <string name="rocket_hint" >火箭可以是导弹、航天器、航空器亦或者是其他从火箭引擎中获得推力的运载工具。火箭由燃料罐和喷嘴构成。它们也有火箭引擎、飞翼、降落伞或者轮子。</string>
+    <string name="moon_lander_hint" >登月舱是指为在月球表面着陆的航天器。美国的阿波罗 11 号是在月球上着陆的第一个载人航天任务，时间是 1969 年 7 月 20 日。</string>
+    <string name="shuttle_hint" >航天飞机是指部分回收率较低的地球轨道航天器。四分之一的轨道飞行测试都发生在 1981 年。航天飞机机队的任务总时间是 1322 天 19 小时 21 分钟零 23 秒。</string>
+    <string name="launchpad_hint" >发射台是指用于火箭导弹或者太空交通工具垂直发射的地上平台。</string>
+    <string name="flight_center_hint" >乔治·C·马歇尔太空飞行中心位于美国阿拉巴马州，亨茨维尔。MSFC 的第一个任务就是研发阿波罗计划的土星运载火箭。</string>
+    <string name="telescope_hint" >望远镜是指帮助观察远处物体的光学仪器。世界上第一个望远镜发明于17 世纪初的荷兰。</string>
+    <string name="space_station_hint" >空间站是指能够承载船员的宇宙飞船， 设计目的在于长时间停留在太空以及方便其他宇宙飞船停靠。</string>
+
+    <string name="comet_hint" >彗星是一个冰冷的太阳系小天体，当从太阳近旁经过时，会变暖并开始释放气体。它会产生可见的大气层，有时还会是彗尾。</string>
+    <string name="moon_hint" >月球是一个绕地球轨道运行的天体，是地球现存的唯一一个永恒的天然卫星。</string>
+    <string name="pluto_hint" >冥王星(Pluto)原本认定为是距离太阳的第九个行星，但是在 2006 年，被重新归类为矮行星。</string>
+    <string name="mercury_hint" >水星(Mercury)是太阳系中最小的行星。从地球望去，也就只能在天空的早上或者傍晚看到而已。</string>
+    <string name="venus_hint" >金星(Venus)是距离太阳的第二个行星。它没有天然卫星。它(Venus)是以罗马爱与美的女神的名字命名。</string>
+    <string name="mars_hint" >火星是距离太阳的第四个行星，也是太阳系中第二小的行星，在水星之后。火星(Mars)为罗马战神的名字。</string>
+    <string name="earth_hint" >地球是距离太阳的第三个的行星，也是宇宙中已知存在生命的唯一天体。地球在 40 亿年前就已形成。</string>
+    <string name="uranus_hint" >天王星(Uranus)是距离太阳的第七个行星。有着太阳系最冷的行星大气层，其最小温度为 49 K(−224 °C; −371 °F)。天王星是“冰巨星” 的一种。</string>
+    <string name="neptune_hint" >海王星是距离太阳的第九个以及太阳系中最远的已知行星。是“冰巨星” 的一种。海王星(Neptune)以罗马的海神的名字命名。</string>
+    <string name="saturn_hint" >土星是距离太阳的第六个行星，也是太阳系中第二大行星，在木星之后。它是一个气体巨星。土星(Saturn)以罗马的农业之神的名字命名。</string>
+    <string name="jupiter_hint" >木星(Jupiter)是距离太阳的第五个行星，也是太阳系中最大的行星。木星和土星都是气体巨星。自古以来，木星就已被天文学家所熟知。</string>
+
+    <string name="red_dwarf_hint" >红矮星是一个小且相当冷的恒星。红矮星是银河系中最常见的恒星类型之一。</string>
+    <string name="sun_hint" >太阳是位于太阳系中央的恒星。它是地球生命所需能量的最重要来源。大约太阳质量的四分之三都由氢(~25％)组成；其余大多数为氦(~25％)。</string>
+    <string name="solar_system_hint" >太阳系是由太阳及绕其(行星、矮行星和太阳系本体)轨道运行的天体组成。太阳系在 46 亿年前就已形成。 </string>
+    <string name="pulsar_hint" >脉冲星是一个高度磁化、旋转的中子星或者白矮星，发出电磁辐射的光束。这个辐射仅能在光束指向地球时观测到。</string>
+    <string name="red_giant_hint" >红巨星是恒星演化晚期中质量较小的发光巨星。红巨星的外貌是由黄橙色再变成红色。</string>
+    <string name="ray_burst_hint" >伽马射线爆发是在远星系观测到的极高能量的爆炸。是已知能在宇宙中发生的最亮的电磁事件。爆发可以持续10毫秒到几小时不等。</string>
+    <string name="galaxy_hint" >星系是一个集行星、星际气体、星尘和暗物质为一体的引力束缚系统。我们的太阳系就位于银河系的中央。</string>
+    <string name="galaxy_group_hint" >星系群是由约 50 个或更少的引力束缚成员组成的星系聚合体。银河系就是称作为本星系群的星系群之一。</string>
+    <string name="supercluster_hint" >超星系团是更小的星系群组成的大星系群。这是外层空间中最大的结构。银河系是本星系群星系团(其中包含超过 54 个星系)的一部分，这个星系团反过来也是拉尼亚凯亚超星系团的一部分。</string>
+
+</resources>
+
+
