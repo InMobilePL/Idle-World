@@ -1,0 +1,689 @@
+<resources>
+    <string name="app_name">Idle World</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Values -->
+    <string name="zero">0</string>
+    <string name="base_multiplier">1.0</string>
+    <string name="double_multiplier">2.0</string>
+    <string name="x">x</string>
+    <string name="left_arrow" translatable="false">◀</string>
+    <string name="right_arrow" translatable="false">▶</string>
+
+    <!-- Button states -->
+    <string name="cancel">Cancel</string>
+    <string name="close">Close</string>
+    <string name="ok">OK</string>
+
+    <!-- Failed state restore -->
+    <string name="failed_restore_title">I\'m sorry</string>
+    <string name="failed_restore_body">Your universe has been reset because of major game changes. Future versions will do their best to avoid this situations.</string>
+
+    <!-- Validation -->
+    <string name="username_invalid">Username invalid, only letters and numbers</string>
+    <string name="username_taken">Username already taken</string>
+    <string name="username_empty">Username empty</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Username</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Login</string>
+    <string name="login_to_see_highscores">Login to see highscores</string>
+    <string name="you_can_enter_password">You can enter password to access your user account from other devices</string>
+    <string name="username_will_register">Username will register if it was not used before</string>
+
+    <!-- Strings related to instructions -->
+    <string name="if_element_glows">Glowing elements can be bought by spending <b>Resources</b>.</string>
+    <string name="each_element">Each element gives you <b>Resources</b> to grow it more</string>
+    <string name="grow_your_world">Grow your world from <b>Atoms</b> to entire <b>Galaxy</b></string>
+    <string name="more_energy_you_have">The more elements you have, more resource income you have</string>
+    <string name="more_resources">There are many resources you need to collect</string>
+    <string name="last_part">Last part</string>
+    <string name="new_elements_construction">You can unlock new elements in construction tab</string>
+    <string name="world_grows_idle">Your world grows even if you leave the game!</string>
+    <string name="check_leaderboard">Don\'t forget to check your progress in leaderboard</string>
+    <string name="build_it">Build it</string>
+    <string name="skip"><![CDATA[Skip >>]]></string>
+    <string name="welcome">Welcome</string>
+    <string name="universe_awaits">Your universe awaits</string>
+    <string name="down_arrow">▼</string>
+    <string name="next">Next</string>
+
+    <!-- Settings activity -->
+    <string name="view_instructions">Game help</string>
+    <string name="instructions">Instructions</string>
+    <string name="background_music">Background music</string>
+    <string name="energy_display_type">Resource display type</string>
+    <string name="long_numbers">Long numbers</string>
+    <string name="scientific_notation">Scientific notation</string>
+    <string name="preview_small">Preview small:</string>
+    <string name="preview_big">Preview big:</string>
+    <string name="cloud_sync_coming_soon">Cloud Sync</string>
+    <string name="change_it_display_type">You can also click on any number to change it display type.</string>
+    <string name="thanks_for">Thanks for:</string>
+    <string name="icons_source_icons8">Icons source : Icons8</string>
+    <string name="image_source_unsplash">Image source : Unsplash</string>
+    <string name="language">Language</string>
+    <string name="translation_halil_kopuz">Translation TR: <b>Halil Kopuz, Deniz Kağan Dursun</b></string>
+    <string name="translation_tony">Translation FR: <b>Tony A. "Gorska"</b></string>
+    <string name="translation_robert">Translation DE: <b>Robert B. Lavars</b>, <b>Thomas Kupka</b></string>
+    <string name="translation_vasil">Translation RU: <b>VasilRaven, Reindee</b></string>
+    <string name="translation_zsemi">Translation HU: <b>zsemi02</b></string>
+    <string name="translation_joao">Translation BR: <b>João Paulo</b></string>
+    <string name="translation_thedashcolour">Translation IT: <b>Thedashcolour</b></string>
+    <string name="translation_dejan">Translation BA: <b>Dejan Misic</b></string>
+    <string name="translation_majestangel">Translation ES: <b>MajestAngel</b></string>
+    <string name="translation_roman">Translation CZ: <b>Roman Vietze</b></string>
+    <string name="translation_majida">Translation ZH: <b>Majida Whale</b></string>
+
+    <!-- Black hole dialog -->
+    <string name="blackhole_confirm">Are you sure?</string>
+    <string name="blackhole_warning_body">Your income will grow but your universe will be erased. Your score will remain.</string>
+    <string name="blackhole_too_slow">Too slow? Check out Black Hole Multiplier</string>
+    <string name="blackholeMultiplikator">Black Hole Multiplier</string>
+
+    <!-- Construction results -->
+    <string name="bought_body">Congratulations, new elemental tree has been constructed</string>
+    <string name="bought_title">Constructed</string>
+    <string name="not_enough_energy_body">You need to gain more resources to construct this</string>
+    <string name="not_enough_energy_title">Not enough resources</string>
+    <string name="missing_requirements_body">Some requirements have not been fulfilled, check if you have all of them</string>
+    <string name="missing_requirements_title">Missing requirements</string>
+    <string name="unexpected_body">Unexpected construction, universe is still evolving</string>
+    <string name="unexpected_title">Entropy</string>
+
+    <!-- Ads -->
+    <string name="income_doubled">Your idle income has been doubled</string>
+    <string name="ad_unavailable_body">Space time continuum endangered, time warp currently unavailable. Try again later.</string>
+    <string name="ad_unavailable_title">Danger.</string>
+
+    <!-- Black hole activity -->
+    <string name="multiply_your_income">Multiply your income!</string>
+    <string name="current_income_multiplier">Current income multiplier : x</string>
+    <string name="new_income_multiplier">New income multiplier : x</string>
+    <string name="universe_big_enough">If your universe is big enough it can collapse and be consumed by Black Hole. Your new income will be calculated depending on your universe size</string>
+    <string name="universe_disappear">Your entire universe will disappear</string>
+    <string name="score_will_remain">Your score will remain</string>
+    <string name="all_parts_removed">All universe parts will be removed, your game will start again but any income will be increased by your black hole multiplier</string>
+    <string name="collapse_universe">Collapse Universe</string>
+
+    <!-- Construction activity -->
+    <string name="total_energy">Total resource :</string>
+    <string name="income">Income :</string>
+    <string name="base_warp">(x2 00:00:00)</string>
+    <string name="all_constructions_created">All constructions created</string>
+    <string name="build_bigger">Go back to build your universe bigger and wider</string>
+    <string name="universe_panel">Universe Panel</string>
+    <string name="get_more_by_blackhole">Or you can get more from your universe using Black Hole</string>
+    <string name="black_hole_panel">Black Hole Panel</string>
+    <string name="buy_elements_to_unlock">Buy elements to unlock new constructions</string>
+    <string name="all">All</string>
+    <string name="construction_tab">Constructions</string>
+    <string name="bonus">Bonus</string>
+    <string name="bonus_income">Bonus (Income)</string>
+    <string name="swipe_to_bonus_hint">Swipe ▶ to see available bonuses</string>
+    <string name="bonuses_unlocked">Unlocked</string>
+
+    <!-- Leaderboard activity -->
+    <string name="score">Score</string>
+    <string name="your_score">Your score</string>
+    <string name="username">Username</string>
+    <string name="base_place">0</string>
+    <string name="global_most_massive_universe">Global most massive universe</string>
+    <string name="highest_black_hole_multiplier">Highest black hole multiplier</string>
+
+    <!-- Summary Activity -->
+    <string name="increase_income">Increase Income x2 (1h)</string>
+    <string name="time_warp">Time Warp</string>
+    <string name="leaderboard">Leaderboard</string>
+
+    <!-- Add username dialog -->
+    <string name="set_username">Setup username for highscores</string>
+
+    <!-- Construction control -->
+    <string name="requirements">Requirements</string>
+    <string name="construction_result">Construction Result</string>
+    <string name="generates">Generates</string>
+
+    <!-- Element tile -->
+    <string name="buy">Buy</string>
+
+    <!-- Generated universe -->
+    <string name="your_universe_mass">Your universe mass</string>
+    <string name="units">(units)</string>
+
+    <!-- Idle income dialog -->
+    <string name="your_idle_income">Your idle income</string>
+    <string name="watch_to_double">You can double your income by watching advertisement</string>
+    <string name="double_income">Double Income</string>
+
+    <!-- Part buy dialog -->
+    <string name="cost">Cost :</string>
+    <string name="total">Income :</string>
+    <string name="bought">Bought</string>
+
+    <!-- Summary element-->
+    <string name="total_income">Total income</string>
+
+    <!-- Major update dialog -->
+    <string name="thanks_for_updating">Thanks for updating your game. Some big changes has been made in game system which unfortunately requires you to create new universe.</string>
+    <string name="these_changes_are_necessary">These changes are <u>necessary</u> for future <b>Idle World</b> development but you can choose to either keep your black hole multiplier or start completely fresh.</string>
+    <string name="growth_of_this_game"><b>Thank you</b> for your commitment in growth of this game!</string>
+    <string name="major_update">Major Update</string>
+    <string name="clean_start">Clean Start</string>
+    <string name="keep_multiplier">Keep Multiplier</string>
+    <string name="your_score_remains_unchanged"><b>Your score remains unchanged</b></string>
+
+    <!-- Top Panel -->
+    <string name="resources">Resources</string>
+
+    <!-- Google Play Services -->
+    <string name="signin_other_error">There was an error during login. Try later from settings.</string>
+    <string name="sign_in_failed">Failed to sign in. Please check your network connection and try again from settings.</string>
+    <string name="choose_save_option">Choose save option</string>
+    <string name="local_saves">Local saves, stored on your device. Fast, don\'t require internet connection.</string>
+    <string name="online_cloud_stored">Online cloud stored saves. Allows playing across multiple devices.</string>
+    <string name="this_option">This option can be changed at any time in settings.</string>
+    <string name="show_all_cloud_saved_games">Show all cloud saved games</string>
+    <string name="saves">Saves</string>
+    <string name="no_internet_offline_state">No internet connection. Restored offline state.</string>
+
+    <!-- Resources translation -->
+    <string name="energy">energy</string>
+    <string name="life">life</string>
+    <string name="tech">tech</string>
+    <string name="cosmic">cosmic</string>
+
+    <string name="quantum">quantum</string>
+    <string name="nano">nano</string>
+    <string name="complex">complex</string>
+    <string name="bio">bio</string>
+    <string name="organism">organism</string>
+    <string name="landscape">landscape</string>
+    <string name="construction">construction</string>
+    <string name="cosmos">cosmos</string>
+    <string name="space">space</string>
+    <string name="universe">universe</string>
+
+    <string name="locked">locked</string>
+    <string name="string">string</string>
+    <string name="quantum_foam">quantum_foam</string>
+    <string name="neutrino">neutrino</string>
+    <string name="higgs_boson">higgs_boson</string>
+    <string name="photon">photon</string>
+    <string name="quark">quark</string>
+    <string name="electron">electron</string>
+    <string name="neutron">neutron</string>
+    <string name="proton">proton</string>
+    <string name="positron">positron</string>
+    <string name="nucleus">nucleus</string>
+    <string name="atom">atom</string>
+    <string name="plasma">plasma</string>
+    <string name="sound_wave">sound_wave</string>
+    <string name="ion_beam">ion_beam</string>
+    <string name="isotope">isotope</string>
+    <string name="hydrogen">hydrogen</string>
+    <string name="carbon">carbon</string>
+    <string name="oxygen">oxygen</string>
+    <string name="iron">iron</string>
+    <string name="xenon">xenon</string>
+    <string name="water">water</string>
+    <string name="salt">salt</string>
+    <string name="sand">sand</string>
+    <string name="hemoglobine">hemoglobine</string>
+    <string name="carbohydrate">carbohydrate</string>
+    <string name="lipid">lipid</string>
+    <string name="dna">dna</string>
+    <string name="protein">protein</string>
+    <string name="chromosome">chromosome</string>
+    <string name="cell">cell</string>
+    <string name="neuron">neuron</string>
+    <string name="microorganism">microorganism</string>
+    <string name="virus">virus</string>
+    <string name="bacteria">bacteria</string>
+    <string name="plant_cells">plant_cells</string>
+    <string name="plankton">plankton</string>
+    <string name="athropod">arthropod</string>
+    <string name="mold">mold</string>
+    <string name="mushroom">mushroom</string>
+    <string name="leaf">leaf</string>
+    <string name="rose">rose</string>
+    <string name="fern">fern</string>
+    <string name="apple">apple</string>
+    <string name="medusa">jellyfish</string>
+    <string name="ant">ant</string>
+    <string name="butterfly">butterfly</string>
+    <string name="mice">mice</string>
+    <string name="cat">cat</string>
+    <string name="dog">dog</string>
+    <string name="human">human</string>
+    <string name="lion">lion</string>
+    <string name="elephant">elephant</string>
+    <string name="whale">whale</string>
+    <string name="tree">tree</string>
+    <string name="forest">forest</string>
+    <string name="river">river</string>
+    <string name="canyon">canyon</string>
+    <string name="shore">shore</string>
+    <string name="glacier">glacier</string>
+    <string name="valley">valley</string>
+    <string name="mountain">mountain</string>
+    <string name="ocean">ocean</string>
+    <string name="car">car</string>
+    <string name="road">road</string>
+    <string name="house">house</string>
+    <string name="lighthouse">lighthouse</string>
+    <string name="boat">boat</string>
+    <string name="bridge">bridge</string>
+    <string name="village">village</string>
+    <string name="opera">opera</string>
+    <string name="city">city</string>
+    <string name="satellite">satellite</string>
+    <string name="astronaut">astronaut</string>
+    <string name="rocket">rocket</string>
+    <string name="moon_lander">moon_lander</string>
+    <string name="shuttle">shuttle</string>
+    <string name="launchpad">launchpad</string>
+    <string name="flight_center">flight_center</string>
+    <string name="telescope">telescope</string>
+    <string name="space_station">space_station</string>
+    <string name="comet">comet</string>
+    <string name="moon">moon</string>
+    <string name="pluto">pluto</string>
+    <string name="mercury">mercury</string>
+    <string name="venus">venus</string>
+    <string name="mars">mars</string>
+    <string name="earth">earth</string>
+    <string name="uranus">uranus</string>
+    <string name="neptune">neptune</string>
+    <string name="saturn">saturn</string>
+    <string name="jupiter">jupiter</string>
+    <string name="red_dwarf">Red dwarf</string>
+    <string name="sun">sun</string>
+    <string name="solar_system">solar_system</string>
+    <string name="pulsar">pulsar</string>
+    <string name="red_giant">red_giant</string>
+    <string name="ray_burst">ray_burst</string>
+    <string name="galaxy">galaxy</string>
+    <string name="galaxy_group">galaxy_group</string>
+    <string name="supercluster">supercluster</string>
+
+    <!-- Bonuses -->
+    <string name="good_place_to_start">Good place to start</string>
+    <string name="barely_detectable">Barely detectable</string>
+    <string name="great_discovery">Great discovery</string>
+    <string name="enlightened">Enlightened</string>
+    <string name="building_blocks">Building blocks</string>
+    <string name="life_base">Life base</string>
+    <string name="you_can_breathe">You can breathe!</string>
+    <string name="interesting_glow">Interesting glow</string>
+    <string name="let_it_flow">Let it flow</string>
+    <string name="start_thinking">Start thinking</string>
+    <string name="start_living">Start living</string>
+    <string name="quantum_master">Quantum master</string>
+    <string name="virology">Virology</string>
+    <string name="let_it_grow">Let it grow</string>
+    <string name="women_love_them">Women love them</string>
+    <string name="build_colony">Build colony</string>
+    <string name="like_cat_and_dog">Like cat and dog</string>
+    <string name="pack_of_friends">Pack of friends</string>
+    <string name="seven_of_them">Seven of them</string>
+    <string name="life_master">Life master</string>
+    <string name="motorization">Motorization</string>
+    <string name="infrastructure">Infrastructure</string>
+    <string name="city_that_never_sleeps">City that never sleeps</string>
+    <string name="to_the_skies">To the skies</string>
+    <string name="best_of_best">Best of best</string>
+    <string name="all_about_communication">All about communication</string>
+    <string name="tech_master">Tech master</string>
+    <string name="make_a_wish">Make a wish</string>
+    <string name="home_sweet_home">Home sweet home</string>
+    <string name="look_at_those_rings">Look at those rings</string>
+    <string name="little_star">Little star</string>
+    <string name="our_brightest">Our brightest</string>
+    <string name="all_powerful">All powerful</string>
+    <string name="all_what_is_observable">All what is observable</string>
+    <string name="cosmic_master">Cosmic master</string>
+    <string name="back_to_basics">Back to basics</string>
+    <string name="foamy">Foamy</string>
+    <string name="feel_the_charge">Feel the charge</string>
+    <string name="what_constructs_you">What constructs you</string>
+    <string name="can_you_hear_it">Can you hear it</string>
+    <string name="ionized">Ionized</string>
+    <string name="iron_man">Iron Man</string>
+    <string name="salty">Salty</string>
+    <string name="you_dont_get_fat">You do not get fat</string>
+    <string name="whats_interesting_in_life">What is interesting in life</string>
+    <string name="they_are_dangerous">They are dangerous</string>
+    <string name="dont_get_poisonous">Do not get poisoned</string>
+    <string name="thermopiles">Thermopiles</string>
+    <string name="heavy_weight">Heavy weight</string>
+    <string name="deep_and_dark">Deep and dark</string>
+    <string name="show_them_the_way">Show them the way</string>
+    <string name="we_are_landing">We are landing</string>
+    <string name="red_planet">Red plant</string>
+    <string name="really_cold_ones">Really cold ones</string>
+    <string name="its_ultra_big">It is ultra big</string>
+
+    <!-- 500 -->
+    <string name="base_of_universe">Base of universe</string>
+    <string name="foam_of_creation">Foam of creation</string>
+    <string name="full_neutrino">Full neutrino</string>
+    <string name="bosonification">Bosonification</string>
+    <string name="full_spark_of_light">Full spark of light</string>
+    <string name="you_need_more_quark">You need more quark</string>
+    <string name="electrification">Electrification</string>
+    <string name="heavy_mass">Heavy mass</string>
+    <string name="adds_a_charge">Adds a charge</string>
+    <string name="neglects_electrons">Neglects electrons</string>
+    <string name="core_is_important">Core is important</string>
+    <string name="basis_of_matter">Basis of matter</string>
+    <string name="fluctuation">Fluctuation</string>
+    <string name="sound_power">Sound power</string>
+    <string name="ion_challenge">Ion challenge</string>
+    <string name="glowing_dangerously">Glowing dangerously</string>
+    <string name="small_yet_important">Small yet important</string>
+    <string name="connect_them_in_chains">Connect them in chains</string>
+    <string name="good_to_have_it">Good to have it</string>
+    <string name="solid_squad">Solid squad</string>
+    <string name="rare_and_beautiful">Rare and beautiful</string>
+    <string name="tidal_wave">Tidal wave</string>
+    <string name="tasteful">Tasteful</string>
+    <string name="form_a_beach">Form a beach</string>
+    <string name="fill_your_veins">Fill your veins</string>
+    <string name="extract_power_from_this">Extract power from this</string>
+    <string name="greasy_greasy">Greasy greasy</string>
+    <string name="like_a_code">Like a code</string>
+    <string name="protein_whey">Protein whey</string>
+    <string name="full_genome">Full genome</string>
+    <string name="cell_regeneration">Cell regeneration</string>
+    <string name="nervous_system">Nervous system</string>
+    <string name="look_how_tiny_and_cute">Look how tiny and cute</string>
+    <string name="virus_infection">Virus infection</string>
+    <string name="bacterial_colony">Bacterial colony</string>
+    <string name="plant_tissue">Plant tissue</string>
+    <string name="plankton_flock">Plankton flock</string>
+    <string name="crawling_squad">Crawling squad</string>
+    <string name="molded_world">Molded world</string>
+    <string name="forest_mushrooms">Forest mushrooms</string>
+    <string name="leaf_crown">Leaf crown</string>
+    <string name="red_rose_carpet">Red rose carpet</string>
+    <string name="intensive_green">Intensive green</string>
+    <string name="feeding_the_world">Feeding the world</string>
+    <string name="gelly_flock">Gelly flock</string>
+    <string name="strong_ant_colony">Strong ant colony</string>
+    <string name="beautiful_wings">Beautiful wings</string>
+    <string name="mice_colony">Mice colony</string>
+    <string name="home_pets">Home pets</string>
+    <string name="man_best_friend">Man best friend</string>
+    <string name="look_in_the_mirror">Look in the mirror</string>
+    <string name="fierce_and_strong">Fierce and strong</string>
+    <string name="heavy_lifter">Heavy lifter</string>
+    <string name="beautiful_giants">Beautiful giants</string>
+    <string name="park">Park</string>
+    <string name="whole_jungle">Whole jungle</string>
+    <string name="winding_and_long">Winding and long</string>
+    <string name="deep_and_magnificent">Deep and magnificent</string>
+    <string name="wide_and_sandy">Wide and sandy</string>
+    <string name="dont_let_them_melt">Dont let them melt</string>
+    <string name="grass_up_to_horizon">Grass up to horizon</string>
+    <string name="hiking_trip">Hiking trip</string>
+    <string name="deep_mysteries">Deep mysteries</string>
+    <string name="whole_car_brand">Whole car brand</string>
+    <string name="lots_of_intersections">Lots of intersections</string>
+    <string name="feel_comfortable_here">Feel comfortable here</string>
+    <string name="it_shows_a_way">It shows a way</string>
+    <string name="magnificent_fleet">Magnificent fleet</string>
+    <string name="rivers_are_no_problem">Rivers are no problem</string>
+    <string name="build_a_community">Build a community</string>
+    <string name="everlasting_culture">Everlasting culture</string>
+    <string name="glory_of_construction">Glory of construction</string>
+    <string name="looking_for_data">Looking for data</string>
+    <string name="proud_explorers">Proud explorers</string>
+    <string name="rocket_science">Rocket science</string>
+    <string name="landing_gears">Landing gears</string>
+    <string name="space_travels">Space travels</string>
+    <string name="launchpads_for_everyone">Launchpads for everyone</string>
+    <string name="everything_under_control">Everything under control</string>
+    <string name="looking_everywhere">Looking everywhere</string>
+    <string name="space_for_us">Space for us</string>
+    <string name="flying_rocks_with_tails">Flying rocks with tails</string>
+    <string name="hello_again_old_friend">Hello again old friend</string>
+    <string name="back_in_my_days">Back in my days</string>
+    <string name="dont_get_burned">Dont get burned</string>
+    <string name="chemical_maelstorm">Chemical maelstorm</string>
+    <string name="maybe_there_is_water">Maybe there is water</string>
+    <string name="there_is_only_one_earth">There is only one earth</string>
+    <string name="increase_his_mass">Increase his mass</string>
+    <string name="dangerously_cold">Dangerously cold</string>
+    <string name="crown_jewel">Crown jewel</string>
+    <string name="big_brother">Big brother</string>
+    <string name="small_yet_strong">Small yet strong</string>
+    <string name="hope_it_shine">Hope it shine</string>
+    <string name="all_in_order">All in order</string>
+    <string name="pulsing_with_energy">Pulsing with energy</string>
+    <string name="hydrogen_eater">Hydrogen eater</string>
+    <string name="the_most_distant_phenomenon">The most distant phenomenon</string>
+    <string name="so_vast_yet_structurized">So vast yet structurized</string>
+    <string name="giants_order">Giants order</string>
+    <string name="everlasting_universe">Everlasting universe</string>
+
+    <!-- 1000 -->
+    <string name="true_beginning">True beginning</string>
+    <string name="thick_fog">Thick fog</string>
+    <string name="these_are_everywhere">These are everywhere</string>
+    <string name="hard_proven_existence">Hard proven existence</string>
+    <string name="laser_beam">Laser beam</string>
+    <string name="almost_enough_quarks">Almost enough quarks</string>
+    <string name="why_so_negative">Why so negative</string>
+    <string name="always_neutral">Always neutral</string>
+    <string name="stay_positive">Stay positive</string>
+    <string name="electron_mutual_annihilation">Electron mutual annihilation</string>
+    <string name="nuclear_force">Nuclear force</string>
+    <string name="from_atoms_to_particles">From atoms to particles</string>
+    <string name="plasma_fountain">Plasma fountain</string>
+    <string name="getting_louder">Getting louder</string>
+    <string name="big_stream_of_ions">Big stream of ions</string>
+    <string name="collect_them_all">Collect them all</string>
+    <string name="highly_flammable">Highly flammable</string>
+    <string name="big_organic_particles">Big organic particles</string>
+    <string name="breathe_deeply">Breathe deeply</string>
+    <string name="you_cleared_the_mine">You cleared the mine</string>
+    <string name="and_still_passive">And still passive</string>
+    <string name="waterfalls">Waterfalls</string>
+    <string name="perfect_couple_with_pepper">Perfect couple with pepper</string>
+    <string name="sandcastle">Sandcastle</string>
+    <string name="red_transporter">Red transporter</string>
+    <string name="full_of_energy">Full of energy</string>
+    <string name="to_much_on_your_belly">To much on your belly</string>
+    <string name="better_do_not_make_mistake">Better do not make mistake</string>
+    <string name="muscles_up">Muscles up</string>
+    <string name="make_a_life">Make a life</string>
+    <string name="basis_of_every_body">Basis of every body</string>
+    <string name="think_well">Think well</string>
+    <string name="look_very_closely">Look very closely</string>
+    <string name="runny_nose">Runny nose</string>
+    <string name="better_wash_your_hands">Better wash your hands</string>
+    <string name="full_of_photosynthesis">Full of photosynthesis</string>
+    <string name="feed_your_whale">Feed your whale</string>
+    <string name="many_many_legs">Many many legs</string>
+    <string name="plains_of_mold">Plains of mold</string>
+    <string name="sure_it_is_edible">Sure it is edible?</string>
+    <string name="green_red_yellow">Green red yellow</string>
+    <string name="every_rose_has_thorn">Every rose has thorn</string>
+    <string name="bottom_of_forest">Bottom of forest</string>
+    <string name="one_that_seduced_Adam">One that seduced Adam</string>
+    <string name="massive_jelly">Massive jelly</string>
+    <string name="strength_in_group">Strength in group</string>
+    <string name="so_delicate">So delicate</string>
+    <string name="mice_attack">Mice attack</string>
+    <string name="walks_its_own_path">Walks its own path</string>
+    <string name="faithful_and_shaggy">Faithful and shaggy</string>
+    <string name="me_and_you">Me and you</string>
+    <string name="king_of_a_jungle">King of a jungle</string>
+    <string name="valuable_tusk">Valuable tusk</string>
+    <string name="huge_and_harmonious">Huge and harmonious</string>
+    <string name="forest_animals_home">Forest animals home</string>
+    <string name="lungs_of_the_world">Lungs of the world</string>
+    <string name="wide_and_rapid">Wide and rapid</string>
+    <string name="great_canyon">Great canyon</string>
+    <string name="beach_party">Beach party</string>
+    <string name="take_your_sledge">Take your sledge</string>
+    <string name="lots_of_fresh_air">Lots of fresh air</string>
+    <string name="mountain_chain">Mountain chain</string>
+    <string name="most_of_earth_surface">Most of earth surface</string>
+    <string name="ferrari_speed">Ferrari speed</string>
+    <string name="highway_to_points">Highway to points</string>
+    <string name="that_is_your_spot">That is your spot</string>
+    <string name="light_in_a_tunnel">Light in a tunnel</string>
+    <string name="sail_the_seas">Sail the seas</string>
+    <string name="all_lands_connected">All lands connected</string>
+    <string name="mayor_house">Mayor house</string>
+    <string name="culture_and_beauty">Culture and beauty</string>
+    <string name="from_village_to_metropolis">From village to metropolis</string>
+    <string name="make_a_contact">Make a contact</string>
+    <string name="ours_in_space">Ours in space</string>
+    <string name="rocked_fuel">Rocked fuel</string>
+    <string name="make_firs_step">Make firs step</string>
+    <string name="travel_with_no_borders">Travel with no borders</string>
+    <string name="advanced_shuttle_extraction">Advanced shuttle extraction</string>
+    <string name="great_communication">Great communication</string>
+    <string name="eagle_eye">Eagle eye</string>
+    <string name="sky_has_no_limits">Sky has no limits</string>
+    <string name="diamonds_in_the_sky">Diamonds in the sky</string>
+    <string name="rock_us_to_sleep">Rock us to sleep</string>
+    <string name="dwarf_but_planet">Dwarf but planet</string>
+    <string name="closest_to_earth">Closest to earth</string>
+    <string name="women_planet">Women planet</string>
+    <string name="men_planet">Men planet</string>
+    <string name="kingdom_of_our_own">Kingdom of our own</string>
+    <string name="coldest_hurricane">Coldest hurricane</string>
+    <string name="wield_a_trident">Wield a trident</string>
+    <string name="ring_to_rule_them_all">Ring to rule them all</string>
+    <string name="greatest_gas_giant">Greatest gas giant</string>
+    <string name="slow_helium_synthesis">Slow helium synthesis</string>
+    <string name="live_giver">Live giver</string>
+    <string name="rolling_stones">Rolling stones</string>
+    <string name="neutron_star">Neutron star</string>
+    <string name="supermassive_redness">Supermassive redness</string>
+    <string name="great_lightshow">Great lightshow</string>
+    <string name="going_big">Going big</string>
+    <string name="going_bigger_and_bigger">Going bigger and bigger</string>
+    <string name="are_we_alone">Are we alone</string>
+
+    <!-- hints -->
+
+    <string name="string_hint" >The string theory assumes that the basic building blocks of matter are strings of magnitude 10–31 meters. The original string theory, called the theory of boson strings, was established in 1970</string>
+    <string name="quantum_foam_hint" >Quantum foam is a concept in quantum mechanics devised by John Wheeler in 1955. The foam is conceptualized as the foundation of the fabric of the Universe</string>
+    <string name="neutrino_hint" >Neutrino belongs to elementar particles. It\'s a fermion and i\'ts electrically nautral</string>
+    <string name="higgs_boson_hint" >The Higgs boson is an elementary particle that was discovered during experiments conducted in the Large Hadron Collider in CERN</string>
+    <string name="photon_hint" >A photon is an elementary particle that does not have an electrical charge. It\'s also a quanta of electromagnetic field, such as visible light.</string>
+    <string name="quark_hint" >A quark is a type of elementary particle and a fundamental constituent of matter. Quarks combine to form composite particles like protons and neutrons</string>
+    <string name="electron_hint" >The electron is a subatomic particle, with a negative elementary electric charge</string>
+    <string name="neutron_hint" >The neutron is a subatomic particle, with no net electric charge and a mass slightly larger than that of a proton. Protons and neutrons constitute the nuclei of atoms</string>
+    <string name="proton_hint" >A proton is a subatomic particle, with a positive electric charge and mass slightly less than that of a neutron. Protons and neutrons are collectively referred to as "nucleons".</string>
+
+    <string name="positron_hint" >The positron is the antiparticle or the antimatter counterpart of the electron. The positron has an electric charge of +1 e and has the same mass as an electron.</string>
+    <string name="nucleus_hint" >The atomic nucleus is the small, dense region consisting of protons and neutrons at the center of an atom. Almost all of the mass of an atom is located in the nucleus</string>
+    <string name="atom_hint" >An atom is the smallest constituent unit of ordinary matter. Every solid, liquid, gas, and plasma is composed of neutral or ionized atoms</string>
+    <string name="plasma_hint" >Plasma is a state of matter resembling an ionised gas. It is one of the four fundamental states of matter, and was first described by chemist Irving Langmuir in the 1920s. </string>
+    <string name="sound_wave_hint" >Sound is a vibration that propagates as an audible wave of pressure, through a  gas, liquid or solid. Humans can hear sound waves with frequencies between about 20Hz and 20kHz</string>
+    <string name="ion_beam_hint" >An ion beam is a type of charged particle beam consisting of ions. Some ion beams derive from the mercury vapor thrusters developed by NASA in the 1960s.</string>
+    <string name="isotope_hint" >Isotopes are variants of a particular chemical element which differ in neutron number. All isotopes of a given element have the same number of protons in each atom.</string>
+    <string name="hydrogen_hint" >Hydrogen is a chemical element with symbol H and atomic number 1. It is the lightest element on the periodic table, highly flammable.</string>
+    <string name="carbon_hint" >Carbon is a chemical element with symbol C and atomic number 6. It is nonmetallic.  Carbon is one of the few elements known since antiquity.</string>
+    <string name="oxygen_hint" >Oxygen is a chemical element with symbol O and atomic number 8. It is a highly reactive nonmetal. By mass, oxygen is the third-most abundant element in the universe.</string>
+    <string name="iron_hint" >Iron is a chemical element with symbol Fe. It is by mass the most common metal on Earth, forming much of Earth\'s outer and inner core.  </string>
+    <string name="xenon_hint" >Xenon is a chemical element with symbol Xe. It is a colorless, dense, odorless noble gas found in the Earth\'s atmosphere in trace amounts.</string>
+
+    <string name="water_hint" >Water is a transparent and colorless chemical substance that is the main constituent of Earth\'s lakes, oceans, and the fluids of most living organisms. Its chemical formula is H2O, meaning that its molecule contains one oxygen and two hydrogen atoms.</string>
+    <string name="salt_hint" >Salt is a mineral composed of sodium chloride (NaCl). Salt is essential for life in general, and saltiness is one of the basic human tastes. </string>
+    <string name="sand_hint" >Sand is a naturally occurring granular material composed of finely divided rock and mineral particles.The most common constituent of sand is silica (SiO2).</string>
+    <string name="hemoglobine_hint" >Hemoglobin is the iron-containing metalloprotein in the red blood cells. Hemoglobin in the blood carries oxygen from the lungs to the rest of the body.</string>
+    <string name="carbohydrate_hint" >A carbohydrate is a biological molecule consisting of carbon (C), hydrogen (H) and oxygen (O) atoms. Carbohydrates perform numerous roles in living organisms. </string>
+    <string name="lipid_hint" >Lipid is a substance of biological origin. It comprises a group of molecules that include fats, waxes, sterols and fat-soluble vitamins. The main functions of lipids is storing energy.</string>
+    <string name="dna_hint" >DNA is a molecule that carries the genetic instructions used in the growth, development, functioning and reproduction of all living organisms.</string>
+    <string name="protein_hint" >Proteins are large biomolecules, consisting of chains of amino acid residues. Proteins perform a vast array of functions within organisms.</string>
+    <string name="chromosome_hint" >A chromosome is a DNA molecule with part or all of the genetic material of an organism.</string>
+    <string name="cell_hint" >The cell is the basic structural, functional, and biological unit of all known living organisms. A cell is the smallest unit of life that can replicate independently.</string>
+    <string name="neuron_hint" >A neuron is an electrically excitable cell that receives, processes, and transmits information through electrical and chemical signals. Neurons are major components of the brain.</string>
+    <string name="microorganism_hint" >A microorganism is a microscopic organism, which may be single-celled or a cluster of cells.</string>
+
+    <string name="virus_hint" >A virus is a small infectious agent that replicates only inside the living cells of other organisms. Viruses can infect all types of life forms, from animals to plants.</string>
+    <string name="bacteria_hint" >Bacteria are microorganisms. They have micrometres in length and number of shapes. Bacteria were among the first life forms to appear on Earth.</string>
+    <string name="plant_cells_hint" >Plant cells are eukaryotic cells. There are many types of plant cells, each one has it\'s own function, the most known are cells responsible for photosynthesis.</string>
+    <string name="plankton_hint" >Plankton are collection of organisms that live in large bodies of water and are unable to swim against a current. They provide a source of food to many large aquatic organisms, such as fish and whales.</string>
+    <string name="athropod_hint" >An arthropod is an invertebrate animal having an exoskeleton, a segmented body, and paired jointed appendages. Arthropods are for example insects, arachnids, and crustaceans.</string>
+    <string name="mold_hint" >A mold is a fungus that grows in the form of multicellular filaments called hyphae. It appears sometimes on food.</string>
+    <string name="mushroom_hint" >A mushroom is the fleshy body of a fungus, typically produced above ground on soil or on its food source.</string>
+    <string name="leaf_hint" >A leaf is an organ of a vascular plant and is the lateral appendage of the stem. Leaves can be seen in many different shapes, sizes and textures.</string>
+    <string name="rose_hint" >A rose is a woody perennial flowering plant of the genus Rosa. There are over a hundred species and thousands of cultivars. They are often armed with sharp prickles.</string>
+    <string name="fern_hint" >A fern is a member of a group of vascular plants that reproduce via spores and have neither seeds nor flowers. </string>
+    <string name="apple_hint" >The apple tree is a deciduous tree best known for its sweet fruit, the apple. The tree originated in Central Asia.</string>
+    <string name="medusa_hint" >Jellyfish are softbodied, free-swimming aquatic animals with a gelatinous umbrella-shaped bell and trailing tentacles.</string>
+
+    <string name="ant_hint" >Ants belong to insects. We estimate, that 22,000 species exist, but only 12,500 have been classified.</string>
+    <string name="butterfly_hint" >Butterflies belong to insects. They grow from larvae to beautiful, colorful adults.</string>
+    <string name="mice_hint" >A mouse is a small rodent. It has a pointed snout, small rounded ears and scaly tail. The best known mouse species is the common house mouse. </string>
+    <string name="cat_hint" >Cat belong to mammals. It is a small and furry. There are more than 70 cat breeds.</string>
+    <string name="dog_hint" >Dog is a mammal and also descendant of a wolf. The dog was the first domesticated species, it\'s considered best friend of a human.</string>
+    <string name="human_hint" >Modern humans (Homo sapiens) are the only extant members of the tribe Hominini belonging to the family of great apes. They are characterized by high manual dexterity and a general trend toward more complex societies.</string>
+    <string name="lion_hint" >Lion is one of the big cats in the genus Panthera. It has been listed as Vulnerable on the IUCN Red List since 1996, as populations declined by about 43% since the early 1990s. </string>
+    <string name="elephant_hint" >Elephants are large mammals. Three species are currently recognized: the African elephant, and the Asian elephant. Elephants are common in Africa and Southeast Asia. </string>
+    <string name="whale_hint" >Whales are a group of fully sea mammals. Whales feed, mate, give birth, and raise their young at sea. Blue whales range in size to the 29.9 metres and 190 tons.</string>
+
+    <string name="tree_hint" >Tree is a plant with an elongated stem, supporting branches and leaves. It is estimated that there are just over 3 trillion mature trees in the world. The largest tree in the world is redwood.</string>
+    <string name="forest_hint" >A forest is a large area dominated by trees. Forests cover approximately 30% of the world\'s land area. They provide shelter to animals and humans, and produce oxygen that is necessary for life.</string>
+    <string name="river_hint" >A river is a natural flowing watercourse, usually freshwater, flowing towards an ocean, sea, lake or another river. The longest river in the World is Amazon in South America.</string>
+    <string name="canyon_hint" >A canyon is a deep cleft between escarpments or cliffs. It occours in the place where many years ago the river has flown. Best known is the Great Canyon in USA.</string>
+    <string name="shore_hint" >A shore is the fringe of land at the edge of a large body of water, such as an ocean, sea, or lake.</string>
+    <string name="glacier_hint" >A glacier is a body of dense ice that is constantly moving under its own weight. It forms over many years, often centuries. Glaciers form only on land.</string>
+    <string name="valley_hint" >A valley is a low area between hills, often with a river running through it. There are two types of valleys: U-shaped and V-shaped, depending on how they were created.</string>
+    <string name="mountain_hint" >A mountain is a large landform that stretches above the surrounding land. The highest mountain on Earth is Mount Everest in the Himalayas of Asia, whose summit is 8,850 m above mean sea level.</string>
+    <string name="ocean_hint" >An ocean is a body of saline water that composes much of a planet\'s hydrosphere. Oceans on Earth: Pacific, Atlantic, Indian, Southern (Antarctic), and Arctic. </string>
+
+    <string name="car_hint" >A car is a wheeled motor vehicle used for transportation.The year 1886 is regarded as the birth year of the modern car, when German inventor Karl Benz built his Benz Patent-Motorwagen.</string>
+    <string name="road_hint" >A road is a or way on land between two places that has been paved to allow travel by foot or some form of conveyance. The longest road in the World is Pan-American highway.</string>
+    <string name="house_hint" >A house is a building that functions as a home, ranging from simple dwellings and the improvised shacks to complex, fixed structures of wood, brick or concrete.</string>
+    <string name="lighthouse_hint" >A lighthouse is a building designed to emit light from a system of lamps and lenses, and to serve as a navigational aid for maritime pilots at sea or on inland waterways.</string>
+    <string name="boat_hint" >A boat is a watercraft designed to travel on water. There are few types of boats, human-powered (kayaks, canoes), sailboats or motorboats.</string>
+    <string name="bridge_hint" >A bridge is a structure built to span physical obstacles. Longest suspension bridge in the world is Akashi Kaikyō bridge (3911m).</string>
+    <string name="village_hint" >A village is a clustered human settlement or community, smaller than a town, with a population ranging from a few hundred to a few thousand.</string>
+    <string name="opera_hint" >An opera house is a theatre building used for opera performances that consists of a stage, an orchestra pit, audience seating, and backstage.</string>
+    <string name="city_hint" >A city is a large human settlement. The biggest city in the world is Tokyo in Japan (38140000 inhabitants)</string>
+
+    <string name="satellite_hint" >Satellite is an artificial object which has been intentionally placed into orbit. In 1957 the Soviet Union launched the world\'s first artificial satellite, Sputnik 1. </string>
+    <string name="astronaut_hint" >An astronaut or cosmonaut is a person trained by a human spaceflight program to command, pilot, or serve as a crew member of a spacecraft.</string>
+    <string name="rocket_hint" >A rocket is a missile, spacecraft, aircraft or other vehicle that obtains thrust from a rocket engine. Rockets consist of a tank and a nozzle. They may also have rocket engines, wings, parachutes or wheels.</string>
+    <string name="moon_lander_hint" >A Moon lander is a spacecraft design to land on the surface of the Moon. The United States\' Apollo 11 was the first manned mission to land on the Moon, on 20 July 1969.</string>
+    <string name="shuttle_hint" >The Space Shuttle was a partially reusable low Earth orbital spacecraft. The first of four orbital test flights occurred in 1981. The Shuttle fleet\'s total mission time was 1322 days, 19 hours, 21 minutes and 23 seconds.</string>
+    <string name="launchpad_hint" >A launch pad is an above-ground platform from which a rocket-powered missile or space vehicle is vertically launched. </string>
+    <string name="flight_center_hint" >The George C. Marshall Space Flight Center is located in Huntsville, Alabama. MSFC\'s first mission was developing the Saturn launch vehicles for the Apollo moon program. </string>
+    <string name="telescope_hint" >A telescope is an optical instrument that aids in the observation of remote objects. The first  telescopes were invented in the Netherlands at the beginning of the 17th century.</string>
+    <string name="space_station_hint" >A space station is a spacecraft capable of supporting crew members, which is designed to remain in space for an extended period of time and for other spacecraft to dock. </string>
+
+    <string name="comet_hint" >A comet is an icy small Solar System body that, when passing close to the Sun, warms and begins to release gases. This produces a visible atmosphere and sometimes also a tail. </string>
+    <string name="moon_hint" >The Moon is an astronomical body that orbits planet Earth, being Earth\'s only permanent natural satellite.</string>
+    <string name="pluto_hint" >Pluto was originally considered to be the ninth planet from the Sun, but in 2006 it has been reclassified to a dwarf planet.</string>
+    <string name="mercury_hint" >Mercury is the smallest planet in the Solar System. From Earth it can only be seen in the morning or the evening sky.</string>
+    <string name="venus_hint" >Venus is the second planet from the Sun. It has no natural satellites. It is named after the Roman goddess of love and beauty.</string>
+    <string name="mars_hint" >Mars is the fourth planet from the Sun and the second-smallest planet in the Solar System after Mercury. Mars carries a name of the Roman god of war.</string>
+    <string name="earth_hint" >Earth is the third planet from the Sun and the only object in the Universe known to harbor life. Earth formed over 4 billion years ago.</string>
+    <string name="uranus_hint" >Uranus is the seventh planet from the Sun. It is the coldest planetary atmosphere in the Solar System, with a minimum temperature of 49 K (−224 °C; −371 °F). Uranus is one of the "ice giants"</string>
+    <string name="neptune_hint" >Neptune is the eighth and farthest known planet from the Sun in the Solar System. It\'s one of the "ice giants".  Neptune is named after the Roman god of the sea. </string>
+    <string name="saturn_hint" >Saturn is the sixth planet from the Sun and the second-largest in the Solar System, after Jupiter. It is a gas giant. Saturn is named after the Roman god of agriculture.</string>
+    <string name="jupiter_hint" >Jupiter is the fifth planet from the Sun and the largest in the Solar System. Jupiter and Saturn are gas giants. Jupiter has been known to astronomers since antiquity.</string>
+
+    <string name="red_dwarf_hint" >A red dwarf is a small and relatively cool star. Red dwarfs are the most common type of star in the Milky Way.</string>
+    <string name="sun_hint" >The Sun is the star at the center of the Solar System. It is the most important source of energy for life on Earth. About three quarters of the Sun\'s mass consists of hydrogen (~73 percent); the rest is mostly helium (~25 percent).</string>
+    <string name="solar_system_hint" >The Solar System is the gravitationally bound system comprising the Sun and the objects that orbit it (planets, dwarf planets and small Solar System bodies). The Solar System formed 4.6 billion years ago.</string>
+    <string name="pulsar_hint" >A pulsar is a highly magnetized, rotating neutron star or white dwarf, that emits a beam of electromagnetic radiation. This radiation can be observed only when the beam of emission is pointing toward Earth.</string>
+    <string name="red_giant_hint" >A red giant is a luminous giant star of low mass in a late phase of stellar evolution. The appearance of the red giant is from yellow-orange to red.</string>
+    <string name="ray_burst_hint" >Gamma-ray bursts are extremely energetic explosions that have been observed in distant galaxies. They are the brightest electromagnetic events known to occur in the universe. Bursts can last from ten milliseconds to several hours. </string>
+    <string name="galaxy_hint" >A galaxy is a gravitationally bound system of stars, interstellar gas, dust, and dark matter. Our Solar System is located in Milky Way galaxy. </string>
+    <string name="galaxy_group_hint" >A galaxy group is an aggregation of galaxies comprising about 50 or fewer gravitationally bound members. The Milky Way galaxy is part of a group of galaxies called the Local Group.</string>
+    <string name="supercluster_hint" >A supercluster is a large group of smaller galaxy groups. It is the largest-known structure of the cosmos. The Milky Way is part of the Local Group galaxy cluster (that contains more than 54 galaxies), which in turn is part of the Laniakea Supercluster.</string>
+
+
+
+</resources>

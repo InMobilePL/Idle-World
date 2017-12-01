@@ -1,0 +1,688 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Idle World</string>
+    <string name="title_activity_login">Přihlásit se</string>
+
+    <!-- Values -->
+    <string name="zero">0</string>
+    <string name="base_multiplier">1.0</string>
+    <string name="double_multiplier">2.0</string>
+    <string name="x">x</string>
+
+    <!-- Button states -->
+    <string name="cancel">Zrušit</string>
+    <string name="close">Zavřít</string>
+    <string name="ok">OK</string>
+
+    <!-- Failed state restore -->
+    <string name="failed_restore_title">Omlouvám se</string>
+    <string name="failed_restore_body">Váš svět byl resetován, protože došlo k zásadním aktualizacím ve hře. Novější verze udělají vše pro to, aby se to již nestalo.</string>
+
+    <!-- Validation -->
+    <string name="username_invalid">Nesprávné uživatelské jméno, pouze čísla a písmena</string>
+    <string name="username_taken">Uživatelské jméno přijato</string>
+    <string name="username_empty">Uživatel nevyplněn</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Uživatelské jméno</string>
+    <string name="prompt_password">Heslo (volitelné)</string>
+    <string name="action_sign_in">Přihlásit</string>
+    <string name="login_to_see_highscores">Přihlásit se k zobrazení highscore</string>
+    <string name="you_can_enter_password">Při zadání hesla se můžete přihlásit i na jiných zařízení</string>
+    <string name="username_will_register">Uživatelské jméno bude zaregistrováno pokud již nebylo použito</string>
+
+    <!-- Strings related to instructions -->
+    <string name="if_element_glows">Svítící prvky mohou být koupeny utrácením <b>Zdrojů</b>.</string>
+    <string name="each_element">Každý prvek vám dává <b>Zdroje</b> k dalšímu růstu</string>
+    <string name="grow_your_world">Nechte růst svůj svět z <b>Atomů</b> pro vstup do <b>Galaxie</b></string>
+    <string name="more_energy_you_have">Čím více máte prvků, tím více máte zdrojů</string>
+    <string name="more_resources">Je více druhů zdrojů, které potřebujete sbírat</string>
+    <string name="last_part">Poslední část</string>
+    <string name="new_elements_construction">Nové prvky odemknete v kostrukci</string>
+    <string name="world_grows_idle">Váš svět roste i když nehrajete!</string>
+    <string name="check_leaderboard">Nezapomeňte zkontrolovat váš postup v žebříčku</string>
+    <string name="build_it">Postavte to</string>
+    <string name="skip"><![CDATA[Skip >>]]></string>
+    <string name="welcome">Vítejte</string>
+    <string name="universe_awaits">Váš vesmír čeká</string>
+    <string name="down_arrow">▼</string>
+    <string name="next">Dále</string>
+
+    <!-- Settings activity -->
+    <string name="view_instructions">Nápověda</string>
+    <string name="instructions">Instrukce</string>
+    <string name="background_music">Hudba na pozadí</string>
+    <string name="energy_display_type">Typ zobrazení zdrojů</string>
+    <string name="long_numbers">Dlouhá čísla</string>
+    <string name="scientific_notation">Vědecké zobrazení</string>
+    <string name="preview_small">Náhled malých:</string>
+    <string name="preview_big">Náhled velkých:</string>
+    <string name="cloud_sync_coming_soon">Cloudové ukládání</string>
+    <string name="change_it_display_type">Můžete kliknout na jékoliv číslo pro změnu zobrazovení.</string>
+    <string name="thanks_for">Poděkování:</string>
+    <string name="icons_source_icons8">Zdroj ikon : Icons8</string>
+    <string name="image_source_unsplash">Zdroj obrázků : Unsplash</string>
+    <string name="language">Jazyk</string>
+    <string name="translation_halil_kopuz">Překlad TR: <b>Halil Kopuz, Deniz Kağan Dursun</b></string>
+    <string name="translation_tony">Překlad FR: <b>Tony A. "Gorska"</b></string>
+    <string name="translation_robert">Překlad DE: <b>Robert B. Lavars</b>, <b>Thomas Kupka</b></string>
+    <string name="translation_vasil">Překlad RU: <b>VasilRaven, Reindee</b></string>
+    <string name="translation_zsemi">Překlad HU: <b>zsemi02</b></string>
+    <string name="translation_joao">Překlad BR: <b>João Paulo</b></string>
+    <string name="translation_thedashcolour">Překlad IT: <b>Thedashcolour</b></string>
+    <string name="translation_dejan">Překlad BA: <b>Dejan Misic</b></string>
+    <string name="translation_majestangel">Překlad ES: <b>MajestAngel</b></string>
+    <string name="translation_roman">Překlad CZ: <b>Roman Vietze</b></string>
+    <string name="translation_majida">Překlad ZH: <b>Majida Whale</b></string>
+
+    <!-- Black hole dialog -->
+    <string name="blackhole_confirm">Jse si jist?</string>
+    <string name="blackhole_warning_body">Váš příjem naroste, ale váš vesmír bude smazán. Vaše skóre zůstane.</string>
+    <string name="blackhole_too_slow">Příliš pomalé? Zkontrolujte násobič Černé Díry</string>
+    <string name="blackholeMultiplikator">násobič Černé Díry</string>
+
+    <!-- Construction results -->
+    <string name="bought_body">Gratulace, nový základní strom byl vytvořen</string>
+    <string name="bought_title">Vybudováno</string>
+    <string name="not_enough_energy_body">Potřebujete více zdrojů pro vytvoření</string>
+    <string name="not_enough_energy_title">\Nedostatek zdrojů</string>
+    <string name="missing_requirements_body">Některé požadavky nebyly splněny, zkontrolujte zda máte všechny</string>
+    <string name="missing_requirements_title">Chybějící požadavky</string>
+    <string name="unexpected_body">Nečekaná konstrukce, vesmír se dál vyvíjí</string>
+    <string name="unexpected_title">Entropie</string>
+
+    <!-- Ads -->
+    <string name="income_doubled">Váš příjem v době mimo byl zdvojnásoben</string>
+    <string name="ad_unavailable_body">Časoprostorové kontinuum je ohroženo, warp není nyní možný. Zkuste to později.</string>
+    <string name="ad_unavailable_title">Nebezpečí.</string>
+
+    <!-- Black hole activity -->
+    <string name="multiply_your_income">Znásobte svůj příjem!</string>
+    <string name="current_income_multiplier">Aktuální násobič příjmu : x</string>
+    <string name="new_income_multiplier">Nový násobič příjmu : x</string>
+    <string name="universe_big_enough">Pokud je váš vesmír dostatečně velký, může být pohlcen Černou Dírou. Váš nový příjem bude vypočítán v závislosti na velikosti vašeho vesmíru</string>
+    <string name="universe_disappear">Váš celý vesmír zmizí</string>
+    <string name="score_will_remain">Vaše skóre zůstane</string>
+    <string name="all_parts_removed">Všechny části vesmíru budou odebrány, vaše hra začne od začátku, ale váš příjem bude navýšen o váš násobič Černé Díry</string>
+    <string name="collapse_universe">Zhroucení vesmíru</string>
+
+    <!-- Construction activity -->
+    <string name="total_energy">Celkem zdrojů :</string>
+    <string name="income">Příjem :</string>
+    <string name="base_warp">(x2 00:00:00)</string>
+    <string name="all_constructions_created">Všechny kontrukce vytvořeny</string>
+    <string name="build_bigger">Vraťte se, abyste vytvořil vesmír větší a širší</string>
+    <string name="universe_panel">Panel vesmíru</string>
+    <string name="get_more_by_blackhole">Nebo můžete získat více z vašeho vesmíru použitím Černé Díry</string>
+    <string name="black_hole_panel">Panel Černé Díry</string>
+    <string name="buy_elements_to_unlock">Nakupte nové prvky k odemknutí nových konstrukcí</string>
+    <string name="all">Vše</string>
+    <string name="construction_tab">Konstrukce</string>
+    <string name="bonus">Bonus</string>
+    <string name="bonus_income">Bonus (Příjem)</string>
+    <string name="swipe_to_bonus_hint">Přejetím prstem ▶ zobrazíte dostupné bonusy</string>
+    <string name="bonuses_unlocked">Dostupné</string>
+
+    <!-- Leaderboard activity -->
+    <string name="score">Skóre</string>
+    <string name="your_score">Tvoje skóre</string>
+    <string name="username">Uživatel</string>
+    <string name="base_place">0</string>
+    <string name="global_most_massive_universe">Globální nejsilnější vesmír</string>
+    <string name="highest_black_hole_multiplier">Nejvyšší násobitel černých děr</string>
+
+
+    <!-- Summary Activity -->
+    <string name="increase_income">Navýšit příjem x2 (1h)</string>
+    <string name="time_warp">Warp</string>
+    <string name="leaderboard">Žebříček</string>
+
+    <!-- Add username dialog -->
+    <string name="set_username">Zadejte nick do žebříčku</string>
+
+    <!-- Construction control -->
+    <string name="requirements">Požadavky</string>
+    <string name="construction_result">Výsledek výstavby</string>
+    <string name="generates">Generuje</string>
+
+    <!-- Element tile -->
+    <string name="buy">Kup</string>
+
+    <!-- Generated universe -->
+    <string name="your_universe_mass">Rozsáhlost vašeho vesmíru</string>
+    <string name="units">(jednotek)</string>
+
+    <!-- Idle income dialog -->
+    <string name="your_idle_income">Příjem když jste byl pryč</string>
+    <string name="watch_to_double">Můžete zdvojnásobit svůj příjem shlédnutím reklamy</string>
+    <string name="double_income">Zdvojnásobit příjem</string>
+
+    <!-- Part buy dialog -->
+    <string name="cost">Cena :</string>
+    <string name="total">Příjem :</string>
+    <string name="bought">Koupeno</string>
+
+    <!-- Summary element-->
+    <string name="total_income">Celkový příjem</string>
+
+    <!-- Major update dialog -->
+    <string name="thanks_for_updating">Děkuji za aktualizaci hry.Byly provedeny některé velké změny v herním systému, které bohužel vyžadují vytvoření nového vesmíru.</string>
+    <string name="these_changes_are_necessary">Tyto změny byly <u>nezbytné</u> pro další vývoj <b>Idle World</b>, ale můžete si vybrat zda chcete pokračovat se svým násobičem Černé Díry, nebo začít zčista.</string>
+    <string name="growth_of_this_game"><b>Díky</b> za pomoc při vylepšování hry!</string>
+    <string name="major_update">Důležitá aktualizace</string>
+    <string name="clean_start">Čistý start</string>
+    <string name="keep_multiplier">Nechat násobič</string>
+    <string name="your_score_remains_unchanged"><b>Vaše skóre se nezmění</b></string>
+
+    <!-- Top Panel -->
+    <string name="resources">Zdroje</string>
+
+    <!-- Google Play Services -->
+    <string name="signin_other_error">Vyskytl se problém během přihlašování. zkuste to znova později z nastavení.</string>
+    <string name="sign_in_failed">Nepodařilo se přihlásit. Zkontrolujte síťové připojení a zkuste to znova z nastavení.</string>
+    <string name="choose_save_option">Zvolte možnost uložení</string>
+    <string name="local_saves">Lokálně, ukládá na vaše zařízení. Rychlé, nevyžaduje internetové připojení.</string>
+    <string name="online_cloud_stored">Online cloudově. Umožňuje hrát na výce zařízeních.</string>
+    <string name="this_option">Tato volba může být kdykoliv změněna v nastavení.</string>
+    <string name="show_all_cloud_saved_games">Ukáže všechna cloudové uložení</string>
+    <string name="saves">Uložené postupy</string>
+    <string name="no_internet_offline_state">Žádné internetové připojení. Přepnuto do offline režimu.</string>
+
+    <!-- Resources translation -->
+    <string name="energy">Energie</string>
+    <string name="life">Život</string>
+    <string name="tech">Technika</string>
+    <string name="cosmic">Kosmos</string>
+
+    <string name="quantum">Kvantum</string>
+    <string name="nano">Nano</string>
+    <string name="complex">Celek</string>
+    <string name="bio">Flóra</string>
+    <string name="organism">Fauna</string>
+    <string name="landscape">Krajina</string>
+    <string name="construction">Stavby</string>
+    <string name="cosmos">Kosmos</string>
+    <string name="space">Vesmír</string>
+    <string name="universe">Daleký Vesmír</string>
+
+    <string name="locked">Uzamčeno</string>
+    <string name="string">Struny</string>
+    <string name="quantum_foam">Kvantová pěna</string>
+    <string name="neutrino">Neutrina</string>
+    <string name="higgs_boson">Higgsův boson</string>
+    <string name="photon">Foton</string>
+    <string name="quark">Quark</string>
+    <string name="electron">Elektron</string>
+    <string name="neutron">Neutron</string>
+    <string name="proton">Proton</string>
+    <string name="positron">Pozitron</string>
+    <string name="nucleus">Jádro</string>
+    <string name="atom">Atom</string>
+    <string name="plasma">Plasma</string>
+    <string name="sound_wave">Zvuková vlna</string>
+    <string name="ion_beam">Iontový paprsek</string>
+    <string name="isotope">Izotop</string>
+    <string name="hydrogen">Vodík</string>
+    <string name="carbon">Uhlík</string>
+    <string name="oxygen">Kyslík</string>
+    <string name="iron">Železo</string>
+    <string name="xenon">Xenon</string>
+    <string name="water">Voda</string>
+    <string name="salt">Sůl</string>
+    <string name="sand">Písek</string>
+    <string name="hemoglobine">Hemoglobin</string>
+    <string name="carbohydrate">Sacharidy</string>
+    <string name="lipid">Lipid</string>
+    <string name="dna">DNA</string>
+    <string name="protein">Protein</string>
+    <string name="chromosome">Chromozom</string>
+    <string name="cell">Buňka</string>
+    <string name="neuron">Neuron</string>
+    <string name="microorganism">Mikroorganismus</string>
+    <string name="virus">virus</string>
+    <string name="bacteria">Bacterie</string>
+    <string name="plant_cells">Rostlinné buňky</string>
+    <string name="plankton">Plankton</string>
+    <string name="athropod">Členovec</string>
+    <string name="mold">Plíseň</string>
+    <string name="mushroom">Houby</string>
+    <string name="leaf">List</string>
+    <string name="rose">Růže</string>
+    <string name="fern">Kapradina</string>
+    <string name="apple">Jablko</string>
+    <string name="medusa">Medúza</string>
+    <string name="ant">Mravenec</string>
+    <string name="butterfly">Motýl</string>
+    <string name="mice">Myš</string>
+    <string name="cat">Kočka</string>
+    <string name="dog">Pes</string>
+    <string name="human">Člověk</string>
+    <string name="lion">Lev</string>
+    <string name="elephant">Slon</string>
+    <string name="whale">Velryba</string>
+    <string name="tree">Strom</string>
+    <string name="forest">Les</string>
+    <string name="river">Řeka</string>
+    <string name="canyon">Soutěska</string>
+    <string name="shore">Pobřeží</string>
+    <string name="glacier">Ledovec</string>
+    <string name="valley">Údolí</string>
+    <string name="mountain">Pohoří</string>
+    <string name="ocean">Oceán</string>
+    <string name="car">Auto</string>
+    <string name="road">Silnice</string>
+    <string name="house">Dům</string>
+    <string name="lighthouse">Maják</string>
+    <string name="boat">Loď</string>
+    <string name="bridge">Most</string>
+    <string name="village">Vesnice</string>
+    <string name="opera">Opera</string>
+    <string name="city">Město</string>
+    <string name="satellite">Satelit</string>
+    <string name="astronaut">Astronaut</string>
+    <string name="rocket">Raketa</string>
+    <string name="moon_lander">Lunární modul</string>
+    <string name="shuttle">Raketoplán</string>
+    <string name="launchpad">Odpalovací rampa</string>
+    <string name="flight_center">Letové středisko</string>
+    <string name="telescope">Teleskop</string>
+    <string name="space_station">Vesmírná stanice</string>
+    <string name="comet">Kometa</string>
+    <string name="moon">Měsíc</string>
+    <string name="pluto">Pluto</string>
+    <string name="mercury">Merkur</string>
+    <string name="venus">Venuše</string>
+    <string name="mars">Mars</string>
+    <string name="earth">Země</string>
+    <string name="uranus">Uran</string>
+    <string name="neptune">Neptun</string>
+    <string name="saturn">Saturn</string>
+    <string name="jupiter">Jupiter</string>
+    <string name="red_dwarf">Červený trpaslík</string>
+    <string name="sun">Slunce</string>
+    <string name="solar_system">Solarní systém</string>
+    <string name="pulsar">Pulzar</string>
+    <string name="red_giant">Červený obr</string>
+    <string name="ray_burst">Gama záblesk</string>
+    <string name="galaxy">Galaxie</string>
+    <string name="galaxy_group">Kupa galaxií</string>
+    <string name="supercluster">Nadkupa galaxií</string>
+
+    <!-- Bonuses -->
+    <string name="good_place_to_start">Skvělé místo pro začátek</string>
+    <string name="barely_detectable">Sotva zjistitelné</string>
+    <string name="great_discovery">Skvělý objev</string>
+    <string name="enlightened">Osvícený</string>
+    <string name="building_blocks">Stavební bloky</string>
+    <string name="life_base">Životní základna</string>
+    <string name="you_can_breathe">Můžeš dýchat!</string>
+    <string name="interesting_glow">Zajímavá záře</string>
+    <string name="let_it_flow">Nech to plynout</string>
+    <string name="start_thinking">Začněte myslet</string>
+    <string name="start_living">Začněte žít</string>
+    <string name="quantum_master">Kvantový mistr</string>
+    <string name="virology">Virologie</string>
+    <string name="let_it_grow">Nech to růst</string>
+    <string name="women_love_them">Ženy je milují</string>
+    <string name="build_colony">Budování kolonie</string>
+    <string name="like_cat_and_dog">Jako kočka a pes</string>
+    <string name="pack_of_friends">Spousta přátel</string>
+    <string name="seven_of_them">Sedmero</string>
+    <string name="life_master">Mistr života</string>
+    <string name="motorization">Motorizace</string>
+    <string name="infrastructure">Infrastructura</string>
+    <string name="city_that_never_sleeps">Město které nikdy nespí</string>
+    <string name="to_the_skies">Do oblak</string>
+    <string name="best_of_best">Nejlepší z nejlepších</string>
+    <string name="all_about_communication">Vše o komunikaci</string>
+    <string name="tech_master">Technický mistr</string>
+    <string name="make_a_wish">Přej si něco</string>
+    <string name="home_sweet_home">Domove, sladký domove</string>
+    <string name="look_at_those_rings">Prouzkoumej prstence</string>
+    <string name="little_star">Hvězdička</string>
+    <string name="our_brightest">Naše nejjasnější</string>
+    <string name="all_powerful">Všichni mocní</string>
+    <string name="all_what_is_observable">Vše, co je pozorovatelné</string>
+    <string name="cosmic_master">Mist kosmu</string>
+    <string name="back_to_basics">Zpět k základům</string>
+    <string name="foamy">Pěnivý</string>
+    <string name="feel_the_charge">Cítit náboj</string>
+    <string name="what_constructs_you">Z čeho jsme</string>
+    <string name="can_you_hear_it">Slyšíte to</string>
+    <string name="ionized">Ionizované</string>
+    <string name="iron_man">Železný muž</string>
+    <string name="salty">Slaný</string>
+    <string name="you_dont_get_fat">Neztloustnete</string>
+    <string name="whats_interesting_in_life">Co je zajímavé v životě</string>
+    <string name="they_are_dangerous">Jsou nebezpeční</string>
+    <string name="dont_get_poisonous">Bacha na jedy</string>
+    <string name="thermopiles">Thermopyly</string>
+    <string name="heavy_weight">Velká váha</string>
+    <string name="deep_and_dark">Hluboký na temný</string>
+    <string name="show_them_the_way">Ukažte jim cestu</string>
+    <string name="we_are_landing">Přistáváme</string>
+    <string name="red_planet">Červená rostlina</string>
+    <string name="really_cold_ones">Opravdu studený</string>
+    <string name="its_ultra_big">Je to opravdu velké</string>
+
+    <!-- 500 -->
+    <string name="base_of_universe">Základ vesmíru</string>
+    <string name="foam_of_creation">Pěna stvoření</string>
+    <string name="full_neutrino">Plné neutrino</string>
+    <string name="bosonification">Bosonifikace</string>
+    <string name="full_spark_of_light">Světelné jiskření</string>
+    <string name="you_need_more_quark">Potřebujete více kvarků</string>
+    <string name="electrification">Elektrifikace</string>
+    <string name="heavy_mass">Velká váha</string>
+    <string name="adds_a_charge">Přidá poplatek</string>
+    <string name="neglects_electrons">Zanedbané elektrony</string>
+    <string name="core_is_important">Jádro je důležité</string>
+    <string name="basis_of_matter">Základy hmoty</string>
+    <string name="fluctuation">Kolísání</string>
+    <string name="sound_power">Síla zvuku</string>
+    <string name="ion_challenge">Výzva iontů</string>
+    <string name="glowing_dangerously">Nebezpečné záření</string>
+    <string name="small_yet_important">Malý, ale důležitý</string>
+    <string name="connect_them_in_chains">Připojte je do řetězů</string>
+    <string name="good_to_have_it">Dobré je mít</string>
+    <string name="solid_squad">Dobrá parta</string>
+    <string name="rare_and_beautiful">Vzácné a nádherné</string>
+    <string name="tidal_wave">Přílivová vlna</string>
+    <string name="tasteful">Vkusný</string>
+    <string name="form_a_beach">Tvorba pláže</string>
+    <string name="fill_your_veins">Naplňte žíly</string>
+    <string name="extract_power_from_this">Dostaňte energii z tohoto</string>
+    <string name="greasy_greasy">Mastný mastný</string>
+    <string name="like_a_code">Jako kód</string>
+    <string name="protein_whey">Proteinová syrovátka</string>
+    <string name="full_genome">Plný genom</string>
+    <string name="cell_regeneration">Regenerace buňek</string>
+    <string name="nervous_system">Nervový systém</string>
+    <string name="look_how_tiny_and_cute">Tak malý a roztomilý</string>
+    <string name="virus_infection">Virová infeckce</string>
+    <string name="bacterial_colony">Kolonie bakterií</string>
+    <string name="plant_tissue">Rostlinná tkáň</string>
+    <string name="plankton_flock">Hejno planktonu</string>
+    <string name="crawling_squad">Hemžící se roj</string>
+    <string name="molded_world">Utváření světa</string>
+    <string name="forest_mushrooms">Lesní houby</string>
+    <string name="leaf_crown">Vavřínová koruna</string>
+    <string name="red_rose_carpet">Koberec růží</string>
+    <string name="intensive_green">Intenzivní zelená</string>
+    <string name="feeding_the_world">Nakrmit svět</string>
+    <string name="gelly_flock">Hejno medúz</string>
+    <string name="strong_ant_colony">Velké mraveniště</string>
+    <string name="beautiful_wings">Krásné křídla</string>
+    <string name="mice_colony">Kolonie myší</string>
+    <string name="home_pets">Domácí mazlíčci</string>
+    <string name="man_best_friend">Nejlepší přítel</string>
+    <string name="look_in_the_mirror">pohled do zrcadla</string>
+    <string name="fierce_and_strong">Divoký a silný</string>
+    <string name="heavy_lifter">Těžký zvedák</string>
+    <string name="beautiful_giants">Roztomilí obři</string>
+    <string name="park">Park</string>
+    <string name="whole_jungle">Celá džungle</string>
+    <string name="winding_and_long">Klikatý a dlouhý</string>
+    <string name="deep_and_magnificent">Hluboké a velkolepé</string>
+    <string name="wide_and_sandy">Široké a písečné</string>
+    <string name="dont_let_them_melt">Nenechte je roztavit</string>
+    <string name="grass_up_to_horizon">Tráva kam se podíváš</string>
+    <string name="hiking_trip">Pěší výlet</string>
+    <string name="deep_mysteries">Hluboké tajemství</string>
+    <string name="whole_car_brand">Všechny značky aut</string>
+    <string name="lots_of_intersections">Spousta průsečíků</string>
+    <string name="feel_comfortable_here">Cítíte se zde pohodlně</string>
+    <string name="it_shows_a_way">Zobrazuje cestu</string>
+    <string name="magnificent_fleet">Velkolepá flotila</string>
+    <string name="rivers_are_no_problem">Řeky nejsou problém</string>
+    <string name="build_a_community">Vybudujte komunitu</string>
+    <string name="everlasting_culture">Věčná kultura</string>
+    <string name="glory_of_construction">Sláva stavby</string>
+    <string name="looking_for_data">Hledáte data</string>
+    <string name="proud_explorers">Hrdí objevitelé</string>
+    <string name="rocket_science">Raketová věda</string>
+    <string name="landing_gears">přistávací zařízení</string>
+    <string name="space_travels">Vesmírné cesty</string>
+    <string name="launchpads_for_everyone">Odpalovací rampy pro všechny</string>
+    <string name="everything_under_control">Vše pod kontrolou</string>
+    <string name="looking_everywhere">Hledám všude</string>
+    <string name="space_for_us">Vesmír je náš</string>
+    <string name="flying_rocks_with_tails">Komety s ocasem</string>
+    <string name="hello_again_old_friend">Ahoj starý příteli</string>
+    <string name="back_in_my_days">Zpět v mých dnech</string>
+    <string name="dont_get_burned">Neschořte</string>
+    <string name="chemical_maelstorm">Chemický příkop</string>
+    <string name="maybe_there_is_water">Možná je tam voda</string>
+    <string name="there_is_only_one_earth">Existuje pouze jedna Země</string>
+    <string name="increase_his_mass">Zvyšte jeho hmotnost</string>
+    <string name="dangerously_cold">Nebezpečně studený</string>
+    <string name="crown_jewel">korunovační klenot</string>
+    <string name="big_brother">Velký bratr</string>
+    <string name="small_yet_strong">Malý ale silný</string>
+    <string name="hope_it_shine">Doufám, že svítí</string>
+    <string name="all_in_order">Vše v pořádku</string>
+    <string name="pulsing_with_energy">Energické pulzy</string>
+    <string name="hydrogen_eater">Pojídač vodíku</string>
+    <string name="the_most_distant_phenomenon">Nejvíce vzdálený jev</string>
+    <string name="so_vast_yet_structurized">Tak rozsáhlý, ale strukturovaný</string>
+    <string name="giants_order">Obří objednávka</string>
+    <string name="everlasting_universe">Věčný vesmír</string>
+
+    <!-- 1000 -->
+    <string name="true_beginning">Skutečný začátek</string>
+    <string name="thick_fog">Hustá mlha</string>
+    <string name="these_are_everywhere">Jsou všude</string>
+    <string name="hard_proven_existence">Tvrdě dokázaná existence</string>
+    <string name="laser_beam">Laserový paprsek</string>
+    <string name="almost_enough_quarks">Téměř všechny kvarky</string>
+    <string name="why_so_negative">Proč tak negativní</string>
+    <string name="always_neutral">Vždy neutrální</string>
+    <string name="stay_positive">Zůstaňte pozitivní</string>
+    <string name="electron_mutual_annihilation">Vzájemné zničení elektronů</string>
+    <string name="nuclear_force">Jaderná síla</string>
+    <string name="from_atoms_to_particles">Z atomů k částicím</string>
+    <string name="plasma_fountain">Plazmová fontána</string>
+    <string name="getting_louder">Být hlučný</string>
+    <string name="big_stream_of_ions">Velký proud iontů</string>
+    <string name="collect_them_all">Posbírejte je všechny</string>
+    <string name="highly_flammable">Vysoce hořlavý</string>
+    <string name="big_organic_particles">Velké organické částice</string>
+    <string name="breathe_deeply">Dýchejte zhluboka</string>
+    <string name="you_cleared_the_mine">Vybrali jste důl</string>
+    <string name="and_still_passive">A stále pasivní</string>
+    <string name="waterfalls">Vodopády</string>
+    <string name="perfect_couple_with_pepper">Dokonalý pár s pepřem</string>
+    <string name="sandcastle">Písečný hrad</string>
+    <string name="red_transporter">Červený transportér</string>
+    <string name="full_of_energy">Plný energie</string>
+    <string name="to_much_on_your_belly">Špeky na břiše</string>
+    <string name="better_do_not_make_mistake">Lepší nedělat chyby</string>
+    <string name="muscles_up">Posilovat</string>
+    <string name="make_a_life">Udělejte si život</string>
+    <string name="basis_of_every_body">Základ každého těla</string>
+    <string name="think_well">Přemýšlejte dobře</string>
+    <string name="look_very_closely">Podívejte se velmi zblízka</string>
+    <string name="runny_nose">Rýma</string>
+    <string name="better_wash_your_hands">Lépe si myjte ruce</string>
+    <string name="full_of_photosynthesis">Plný fotosintézy</string>
+    <string name="feed_your_whale">Nakrmte velrybu</string>
+    <string name="many_many_legs">Opravdu hodně chapadel</string>
+    <string name="plains_of_mold">Vše plesniví</string>
+    <string name="sure_it_is_edible">Jistě je jedlý?</string>
+    <string name="green_red_yellow">Zelené červené žluté</string>
+    <string name="every_rose_has_thorn">Každá růže má trny</string>
+    <string name="bottom_of_forest">Spodní část lesa</string>
+    <string name="one_that_seduced_Adam">Ta, která svedla Adama</string>
+    <string name="massive_jelly">Masivní medúza</string>
+    <string name="strength_in_group">Silní pohromadě</string>
+    <string name="so_delicate">Tak chutné</string>
+    <string name="mice_attack">Myši útočí</string>
+    <string name="walks_its_own_path">Jdou vlastní cestou</string>
+    <string name="faithful_and_shaggy">Věrní a chlupatý</string>
+    <string name="me_and_you">Já a ty</string>
+    <string name="king_of_a_jungle">Král džungle</string>
+    <string name="valuable_tusk">Cenný kel</string>
+    <string name="huge_and_harmonious">Obrovský a harmonický</string>
+    <string name="forest_animals_home">Domov lesních zvířat</string>
+    <string name="lungs_of_the_world">Plíce světa</string>
+    <string name="wide_and_rapid">Široký a rychlý</string>
+    <string name="great_canyon">Grand Canyon</string>
+    <string name="beach_party">Párty na pláži</string>
+    <string name="take_your_sledge">Vezměte si sáňky</string>
+    <string name="lots_of_fresh_air">Spousta čerstvého vzduchu</string>
+    <string name="mountain_chain">Pohoří</string>
+    <string name="most_of_earth_surface">Většina zemského povrchu</string>
+    <string name="ferrari_speed">Rychlost Ferrari</string>
+    <string name="highway_to_points">Dálnice k bodům</string>
+    <string name="that_is_your_spot">To je vaše místo</string>
+    <string name="light_in_a_tunnel">Světlo v tunelu</string>
+    <string name="sail_the_seas">Mořeplavba</string>
+    <string name="all_lands_connected">Superkontinent</string>
+    <string name="mayor_house">Radnice</string>
+    <string name="culture_and_beauty">Kultura a krása</string>
+    <string name="from_village_to_metropolis">Z vesnice do metropole</string>
+    <string name="make_a_contact">Kontaktujte je</string>
+    <string name="ours_in_space">Naši ve vesmíru</string>
+    <string name="rocked_fuel">Raketové palivo</string>
+    <string name="make_firs_step">První krůčky</string>
+    <string name="travel_with_no_borders">Cestujte bez hranic</string>
+    <string name="advanced_shuttle_extraction">Vylepšení raketoplánu</string>
+    <string name="great_communication">Skvělá komunikace</string>
+    <string name="eagle_eye">Oko dravce</string>
+    <string name="sky_has_no_limits">Nebe bez limitů</string>
+    <string name="diamonds_in_the_sky">Diamanty na obloze</string>
+    <string name="rock_us_to_sleep">Rock us to sleep</string>      <!-- Srry I dont know how to translate -->
+    <string name="dwarf_but_planet">Traslík, ale planeta</string>
+    <string name="closest_to_earth">Nejbližší k zemi</string>
+    <string name="women_planet">Ženská planeta</string>
+    <string name="men_planet">Mužská planeta</string>
+    <string name="kingdom_of_our_own">Naše království</string>
+    <string name="coldest_hurricane">Nejchladnější hurikán</string>
+    <string name="wield_a_trident">Vládce trojzubce</string>
+    <string name="ring_to_rule_them_all">Prstnec vládne všem</string>
+    <string name="greatest_gas_giant">Největší plynný obr</string>
+    <string name="slow_helium_synthesis">Pomalá vodíková syntéza</string>
+    <string name="live_giver">Živý dárce</string>
+    <string name="rolling_stones">Převalující se kameny</string>
+    <string name="neutron_star">Neutronová hvězda</string>
+    <string name="supermassive_redness">Nadměrné zarudnutí</string>
+    <string name="great_lightshow">Obrovská světelná show</string>
+    <string name="going_big">Být velký</string>
+    <string name="going_bigger_and_bigger">Být větší a větší</string>
+    <string name="are_we_alone">Jsme sami</string>
+
+    <!-- hints -->
+
+    <string name="string_hint" >Teorie strun říká, že základním stavebním blokem hmoty jsou struny o velikosti 10–31 meterů. Původní teorie strun, nazývaná teorie bosonových řetězců, byla definována v roce 1970</string>
+    <string name="quantum_foam_hint" >Kvantová pěna je koncept kvantové mechaniky navržený v roce 1955 americkým fyzikem Johnem Wheelerem. Pěna je koncipována jako základ tkaniny Vesmíru</string>
+    <string name="neutrino_hint" >Neutrino je elementární částice. Patří mezi fermiony a je elektricky neutrální</string>
+    <string name="higgs_boson_hint" >Higgsův boson základní částice a byla objevena během experimentů prováděných ve Velkém Hadronovém Urychlovači v CERNu</string>
+    <string name="photon_hint" >Foton je elementární částice, která nemá elektrický náboj. Je zároveň elektromagnetickým vlněním a zároveň světlem.</string>
+    <string name="quark_hint" >Kvarky jsou podle standardního modelu částicové fyziky elementární částice, ze kterých se skládají hadrony (tedy například protony a neutrony).</string>
+    <string name="electron_hint" >Elektron je subatomární částice se záporným elektrickým nábojem. Elektrony tvoří obal atomu kolem atomového jádra.</string>
+    <string name="neutron_hint" >Neutron je subatomární částice bez elektrického náboje, jedna ze základních stavebních částic atomového jádra (nukleon) a tím téměř veškeré známé hmoty.</string>
+    <string name="proton_hint" >Elektron je subatomární částice se kladným elektrickým nábojem a s hmotností o trochu nižší než neutron. Protony a neutrony jsou společně označovány jako "nukleony".</string>
+
+    <string name="positron_hint" >Pozitron neboli antielektron je subatomární částice - antičástice elektronu. Pozitron má náboj +1 e a má stejnou hmotnost jako elektron.</string>
+    <string name="nucleus_hint" >Nukleon je společný název pro proton a neutron, tedy částice, z nichž se skládá jádro atomu. Většina hmotnosti atomu je právě v nukleonech</string>
+    <string name="atom_hint" >Atom je nejmenší částice běžné hmoty, částice, kterou už chemickými prostředky dále nelze dělit . Každá pevná látka, kapalina, plyn, a plasma je složen z atomů</string>
+    <string name="plasma_hint" >Plazma je ionizovaný plyn složený z iontů, elektronů, který vzniká odtržením elektronů z elektronového obalu atomů plynu, či roztržením molekul. poprvé byla popsána chemikem Irvingem Langmuirem v roce 1920. </string>
+    <string name="sound_wave_hint" >Zvuk je mechanické vlnění v látkovém prostředí, které je schopno vyvolat sluchový vjem. Frekvence tohoto vlnění, které je člověk schopen vnímat, jsou značně individuální a leží v intervalu přibližně 16 Hz až 20 000 Hz.</string>
+    <string name="ion_beam_hint" >Ionový paprsek je typ nabitých částic obsahujících ionty. Některé iontové paprsky vznikají tryskajícími rtuťovými parami, které vyvinula NASA v šedesátých letech minulého století.</string>
+    <string name="isotope_hint" >Izotop je označení pro nuklid v rámci souboru nuklidů jednoho chemického prvku. Jádra atomů izotopů jednoho prvku mají stejný počet protonů, ale mohou mít rozdílný počet neutronů. Mají tedy stejné atomové číslo a rozdílnou atomovou hmotnost.</string>
+    <string name="hydrogen_hint" >Vodík (chemická značka H) je nejlehčí a nejjednodušší plynný chemický prvek, tvořící převážnou část hmoty ve vesmíru, je velmi hořlavý.</string>
+    <string name="carbon_hint" >Uhlík (chemická značka C) je chemický prvek, tvořící základní stavební kámen všech organických sloučenin a tím i všech živých organismů na této planetě.</string>
+    <string name="oxygen_hint" >Kyslík (chemická značka O) je plynný chemický prvek, tvořící druhou hlavní složku zemské atmosféry. Je biogenním prvkem a jeho přítomnost je nezbytná pro existenci většiny živých organismů na této planetě.</string>
+    <string name="iron_hint" >Železo (chemická značka Fe) je nejrozšířenější přechodný kovový prvek a druhý nejrozšířenější kov na Zemi, je také hojně zastoupen i ve vesmíru.</string>
+    <string name="xenon_hint" >Xenon (chemická značka Xe) je plynný chemický prvek patřící mezi vzácné plyny. Bezbarvý plyn, bez chuti a zápachu.Xenon je přítomen v zemské atmosféře v koncentraci přibližně 5×10−6 % </string>
+
+    <string name="water_hint" >Voda je průhledná, bezbarvá chemická sloučenina. Spolu se vzduchem, resp. zemskou atmosférou tvoří základní podmínky pro existenci života na Zemi. Voda, sumárním vzorcem H2O je chemická sloučenina vodíku a kyslíku.</string>
+    <string name="salt_hint" >Chlorid sodný (NaCl), známý v běžném životě pod označením sůl, je chemická sloučenina, vyskytující se v přírodě v podobě nerostu halitu. Je to velmi důležitá sloučenina potřebná pro životní funkce většiny organismů.</string>
+    <string name="sand_hint" >Písek je směs drobných kamínků různého původu. Jedna ze složek půd, využívaná často jako stavební materiál (stavební písek).</string>
+    <string name="hemoglobine_hint" >Hemoglobin je červený transportní metaloprotein červených krvinek obratlovců a některých dalších živočichů. Hlavní funkcí hemoglobinu je transport kyslíku z plic nebo žaber do tkání a opačným směrem odstraňování oxidu uhličitého z tkání do plic.</string>
+    <string name="carbohydrate_hint" >Sacharidy, též glycidy, jsou organické sloučeniny patřící do skupiny polyhydroxyderivátů karbonylových sloučenin. Sacharidy jsou jedny ze základních přírodních látek v rostlinných i živočišných organismech.</string>
+    <string name="lipid_hint" >Lipidy jsou přírodní látky živočišného i rostlinného původu. Mohou být v kapalném nebo pevném skupenství. Chemicky se jedná o estery vyšších karboxylových kyselin.</string>
+    <string name="dna_hint" >DNA  je nukleová kyselina, nositelka genetické informace všech organismů. DNA je pro život velmi důležitou látkou, která ve své struktuře kóduje a buňkám zadává jejich program a tím předurčuje vývoj a vlastnosti celého organismu.</string>
+    <string name="protein_hint" >Bílkoviny, odborně proteiny, patří mezi biopolymery. Proteiny jsou podstatou všech živých organismů.</string>
+    <string name="chromosome_hint" >Chromozom je specifická barvitelná buněčná struktura eukaryot přítomná v jádře. Skládá se z DNA a histonů.</string>
+    <string name="cell_hint" >Buňka je základní stavební a funkční jednotka těl živých organismů. Jsou obklopené membránou a uvnitř obsahují koncentrovaný vodný roztok různých látek.</string>
+    <string name="neuron_hint" >Neuron je základní jednotka nervové tkáně. Jsou to vysoce specializované buňky, schopné přijmout, vést, zpracovat a odpovědět na speciální signály a tím podmiňují schopnost organismu reagovat.</string>
+    <string name="microorganism_hint" >Mikroorganismus je jednobuněčný organismus. Často tvoří různé kolonie, shluky, případně i symbiotická společenstva s jinými organismy.</string>
+
+    <string name="virus_hint" >Virus je drobný vnitrobuněčný cizopasník nacházející se na pomezí mezi živým a neživým. Patří mezi tzv. nebuněčné organismy a svou stavbou se od buněk dramaticky liší.</string>
+    <string name="bacteria_hint" >Bakterie je doména jednobuněčných prokaryotických organismů. Mívají kokovitý či tyčinkovitý tvar a zpravidla dosahují velikosti v řádu několika mikrometrů. Jedná se o první živé organismy.</string>
+    <string name="plant_cells_hint" >Buňky rostlin se řadí mezi poměrně typické eukaryotické buňky, ale mají i mnoho vlastních charakteristických rysů. Nejznámější rostiné buňky jsou ty, které se starají o fotosyntézu.</string>
+    <string name="plankton_hint" >Plankton je soubor mikroskopických organismů pasivně se vznášejících v prostředí. Plankton je základ potravního řetězce, stává se potravou mnoha druhů vodních živočichů, například ryb či velryb.</string>
+    <string name="athropod_hint" >Korýši jsou velká skupina členovců. Patří k nim i velmi známé druhy živočichů, jako jsou krabi, humři či krevety, ale i některé velmi malé druhy, jako buchanka či perloočka. Korýši žijí především ve vodním prostředí.</string>
+    <string name="mold_hint" >Termín plíseň představuje nesystematické označení pro skupinu hub, které pokrývají povrch substrátu jemným bílým nebo barevným myceliem.</string>
+    <string name="mushroom_hint" >Houby představují velkou skupinu živých organismů. Její zástupce lze nalézt po celé Zemi a vyskytují se mezi nimi významní rozkladači, parazité či v průmyslu i potravinářství využívané druhy</string>
+    <string name="leaf_hint" >Listje postranní vegetativní zelený orgán rostlin. Je omezeného vzrůstu (dosahuje velikosti od několika milimetrů až po 2 metry čtvereční) a zpravidla do plochy rozšířený.</string>
+    <string name="rose_hint" >Růže je rod keřovitých rostlin s více než 100 druhy, které se v přírodě vyskytují na severní polokouli, především v oblasti mírného pásu. Růže se velmi často a ve velkém počtu pěstují, zejména jako okrasné rostliny.</string>
+    <string name="fern_hint" >Kapradiny jsou oddělení výtrusných cévnatých rostlin, čili kapraďorostů, jehož zástupci jsou hojně rozšířeni po celé Zemi. Kapradiny se poprvé objevily ve spodním devonu a největší rozvoj zažily právě během karbonu a permu.</string>
+    <string name="apple_hint" >Jablko je plod jabloně, patří mezi nejběžnější druhy ovoce nejen ve střední Evropě. Jablko pochází z centrální Asie.</string>
+    <string name="medusa_hint" >Medúza je stádium v životním cyklu žahavců. Medúzy mají různý tvar, nejen zvonovité, ale i zploštělé (nahoře jen mírně vypuklé a dole jen málo vyduté).</string>
+
+    <string name="ant_hint" >Mravencovití jsou jednou z nejúspěšnějších skupin hmyzu v živočišné říši. Tato úspěšnost je přikládána jejich sociálnímu způsobu života a specializaci.</string>
+    <string name="butterfly_hint" >Motýli tvoří druhý největší řád hmyzu, hned po broucích. Jsou rozšířeni na celém světě kromě Antarktidy, řád čítá kolem 180 000 druhů.</string>
+    <string name="mice_hint" >Myš je české rodové jméno pro mnoho drobných hlodavců. Nejvýznamnějším zástupcem je kosmopolitně rozšířená myš domácí, hospodářský škůdce, mnohými nevítaný host v domě.</string>
+    <string name="cat_hint" >Kočkovití jsou čeledí řádu šelem. Z celého řádu se právě oni nejvíce drží masožravého způsobu života. Mezi nejznámější kočky patří bezpochyby kočka domácí, jejíž soužití s člověkem je známé již 4 000 až 7 000 let.</string>
+    <string name="dog_hint" >Pes je největší domestikovaná šelma a nejstarší domestikované zvíře vůbec, provázející člověka minimálně 14 tisíc let. Celosvětová populace psů je odhadována na 500 miliónů.</string>
+    <string name="human_hint" >Člověk moudrý (Homo sapiens sapiens), též člověk rozumný, běžně označován jako člověk, je jediným žijícím druhem rodu Homo. Je pro něj charakteristické vertikální držení těla, rozumová inteligence a schopnost mluvit.</string>
+    <string name="lion_hint">Lev je z čeledi kočkovitých a jeden ze čtyř druhů velkých koček rodu Panthera. Lev je po tygrovi druhá největší kočkovitá šelma. Dříve se lvi vyskytovali v celé Africe, Asii, Evropě a i v Americe, dnes se vyskytují pouze v Africe a v Indii.</string>
+    <string name="elephant_hint" >Slon je souhrnný český název pro dva rody chobotnatců - Slona Afrického a Slona indického. Slon je největší žijící suchozemský savec.</string>
+    <string name="whale_hint" >Velryba je mořský savec. Patří mezi největší živočichy žijící na Zemi. Živí se planktonem. Původně to byl suchozemský savec. Největší dosahují délky až 14 nebo 18 m a hmotnosti 50–70 tun</string>
+
+    <string name="tree_hint" >Strom je růstová forma vyšších rostlin. Odhaduje se, že na světě existuje více jak 3 biliony dospělých stromů. Největším stromem na světě je Sekvojovec.</string>
+    <string name="forest_hint" >Les je území hustě porostlé stromy.Lesy pokrývají zhruba 30% zemského povrchu. Poskytují úkryt pro spoustu zvířat a lidí. Další funkce je tvorba kyslíku.</string>
+    <string name="river_hint" >Řeka je přirozený vodní tok. Ve srovnání s potokem má obvykle větší průtok, délku nebo rozlohu povodí. Nejdelší řekou na světě je Amazonka.</string>
+    <string name="canyon_hint" >Soutěska je geologický útvar obvykle vytvořený erozí nebo tektonickou činností.Soutěsky nejčastěji vznikají hloubkovou erozí prouděním vody, případně pohybem ledovce. Nejznámějším je Grand Canyon.</string>
+    <string name="shore_hint" >Pobřeží je přilehlá oblast styku mezi pevninou a oceánem, která je v mapách zakreslována jako linie.</string>
+    <string name="glacier_hint" >Ledovec je nehomogenní přírodní těleso tvořené ledem. Vznikají hromaděním sněhu, který se pod vlivem okolí mění na led</string>
+    <string name="valley_hint" >Údolí je druh geomorfologického tvaru, které se vyznačuje protáhlým tvarem, jehož okraje dva nebo tři strany jsou lemovány vyvýšeným terénem.</string>
+    <string name="mountain_hint" >Hora je výrazná vyvýšenina kupovitého, kuželovitého nebo tabulovitého tvaru .Nejvštší horou světa je Mout Everest s výškou 8,850 n.m.</string>
+    <string name="ocean_hint" >Oceán je velká masa vody (či jiné kapaliny) nalézající se na povrchu vesmírného tělesa, či pod některou z jeho vrstev. Zemské oceány: Atlantský, Severní ledový, Jižní ledový, Indický a Tichý oceán.</string>
+
+    <string name="car_hint" >Automobil je dvoustopé osobní nebo nákladní silniční motorové vozidlo. Vlastní vývoj dnešních automobilů začal v roce 1885 v německém Mannheimu u Karla Benze, který si nechal patentovat svoji motorovou tříkolku. </string>
+    <string name="road_hint" >Silnice je dopravní stavba umožňující nekolejovou pozemní dopravu na větší vzdálenosti. Nejdelší silnicí je dálnice Pan-American.</string>
+    <string name="house_hint" >Dům je stavení, zpravidla obytné. Dům může sloužit i k různým jiným účelům, pro výrobu, skladování, administrativu a podobně, základní význam však je spojen s bydlením.</string>
+    <string name="lighthouse_hint" >Maják je budova, která slouží k navigaci lodí ve zrádných oblastech. Bývá to většinou věž, na jejímž vrcholu se nachází optická soustava, která vysílá paprsek světla na velké vzdálenosti a upozorňuje tak lodě na blížící se pevninu, či skaliska.</string>
+    <string name="boat_hint" >Loď je dopravní prostředek, druh plavidla, sloužící zpravidla k pohybu po vodní hladině. První doložené lodě jsou staré přes 8000 let.</string>
+    <string name="bridge_hint" >Most je dopravní stavba, která převádí pěší, silniční nebo železniční cestu případně vodní tok, přes překážku. Nejdelší most na světě je Akashi Kaikyō s délkou 3911m.</string>
+    <string name="village_hint" >Vesnice je shlukované lidské osídlení nebo společenství, menší než město, s počtem obyvatel od několika set do několika tisíců.</string>
+    <string name="opera_hint" >Operní scéna, operní dům nebo jen zkráceně opera je divadlo určené převážně k provozování oper a případně příbuzných hudebně-dramatických žánrů, jako jsou operety a balety.</string>
+    <string name="city_hint" >Město je velká lidská osada, větší než vesnice. Největší město světa je  Tokyo v Japonsku (38 140 000 obyvatel)</string>
+
+    <string name="satellite_hint" >Družice, též satelit, je označení pro objekt pohybující se po oběžné dráze kolem jiného hmotnějšího kosmického tělesa. V roce 1957 vypustil tehdejší SSSR první družici, Sputnik 1. </string>
+    <string name="astronaut_hint" >Kosmonaut nebo též astronaut či tchajkonaut (Čína) je člověk, který uskutečnil kosmický let nebo absolvoval přípravu na let.</string>
+    <string name="rocket_hint" >Raketa je létající stroj, který se pohybuje pouze na principu akce a reakce. Je poháněna raketovým motorem. Rakety různých typů se využívají především v kosmickém výzkumu a vojenství, ale i pro zábavu (ohňostroj).</string>
+    <string name="moon_lander_hint" >Lunární modul byla malá kosmická loď, speciálně určená k přistání na Měsíci, ubytování astronautů a ke startu zpět na oběžnou dráhu Měsíce. První přistání na Měsíci proběhlo 20 června 1969.</string>
+    <string name="shuttle_hint" >Kosmický raketoplán je dopravní prostředek určený k dopravě na orbitální dráhu kolem Země. Aktuálně není využíván ani jeden z vyrobených raketoplánů.</string>
+    <string name="launchpad_hint" >Odalovací rampa je stavba pro vertikální odpalování raket. Nejznámější jsou Cape Canaveral a Kosmodrom Bajkonur.</string>
+    <string name="flight_center_hint" >Marshall Space Flight Center je vedoucí vědecké středisko NASA pro výrobu raketových motorů, palivových nádrží, výcviku posádek, navrhování a výstavby Mezinárodní vesmírné stanice.</string>
+    <string name="telescope_hint" >Optický dalekohled či teleskop je přístroj k optickému přiblížení pomocí dvou soustav čoček nebo zrcadel. První dalekohled si 2. října 1608 nechal patentovat holandský optik Hans Lippershey.</string>
+    <string name="space_station_hint" >Vesmírná stanice nebo také kosmická stanice je zařízení určené pro pobyt lidí ve vesmíru. Na rozdíl od kosmické lodi nejsou kosmické stanice uzpůsobeny pro přistání na Zemi.</string>
+
+    <string name="comet_hint" >Kometa je malé těleso sluneční soustavy složené především z ledu a prachu a obíhající většinou po velice výstředné (excentrické) eliptické trajektorii kolem Slunce. Komety jsou známé pro své nápadné ohony.</string>
+    <string name="moon_hint" >Měsíc je jediná známá přirozená družice Země. Nemá jiné formální jméno než „měsíc“ (odborně Měsíc).</string>
+    <string name="pluto_hint" >Pluto je největší a po Eris druhou nejhmotnější známou trpasličí planetou sluneční soustavy. Zároveň se jedná o deváté největší a desáté nejhmotnější známé těleso, které obíhá přímo okolo Slunce.</string>
+    <string name="mercury_hint" >Merkur je Slunci nejbližší a současně i nejmenší planetou sluneční soustavy, dosahuje pouze o 40 % větší velikosti než pozemský Měsíc a je tak menší než Jupiterův měsíc Ganymed a Saturnův Titan.</string>
+    <string name="venus_hint" >Venuše je druhá planeta od Slunce ve sluneční soustavě. Je pojmenovaná po římské bohyni lásky a krásy Venuši.</string>
+    <string name="mars_hint" >Mars je čtvrtá planeta sluneční soustavy, druhá nejmenší planeta soustavy po Merkuru. Je pojmenována po římském bohu války Martovi.</string>
+    <string name="earth_hint" >Země je třetí planeta sluneční soustavy, zároveň největší terestrická planeta v soustavě a jediné planetární těleso, na němž je dle současných vědeckých poznatků potvrzen život.</string>
+    <string name="uranus_hint" >Uran  je sedmá planeta od Slunce, třetí největší a čtvrtá nejhmotnější planeta ve sluneční soustavě. Má nejstudenější atmosféru v celé sluneční soustavě. Dosahuje 49 K (−224 °C; −371 °F). Je jeden z ledových obrů</string>
+    <string name="neptune_hint" >Neptun je osmá a od Slunce nejvzdálenější planeta sluneční soustavy; řadí se mezi plynné obry. Planeta dostala své jméno podle římského boha moří Neptuna.</string>
+    <string name="saturn_hint" >Saturn je v pořadí planet na šestém místě a po Jupiteru druhá největší planeta sluneční soustavy. Byla pojmenována po římském bohu Saturnovi, který byl obdobou řeckého boha Krona.</string>
+    <string name="jupiter_hint" >Jupiter je největší planeta sluneční soustavy, v pořadí pátá od Slunce. Jupiter a Saturn jsou plynní obři. Planeta je pojmenována po římském bohu Jovovi.</string>
+
+    <string name="red_dwarf_hint" >Červený trpaslík je malá a relativně chladná hvězda. Jsou nejpočetnějším typem hvězd ve vesmíru – okolo 75 % všech hvězd v Galaxii jsou právě červení trpaslíci.</string>
+    <string name="sun_hint" >Slunce je hvězda uprostřed sluneční soustavy. Je to nejdůležitější zdroj energie pro život na Zemi. Asi tři čtvrtiny hmoty Slunce tvoří vodík (~ 73 procent); zbytek je většinou hélium (~ 25 procent).</string>
+    <string name="solar_system_hint" >Sluneční soustava je planetární systém hvězdy známé pod názvem Slunce, ve kterém se nachází planeta Země. Systém tvoří především 8 planet, 5 trpasličích planet, přes 150 měsíců planet (především u Jupiteru, Saturnu, Uranu a Neptuna) a další menší tělesa jako planetky, komety, meteoroidy apod.</string>
+    <string name="pulsar_hint" >Pulsary jsou rotující neutronové hvězdy, které vyzařují elektromagnetické záření. Intenzita záření se pro vzdáleného pozorovatele pravidelně mění, pravděpodobně v souvislosti s rotací hvězdy. Jedná se o takzvaný majákový efekt.</string>
+    <string name="red_giant_hint" >Červený obr (též rudý obr) je dosti zářivá hvězda, která se nachází v pozdní fázi svého hvězdného vývoje – ve svém jádru již přeměnila většinu vodíku na helium. Následkem dalších pochodů uvnitř hvězdy dochází k rozepnutí vnějších vrstev, a hvězda tak mnohonásobně zvětší svou velikost. Barva červených obrů bývá od žluté, přes oranžovou až po červenou.</string>
+    <string name="ray_burst_hint" >Gama záblesk je označení pro astronomický jev, při kterém se uvolní nesmírné množství energie ve formě gama záření, což na Zemi pozorujeme jako záblesk v gama oboru spektra. Jde o co do svítivosti nejvýraznější fyzikální doposud známý jev ve vesmíru. Trvá řádově od zlomku sekundy do 100 sekund.</string>
+    <string name="galaxy_hint" >Galaxie je gravitačně vázaný systém hvězd, hvězdných zbytků, mezihvězdné hmoty, kosmického prachu a temné hmoty. Naše planeta se nachází v galaxii Mléčná Dráha</string>
+    <string name="galaxy_group_hint" >Kupa galaxií je skupina několika stovek až tisíců galaxií. Tyto útvary též nazýváme hnízdo galaxií. Mléčná dráha je součástí kupy nazývané Lokální Kupa.</string>
+    <string name="supercluster_hint" >Nadkupa galaxií (též supergalaxie) je seskupení kup a skupin galaxií, které v součtu obsahují několik tisíc až stovek tisíc jednotlivých galaxií. Naše Galaxie se nachází v kupě galaxií známé jako Místní skupina galaxií, kde patří spolu se spirální galaxií M31 v souhvězdí Andromedy a M33 v souhvězdí Trojúhelníku k největším.</string>
+
+
+</resources>
